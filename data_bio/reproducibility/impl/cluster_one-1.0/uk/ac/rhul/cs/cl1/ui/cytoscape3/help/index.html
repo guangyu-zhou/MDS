@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.9.1: http://docutils.sourceforge.net/" />
+<title>ClusterONE Cytoscape plugin</title>
+<meta name="author" content="Tamás Nepusz, Haiyuan Yu, Alberto Paccanaro" />
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 7434 2012-05-11 21:06:27Z milde $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: inherit }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block, pre.math, pre.code {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+pre.code .ln { /* line numbers */
+  color: grey;
+}
+
+.code {
+  background-color: #eeeeee
+}
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+</head>
+<body>
+<div class="document" id="clusterone-cytoscape-plugin">
+<h1 class="title">ClusterONE Cytoscape plugin</h1>
+<table class="docinfo" frame="void" rules="none">
+<col class="docinfo-name" />
+<col class="docinfo-content" />
+<tbody valign="top">
+<tr><th class="docinfo-name">Author:</th>
+<td>Tamás Nepusz, Haiyuan Yu, Alberto Paccanaro</td></tr>
+<tr><th class="docinfo-name">Contact:</th>
+<td><a class="first last reference external" href="mailto:tamas&#64;cs.rhul.ac.uk">tamas&#64;cs.rhul.ac.uk</a></td></tr>
+</tbody>
+</table>
+<!-- -*- coding: utf-8 -*- -->
+<div class="section" id="introduction">
+<h1>Introduction</h1>
+<img alt="ClusterONE logo" class="align-center" src="images/logo.png" style="width: 270px; height: 84px;" />
+<p>This is the documentation of the ClusterONE Cytoscape plugin,
+created by Tamás Nepusz, Haiyuan Yu and Alberto Paccanaro.</p>
+<p>If you use results calculated by ClusterONE in a publication,
+please cite one of the suggested <a class="reference internal" href="#references">references</a>.</p>
+<div class="contents topic" id="table-of-contents">
+<p class="topic-title first">Table of contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#introduction" id="id7">Introduction</a></li>
+<li><a class="reference internal" href="#the-one-minute-guide-to-using-clusterone" id="id8">The one-minute guide to using ClusterONE</a></li>
+<li><a class="reference internal" href="#description-of-the-algorithm" id="id9">Description of the algorithm</a></li>
+<li><a class="reference internal" href="#the-clusterone-menu" id="id10">The ClusterONE menu</a></li>
+<li><a class="reference internal" href="#control-panel" id="id11">Control panel</a><ul>
+<li><a class="reference internal" href="#parameters" id="id12">Parameters</a><ul>
+<li><a class="reference internal" href="#basic-parameters" id="id13">Basic parameters</a></li>
+<li><a class="reference internal" href="#advanced-parameters" id="id14">Advanced parameters</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#selection-info" id="id15">Selection info</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#result-viewer" id="id16">Result viewer</a><ul>
+<li><a class="reference internal" href="#simple-view" id="id17">Simple view</a></li>
+<li><a class="reference internal" href="#detailed-view" id="id18">Detailed view</a></li>
+<li><a class="reference internal" href="#toolbar" id="id19">Toolbar</a></li>
+<li><a class="reference internal" href="#cluster-context-menu" id="id20">Cluster context menu</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#references" id="id21">References</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="the-one-minute-guide-to-using-clusterone">
+<h1>The one-minute guide to using ClusterONE</h1>
+<p>ClusterONE is distributed in a Java archive file (JAR), which contains both
+the command line application and the Cytoscape plugin. In this document, we
+are assuming that you want to use ClusterONE from the Cytoscape graphical
+user interface. If you are interested in the command line interface, please
+refer to the documentation distributed with the command line interface itself.</p>
+<p>ClusterONE can be installed from the Cytoscape plugin manager. Launch
+Cytoscape if you have not done so, click on the <strong>Manage plugins</strong> item of the
+<strong>Plugins</strong> menu, select the <strong>Analysis</strong> subgroup within the <strong>Available for
+install</strong> category, select the line starting with <strong>ClusterONE</strong> and click on
+the <strong>Install</strong> button. Cytoscape should download and install the selected
+version of ClusterONE for you. If you see more than one version of Cluster
+ONE, make sure you install the most recent one. If you don't see any Cluster
+ONE version, first check whether you have installed it already (look for a
+menu called <strong>ClusterONE</strong> within the <strong>Plugins</strong> submenu), and if you
+haven't, check the <strong>Show outdated plugins</strong> checkbox in the <strong>Manage plugins</strong>
+dialog.</p>
+<p>If you managed to install ClusterONE successfully, you should see a new menu
+item called <strong>ClusterONE</strong> in the <strong>Plugins</strong> submenu. Now, do the following:</p>
+<ul class="simple">
+<li>Load the network you wish to analyse into Cytoscape.</li>
+<li>Click on <strong>Plugins/ClusterONE/Start</strong> to start ClusterONE. This will add
+a new panel called <strong>ClusterONE</strong> to the control panels on the left.</li>
+<li>If your network is weighted, select the name of the weight attribute on the
+ClusterONE control panel next to <strong>Edge weights</strong>. If you do not see the
+desired attribute name, click on the <strong>Refresh</strong> button (<img alt="refresh" src="images/refresh.png" />) next to
+the combo box.  If you still do not see it, make sure that the attribute is
+registered in Cytoscape as a numeric attribute and not a string.</li>
+<li>Click on the <strong>Start</strong> button at the bottom of the panel. ClusterONE should
+detect the densely connected regions of your network and list them in a
+new panel on the Cytoscape result panel, which is usually on the right hand
+side of the window.</li>
+<li>Clicking on a cluster in the result panel will highlight the cluster in the
+network view. Double-clicking on a cluster will extract it as a new
+subnetwork. Right-clicking on a cluster will bring up a context menu with
+additional operations that you might find useful.</li>
+<li>When you are finished with analysing the results, click on the <strong>Close</strong>
+button (<img alt="close" src="images/close.png" />) in the upper right corner of the result panel.</li>
+</ul>
+</div>
+<div class="section" id="description-of-the-algorithm">
+<h1>Description of the algorithm</h1>
+<p>ClusterONE strives to discover densely connected and possibly overlapping
+regions within the Cytoscape network you are working with. The interpretation
+of these regions depends on the context (i.e. what the network represents) and
+it is left up to you. For instance, in protein-protein interaction networks
+derived from high-throughput AP-MS experiments, these dense regions usually
+correspond to protein complexes or fractions of them. ClusterONE works by
+&quot;growing&quot; dense regions out of small seeds (typically one or two vertices),
+driven by a quality function called <em>cohesiveness</em>.</p>
+<p>Before we move on to the formal definition of cohesiveness, let us introduce
+some terminology that classifies vertices and edges of a graph <em>G</em> according to
+their relationship to a selected group of vertices V<sub>0</sub>. Vertices of V<sub>0</sub> are
+called <em>internal vertices</em>, while vertices not in V<sub>0</sub> are called <em>external
+vertices</em>.  An edge that is situated between two internal vertices is an
+<em>internal edge</em>, an edge going between an internal and an external vertex is a
+<em>boundary edge</em>, and an edge between two external vertices is an <em>external
+edge</em>. An internal vertex incident on at least one boundary edge is an
+<em>internal boundary vertex</em>, while an external vertex incident on at least one
+boundary edge is an <em>external boundary vertex</em>. The following figure illustrates
+these concepts:</p>
+<img alt="images/cohesive_subgroup.png" src="images/cohesive_subgroup.png" />
+<p>Here, V<sub>0</sub> itself is denoted by a shaded background, which delimits internal
+and external vertices. Thick black edges are internal, thin black edges are
+boundary edges, while thin gray dashed edges are completely external. Vertices
+marked by a letter are (internal or external) boundary vertices.</p>
+<p>The quality of the group can be assessed by the number of internal edges
+divided by the sum of the number of internal and boundary edges. This quality
+measure is driven by the fact that a well-defined group should have many
+internal edges and only a few boundary edges; in other words, the boundary
+of the group should be sharp. If the edges have weights (i.e. a numeric value
+assigned to each edge that quantifies how reliable that edge is or how confident
+we are in its existence), the same guidelines apply, but the number of edges
+should be replaced by the total confidence associated to those edges. Whenever
+you have such confidence values, store them in a numeric edge attribute in
+Cytoscape and use that attribute to drive the cluster growth process. From now
+on, such confidence values will simply be called <em>edge weights</em> and the above
+mentioned quality measure will be referred to as <em>cohesiveness</em>.</p>
+<p>ClusterONE essentially looks for groups of high cohesiveness. This is achieved
+by adopting a greedy strategy: starting from a single seed vertex (or a small
+set of vertices that are strongly bound together), one can extend the group
+step by step with new vertices so that the newly added vertex always increases
+the cohesiveness of a group as much as possible. Removals are also allowed if
+removing a vertex from the group increases its cohesiveness. The process stops
+when it is not possible to increase the cohesiveness of the group by adding
+another external boundary vertex or removing an internal boundary vertex.  See
+the ClusterONE paper <a class="footnote-reference" href="#id5" id="id1">[1]</a> for the description of the exact procedure.  The
+growth process is repeated either for every vertex or every connected vertex
+pair to obtain an initial set of cohesive subgroups. Subgroups smaller than a
+given size or having a density less than a given threshold are thrown away.
+Finally, redundant cohesive subgroups (i.e. those that overlap significantly
+with each other) are merged to form larger subgroups to make the results easier
+to interpret.</p>
+</div>
+<div class="section" id="the-clusterone-menu">
+<h1>The ClusterONE menu</h1>
+<p>ClusterONE installs itself into the Plugins menu of Cytoscape under
+a submenu named <strong>ClusterONE</strong>. This submenu has the following items:</p>
+<dl class="docutils">
+<dt><strong>Start</strong></dt>
+<dd>Shows the <a class="reference internal" href="#control-panel">control panel</a> of ClusterONE, which is the main entry
+point to the clustering algorithm implemented in ClusterONE.</dd>
+<dt><strong>Grow cluster from selected nodes</strong></dt>
+<dd><p class="first">Grows a single cluster according to the steps of the ClusterONE algorithm,
+starting from the selected nodes which will be treated as a single seed set.
+For more details about the growth process, please refer to the
+<cite>description of the algorithm</cite>. The resulting cluster will be selected
+after the growth process is finished. Since the original selection will
+be lost, you might consider using the <strong>NamedSelection</strong> Cytoscape
+plugin (available from Plugins -&gt; Manage plugins) to remember the
+original selection.</p>
+<p class="last">This menu item remains disabled until you start the ClusterONE plugin
+using the corresponding menu item.</p>
+</dd>
+<dt><strong>Color nodes by affinity</strong></dt>
+<dd><p class="first">Colors the nodes of the network according to their affinity to the
+currently selected set of nodes as a cluster. Nodes with a positive
+affinity to the cluster will be colored red, negative affinities will
+be shown using shades of blue. The affinity of a node tells us how much
+would the addition of that node increase the quality of the cluster.
+You can use this menu item to drive the cluster growth process manually
+by starting from a small seed cluster and repeatedly adding nodes to
+the cluster that increase the quality function the most. Note that
+you will have to recalculate the affinities every time you modify the
+cluster, ClusterONE won't do that automatically.</p>
+<p>Node coloring is implemented using a custom VizMapper style. This style
+is selected automatically when you click on this menu item, but you can
+always return to your original style in the VizMapper panel of Cytoscape.</p>
+<p class="last">This menu item remains disabled until you start the ClusterONE plugin
+using the corresponding menu item.</p>
+</dd>
+<dt><strong>Help</strong></dt>
+<dd>Shows the manual of ClusterONE (this document) in a separate window.</dd>
+<dt><strong>About</strong></dt>
+<dd>Shows the authors, the preferred citation for ClusterONE
+(see also <a class="reference internal" href="#references">References</a>) and the URL of its homepage.</dd>
+</dl>
+</div>
+<div class="section" id="control-panel">
+<h1>Control panel</h1>
+<p>The control panel of ClusterONE is to be found on a separate tab in the
+control panel of Cytoscape (see the left hand side of the Cytoscape user
+interface). The panel consists of two large parts: the <a class="reference internal" href="#parameters">Parameters</a> box lets
+you set the parameters of the algorithm (this is subdivided into <a class="reference internal" href="#basic-parameters">Basic
+parameters</a> and <a class="reference internal" href="#advanced-parameters">Advanced parameters</a>), while the <a class="reference internal" href="#selection-info">Selection info</a> box lets
+you examine some properties of the currently selected set of nodes (such as the
+total weight of edges within the set and at the boundary of the set, or the
+value of the ClusterONE quality function).</p>
+<p>Click on the <strong>Start</strong> button at the bottom of the panel to start the clustering
+process. The <a class="reference internal" href="#result-viewer">result viewer</a> will open automatically when the results are ready.
+Use the <strong>Close panel</strong> button to hide the ClusterONE control panel.</p>
+<p>After a successful clustering process, the nodes of the network will be colored
+according to the number of clusters they participate in. Nodes that correspond
+to a single cluster only will turn red, nodes with multiple clusters will turn
+yellow. Gray nodes denote outliers (nodes that did not end up in any of the
+clusters).  This coloring is implemented using a custom VizMapper style. The
+style is selected automatically when the clustering process finishes, but you
+can always return to your original style in the VizMapper panel of Cytoscape.</p>
+<div class="section" id="parameters">
+<h2>Parameters</h2>
+<p>The parameters are grouped into basic and advanced ones. In most of the cases,
+the default values of the advanced parameters should be fine, but the basic
+parameters may need to be adjusted to your specific needs.</p>
+<div class="section" id="basic-parameters">
+<h3>Basic parameters</h3>
+<dl class="docutils">
+<dt><strong>Minimum size</strong></dt>
+<dd>The minimum size of clusters deemed relevant by ClusterONE.
+This is a hard threshold: whenever ClusterONE finds a cluster
+smaller than the minimum size, the cluster will be discarded
+immediately.</dd>
+<dt><strong>Minimum density</strong></dt>
+<dd><p class="first">The minimum density of clusters deemed relevant by ClusterONE.
+The density of a cluster is the total sum of edge weights within
+the cluster, divided by the number of theoretically possible
+edges within the cluster. In other words, this is the average edge
+weight within the cluster if missing edges are assumed to have a
+weight of zero. Whenever ClusterONE finds a cluster that has a
+smaller density than the value given here, the cluster will be
+discarded immediately. Increase the minimum density if you get
+too many clusters and they seem too sparse, or decrease it if you
+are not getting enough clusters.</p>
+<p class="last">Since version 0.93, ClusterONE also includes an automatic density
+threshold selection method, which was tuned on various protein-protein
+interaction datasets. When the &quot;Auto&quot; value is selected in the minimum
+density field (this can be selected by trying to choose a density
+threshold smaller than zero), ClusterONE will use a density threshold
+of 0.3 for weighted networks and 0.5 for unweighted networks. If the
+network is unweighted and the global clustering coefficient is smaller
+than 0.1, ClusterONE will assume that the network was determined from
+low-throughput experimental data (e.g., yeast-two-hybrid experiments)
+and use a higher threshold of 0.6 to compensate for the presence of
+many tree-like subgraphs in the input.</p>
+</dd>
+<dt><strong>Edge weights</strong></dt>
+<dd>A numeric edge attribute to be used for the edge weights. <em>[unweighted]</em>
+means that each edge will have a weight equal to 1. If you don't see the
+name of the attribute in the list, click on the <strong>Refresh</strong> button
+(<img alt="refresh" src="images/refresh.png" />) next to the combo box to re-scan the network for numeric edge
+attributes. This is necessary when you added the edge attribute you are
+looking for after you opened the ClusterONE control panel.</dd>
+</dl>
+</div>
+<div class="section" id="advanced-parameters">
+<h3>Advanced parameters</h3>
+<p>If you do not see these parameters in the <a class="reference internal" href="#control-panel">control panel</a>, click on the
+<strong>Advanced parameters</strong> label to expand the container holding them.</p>
+<dl class="docutils">
+<dt><strong>Node penalty</strong></dt>
+<dd>Penalty value corresponding to each node. When you set this option to
+a specific value <em>x</em>, ClusterONE will assume that each node has an
+extra boundary weight of <em>x</em> when it considers the addition of the node
+to a cluster (see <a class="footnote-reference" href="#id5" id="id2">[1]</a> for more details). It can be used to model the
+possibility of uncharted connections for each node, so nodes with only
+a single weak connection to a cluster will not be added to the cluster as
+the penalty value will outweigh the benefits of adding the node. The
+default penalty value is 2.</dd>
+<dt><strong>Merging method</strong>, <strong>Overlap threshold</strong> and <strong>Similarity function</strong></dt>
+<dd><p class="first">After an initial set of clusters are found, ClusterONE tries to
+merge highly overlapping (and thus redundant) clusters in order to
+clean up the result. For each pair of clusters found, ClusterONE
+calculates a score that quantifies the overlap between them, and
+two clusters are merged if this overlap is larger than a given
+threshold (specified by the <strong>Overlap threshold</strong> textbox). There
+are four different ways to calculate the overlap score, as controlled
+by the <strong>Similarity function</strong> combobox:</p>
+<blockquote>
+<ul class="simple">
+<li>The <em>match coefficient</em> takes the size of the overlap squared,
+divided by the product of the sizes of the two clusters being
+considered, as in the paper of Bader and Hogue <a class="footnote-reference" href="#id6" id="id3">[2]</a>.</li>
+<li>The <em>Simpson coefficient</em> divides the size of the overlap
+by the size of the smaller cluster.</li>
+<li>The <em>Jaccard similarity</em> divides the size of the overlap by the
+size of the union of the two clusters.</li>
+<li>The <em>Dice similarity</em> divides twice the size of the overlap by
+the sum of the sizes of the two clusters.</li>
+</ul>
+</blockquote>
+<p>Merging can be done in two different ways, as controlled by the
+<strong>Merging method</strong> combobox:</p>
+<blockquote>
+<ul class="simple">
+<li>The <em>single-pass method</em> calculates similarity scores between all pairs
+of complexes and creates a graph where the nodes are the
+complexes and two nodes are connected if the corresponding
+complexes have a score higher than the overlap threshold.
+Complexes in the same connected component of the graph will then
+be merged.</li>
+<li>The <em>multi-pass method</em> calculates similarity scores between all pairs
+of complexes and stores those pairs that have a score
+larger than the overlap threshold. The highest scoring pair
+is then merged and the similarity of the merged complex
+towards its neighbors is re-calculated. This is repeated
+until there are no more highly overlapping complexes in
+the result.</li>
+</ul>
+</blockquote>
+<p class="last">The default settings (match coefficient with a threshold of 0.8 using
+the single-pass algorithm) seem to be satisfactory for most use-cases
+Decreasing the threshold will result in more clusters being merged.</p>
+</dd>
+<dt><strong>Seeding method</strong></dt>
+<dd><p class="first">ClusterONE works by growing clusters from initial &quot;seeds&quot;, driven
+by a goal function that is maximized greedily (see the Cluster
+ONE paper <a class="footnote-reference" href="#id5" id="id4">[1]</a> for more details). A seed can be an arbitrary subgraph,
+but in most cases, it is either a single node or a single edge.
+The seeding method prescribes how the seeds are selected during the
+calculation:</p>
+<blockquote>
+<ul class="simple">
+<li><em>From every node</em> means that every node will be used as a seed.</li>
+<li><em>From unused nodes</em> means that nodes will be tried in the
+descending order of their weights (where the weight of a node is
+the sum of the weights on its incident edges), and whenever a
+cluster is found, the nodes in that cluster will be excluded from
+the list of potential seeds. In other words, the node with the
+largest weight that does <em>not</em> participate in any of the clusters
+found so far will be selected as the next seed.</li>
+<li><em>From every edge</em> means that every edge will be considered once,
+each yielding a seed consisting of the two endpoints of the edge.</li>
+</ul>
+</blockquote>
+<p class="last">In practical use-cases, the <em>From unused nodes</em> and <em>From every node</em>
+methods are almost equivalent, but the former one yields a smaller
+number of redundant clusters.</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="section" id="selection-info">
+<h2>Selection info</h2>
+<p>The quantities shown in this box always correspond to the currently selected
+set of nodes in the current Cytoscape view.</p>
+<dl class="docutils">
+<dt><strong>Number of nodes</strong></dt>
+<dd>The number of nodes in the cluster.</dd>
+<dt><strong>In-weight</strong></dt>
+<dd>The sum of the weights of the edges that lie completely within the cluster.</dd>
+<dt><strong>Out-weight</strong></dt>
+<dd>The sum of the weights of the edges where one endpoint lies within the cluster
+and the other lies outside.</dd>
+<dt><strong>Density</strong></dt>
+<dd>The density of the cluster; that is, the sum of the edge weights within
+the cluster divided by the number of theoretically possible edges.</dd>
+<dt><strong>Quality</strong></dt>
+<dd>The quality of the cluster, as measured by the in-weight divided by the
+sum of the in-weight and the out-weight. The rationale behind this measure
+is that a good cluster contains many heavyweight edges within the cluster
+itself, and it is connected to the rest of the network only by a few lightweight
+edges. If the penalty value set in the <a class="reference internal" href="#advanced-parameters">Advanced parameters</a> panel is larger
+than zero, the out-weight of the cluster will be increased by the penalty
+value times the number of nodes in the cluster accordingly.</dd>
+<dt><strong>P-value</strong></dt>
+<dd>The p-value of a one-sided Mann-Whitney U test performed on the in-weights
+and out-weights of the vertices. A low p-value means that the in-weights
+are significantly larger than the out-weights, so it is more likely that the
+cluster is a valid finding and not the result of random fluctuations.
+Color codes also help distinguishing significant results from insignificant
+ones: p-values less than 0.05 are denoted by red colors and p-values
+between 0.05 and 0.1 are shown in yellow.</dd>
+</dl>
+<p>Note that the Mann-Whitney U test cannot be performed sensibly when all the
+in-weights and out-weights are equal. In this case, the p-value will show &quot;NA&quot;.</p>
+</div>
+</div>
+<div class="section" id="result-viewer">
+<h1>Result viewer</h1>
+<p>The result viewer appears on the right hand side of the Cytoscape user
+interface after a successful clustering process and it can operate in two
+modes: the <a class="reference internal" href="#simple-view">simple view</a> and the <a class="reference internal" href="#detailed-view">detailed view</a>. When the result viewer is
+opened for the first time, the <a class="reference internal" href="#simple-view">simple view</a> is used, which shows each cluster
+in a scrollable list box along with some basic properties of the cluster
+(number of nodes, density, quality and p-value). The clusters are ordered
+according to ascending p-values.  There is also a small <a class="reference internal" href="#toolbar">toolbar</a> above the list
+of clusters, where the number of clusters are shown along with small push
+buttons to access some of the functionality provided by the result viewer.</p>
+<div class="section" id="simple-view">
+<h2>Simple view</h2>
+<p>The simple view uses two columns, the first column showing a schematic drawing of
+each cluster (driven by a simple force-directed layout algorithm) and the second
+showing some basic properties of the cluster. The clusters are drawn in the
+background, so if there are many large clusters, you may have to wait a little bit
+until you are able to see them all.</p>
+<p>Right-clicking on any row of the table will bring up the <a class="reference internal" href="#cluster-context-menu">cluster context menu</a>.
+Double-clicking on any row will extract the cluster into a separate Cytoscape
+network view.</p>
+</div>
+<div class="section" id="detailed-view">
+<h2>Detailed view</h2>
+<p>The detailed view can be turned on or off by clicking on the first button of
+the toolbar which shows a table (<img alt="details" src="images/details.png" />). It is advised to turn the detailed
+view on only if the result panel itself is detached from the main Cytoscape
+window or if it is wide enough, as the detailed view contains seven columns,
+the first showing a schematic drawing of the cluster itself, while the remaining
+six correspond to the properties seen earlier in the <a class="reference internal" href="#selection-info">selection info</a> box
+on the <a class="reference internal" href="#control-panel">control panel</a> (number of nodes, density, in-weight, out-weight,
+quality and p-value).</p>
+<p>In the detailed view, you can sort the clusters according to any of the above
+columns by clicking on the column header. Clicking on the header again reverses
+the order.</p>
+<p>Right-clicking on any row of the table will bring up the <a class="reference internal" href="#cluster-context-menu">cluster context menu</a>.
+Double-clicking on any row will extract the cluster into a separate Cytoscape
+network view.</p>
+</div>
+<div class="section" id="toolbar">
+<h2>Toolbar</h2>
+<dl class="docutils">
+<dt><img alt="details" src="images/details.png" /> <strong>Switch to detailed view</strong></dt>
+<dd>This button toggles between the <a class="reference internal" href="#simple-view">simple view</a> and the <a class="reference internal" href="#detailed-view">detailed view</a>.</dd>
+<dt><img alt="find" src="images/find.png" /> <strong>Find clusters of selected nodes</strong></dt>
+<dd>By clicking this button, ClusterONE will evaluate all the nodes that are
+selected in the current Cytoscape network and select the clusters in which
+at least one of the selected nodes participate. It can primarily be used
+to find the cluster(s) of a single node after selecting that node in the
+main Cytoscape panel.</dd>
+<dt><img alt="save" src="images/save.png" /> <strong>Save clustering</strong></dt>
+<dd>Saves the clustering to disk in a file. You can choose between a simple
+line oriented format where each row corresponds to a single cluster, and
+the format used by the GenePro plugin.</dd>
+<dt><img alt="close" src="images/close.png" /> <strong>Close result</strong></dt>
+<dd>Closes the result set (i.e. removes its tab from the Results panel of
+Cytoscape).</dd>
+</dl>
+</div>
+<div class="section" id="cluster-context-menu">
+<h2>Cluster context menu</h2>
+<p>This menu pops up whenever you right-click on a row in the results panel.
+If there are multiple rows selected in the result set, the operations will
+apply to all of them, otherwise they will apply to only the one you have
+clicked on.</p>
+<dl class="docutils">
+<dt><strong>Copy to clipboard</strong></dt>
+<dd>This menu item copies the IDs of the nodes in the selected clusters to
+the clipboard. If there are multiple clusters selected, one line
+in the copied text will correspond to one cluster. After copying,
+you can paste the IDs to a text editor or a word processor.</dd>
+<dt><strong>Extract selected cluster(s)</strong></dt>
+<dd>Creates a new Cytoscape network from the subnetwork spanned by the
+nodes in the selected clusters. Even when multiple clusters are
+selected, only a single Cytoscape network will be created that includes
+all the nodes in all the selected clusters. This command can also
+be invoked for a single cluster by double-clicking on the cluster
+in the result list.</dd>
+<dt><strong>Save selected cluster(s)</strong></dt>
+<dd>Saves the selected clusters into a text file in formats similar to
+the ones handled by the <strong>Copy to clipboard</strong> operation (either a
+plain text based format or the GenePro format).</dd>
+<dt><strong>Remove</strong></dt>
+<dd>Removes the selected clusters from the result list.</dd>
+</dl>
+</div>
+</div>
+<div class="section" id="references">
+<h1>References</h1>
+<p>If you use results calculated by ClusterONE in a publication,
+please cite the following reference:</p>
+<table class="docutils footnote" frame="void" id="id5" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[1]</td><td><em>(<a class="fn-backref" href="#id1">1</a>, <a class="fn-backref" href="#id2">2</a>, <a class="fn-backref" href="#id4">3</a>)</em> Nepusz T, Yu H, Paccanaro A: Detecting overlapping protein complexes
+from protein-protein interaction networks. Nature Methods,
+Advance Online Publication, 2012. doi:10.1038/nmeth.1938</td></tr>
+</tbody>
+</table>
+<p>Some other papers that might be of interest (and were referenced earlier
+in this help file):</p>
+<table class="docutils footnote" frame="void" id="id6" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id3">[2]</a></td><td>Bader GD, Hogue CWV: An automated method for finding molecular complexes
+in large protein interaction networks. BMC Bioinformatics 2003, 4:2.
+doi:10.1186/1471-2105-4-2</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</body>
+</html>
