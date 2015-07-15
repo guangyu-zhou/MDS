@@ -1,0 +1,649 @@
+wirelessprvnat-172-17-194-90:code-v16-coverRemoved DavidZhou$ python coverRemoved.py 
+Usage: **.py <inputfile> <k> <threshold> <min_elem_output>
+Running default... k=20, theta=0.97, min_elem_output=3
+Reading from: ../data_snap/dblp_.25.txt
+start sorting
+135323
+time in reading 2.08313584328
+V input length  135323
+E input length  247242
+start looping... 
+========= progress =========:  0 135323
+['38868']	1.0
+V_remain: 135322
+grasp_sort start
+time of N_r sort 38.177822113
+grasp_sort end 38.3017318249
+V_remain_in_seq 343
+['38868', '32534']	1.0
+V_remain: 373
+grasp_sort start
+time of N_r sort 0.0214538574219
+grasp_sort end 0.0245177745819
+V_remain_in_seq 100
+['38868', '32534', '42671']	1.0
+V_remain: 400
+grasp_sort start
+time of N_r sort 0.0229489803314
+grasp_sort end 0.0282979011536
+V_remain_in_seq 99
+['38868', '32534', '42671', '37572']	1.0
+V_remain: 418
+grasp_sort start
+time of N_r sort 0.0236310958862
+grasp_sort end 0.0322411060333
+V_remain_in_seq 98
+['38868', '32534', '42671', '37572', '12300']	1.0
+V_remain: 424
+grasp_sort start
+time of N_r sort 0.0241189002991
+grasp_sort end 0.0371940135956
+V_remain_in_seq 97
+['38868', '32534', '42671', '37572', '12300', '45479']	1.0
+V_remain: 430
+grasp_sort start
+time of N_r sort 0.0303730964661
+grasp_sort end 0.0477120876312
+V_remain_in_seq 122
+['38868', '32534', '42671', '37572', '12300', '45479', '148255']	0.952380952381
+V_remain: 436
+grasp_sort start
+time of N_r sort 0.0277299880981
+grasp_sort end 0.0495319366455
+V_remain_in_seq 98
+['38868', '32534', '42671', '37572', '12300', '45479', '148255', '43377']	0.892857142857
+V_remain: 439
+grasp_sort start
+time of N_r sort 0.0276699066162
+grasp_sort end 0.0542640686035
+V_remain_in_seq 95
+['38868', '32534', '42671', '37572', '12300', '45479', '148255', '43377', '114575']	0.833333333333
+V_remain: 440
+grasp_sort start
+time of N_r sort 1.19209289551e-05
+grasp_sort end 0.0312850475311
+V_remain_in_seq 0
+========= progress =========:  1 135323
+['6737']	1.0
+V_remain: 135322
+grasp_sort start
+time of N_r sort 27.8467159271
+grasp_sort end 27.9619839191
+V_remain_in_seq 269
+['6737', '41368']	1.0
+V_remain: 359
+grasp_sort start
+time of N_r sort 0.0039050579071
+grasp_sort end 0.00665998458862
+V_remain_in_seq 19
+['6737', '41368', '27657']	1.0
+V_remain: 359
+grasp_sort start
+time of N_r sort 0.00485301017761
+grasp_sort end 0.00842380523682
+V_remain_in_seq 18
+['6737', '41368', '27657', '165097']	1.0
+V_remain: 358
+grasp_sort start
+time of N_r sort 0.00396084785461
+grasp_sort end 0.00866389274597
+V_remain_in_seq 19
+['6737', '41368', '27657', '165097', '236263']	0.9
+V_remain: 358
+grasp_sort start
+time of N_r sort 0.00144791603088
+grasp_sort end 0.00782608985901
+V_remain_in_seq 7
+['6737', '41368', '27657', '165097', '236263', '257497']	0.8
+V_remain: 357
+grasp_sort start
+time of N_r sort 1.09672546387e-05
+grasp_sort end 0.00814008712769
+V_remain_in_seq 0
+========= progress =========:  2 135323
+['13884']	1.0
+V_remain: 135322
+grasp_sort start
+time of N_r sort 24.1650738716
+grasp_sort end 24.2827429771
+V_remain_in_seq 227
+['13884', '34418']	1.0
+V_remain: 239
+grasp_sort start
+time of N_r sort 0.00785708427429
+grasp_sort end 0.00992393493652
+V_remain_in_seq 59
+['13884', '34418', '32221']	1.0
+V_remain: 325
+grasp_sort start
+time of N_r sort 0.0136539936066
+grasp_sort end 0.0174839496613
+V_remain_in_seq 75
+['13884', '34418', '32221', '206494']	1.0
+V_remain: 324
+grasp_sort start
+time of N_r sort 0.0143330097198
+grasp_sort end 0.0194609165192
+V_remain_in_seq 79
+['13884', '34418', '32221', '206494', '8808']	0.9
+V_remain: 388
+grasp_sort start
+time of N_r sort 0.00259113311768
+grasp_sort end 0.0107841491699
+V_remain_in_seq 11
+['13884', '34418', '32221', '206494', '8808', '13076']	0.8
+V_remain: 523
+grasp_sort start
+time of N_r sort 1.31130218506e-05
+grasp_sort end 0.0134358406067
+V_remain_in_seq 0
+========= progress =========:  3 135323
+['11457']	1.0
+V_remain: 135322
+grasp_sort start
+time of N_r sort 23.246505022
+grasp_sort end 23.3599390984
+V_remain_in_seq 225
+['11457', '10516']	1.0
+V_remain: 302
+grasp_sort start
+time of N_r sort 0.00861597061157
+grasp_sort end 0.0111880302429
+V_remain_in_seq 50
+['11457', '10516', '17393']	1.0
+V_remain: 342
+grasp_sort start
+time of N_r sort 0.0118000507355
+grasp_sort end 0.0159211158752
+V_remain_in_seq 60
+['11457', '10516', '17393', '34877']	1.0
+V_remain: 362
+grasp_sort start
+time of N_r sort 0.0152609348297
+grasp_sort end 0.021418094635
+V_remain_in_seq 73
+['11457', '10516', '17393', '34877', '30925']	1.0
+V_remain: 472
+grasp_sort start
+time of N_r sort 0.0263350009918
+grasp_sort end 0.0376229286194
+V_remain_in_seq 95
+['11457', '10516', '17393', '34877', '30925', '45479']	1.0
+V_remain: 486
+grasp_sort start
+time of N_r sort 0.0270018577576
+grasp_sort end 0.0413970947266
+V_remain_in_seq 95
+['11457', '10516', '17393', '34877', '30925', '45479', '1442']	0.952380952381
+V_remain: 610
+grasp_sort start
+time of N_r sort 0.0208659172058
+grasp_sort end 0.0436320304871
+V_remain_in_seq 56
+['11457', '10516', '17393', '34877', '30925', '45479', '1442', '35249']	0.928571428571
+V_remain: 716
+grasp_sort start
+time of N_r sort 0.0279681682587
+grasp_sort end 0.0580739974976
+V_remain_in_seq 59
+['11457', '10516', '17393', '34877', '30925', '45479', '1442', '35249', '38700']	0.888888888889
+V_remain: 783
+grasp_sort start
+time of N_r sort 0.0226571559906
+grasp_sort end 0.0646829605103
+V_remain_in_seq 48
+['11457', '10516', '17393', '34877', '30925', '45479', '1442', '35249', '38700', '46911']0.866666666667
+V_remain: 791
+grasp_sort start
+time of N_r sort 0.0125560760498
+grasp_sort end 0.0608420372009
+V_remain_in_seq 27
+['11457', '10516', '17393', '34877', '30925', '45479', '1442', '35249', '38700', '46911', '19114']	0.836363636364
+V_remain: 884
+grasp_sort start
+time of N_r sort 0.0058331489563
+grasp_sort end 0.0683109760284
+V_remain_in_seq 11
+['11457', '10516', '17393', '34877', '30925', '45479', '1442', '35249', '38700', '46911', '19114', '36799']	0.818181818182
+V_remain: 956
+grasp_sort start
+time of N_r sort 0.00333189964294
+grasp_sort end 0.0803561210632
+V_remain_in_seq 6
+['11457', '10516', '17393', '34877', '30925', '45479', '1442', '35249', '38700', '46911', '19114', '36799', '41990']	0.807692307692
+V_remain: 1025
+grasp_sort start
+time of N_r sort 0.00310611724854
+grasp_sort end 0.10000705719
+V_remain_in_seq 5
+['11457', '10516', '17393', '34877', '30925', '45479', '1442', '35249', '38700', '46911', '19114', '36799', '41990', '42857']	0.802197802198
+V_remain: 1088
+grasp_sort start
+time of N_r sort 0.00267195701599
+grasp_sort end 0.120058059692
+V_remain_in_seq 4
+['11457', '10516', '17393', '34877', '30925', '45479', '1442', '35249', '38700', '46911', '19114', '36799', '41990', '42857', '39726']	0.8
+V_remain: 1132
+grasp_sort start
+time of N_r sort 0.0020580291748
+grasp_sort end 0.142482995987
+V_remain_in_seq 3
+['11457', '10516', '17393', '34877', '30925', '45479', '1442', '35249', '38700', '46911', '19114', '36799', '41990', '42857', '39726', '29515']	0.8
+V_remain: 1138
+grasp_sort start
+time of N_r sort 0.0013370513916
+grasp_sort end 0.16637802124
+V_remain_in_seq 2
+['11457', '10516', '17393', '34877', '30925', '45479', '1442', '35249', '38700', '46911', '19114', '36799', '41990', '42857', '39726', '29515', '28290']	0.801470588235
+V_remain: 1148
+grasp_sort start
+time of N_r sort 0.000706911087036
+grasp_sort end 0.190106868744
+V_remain_in_seq 1
+['11457', '10516', '17393', '34877', '30925', '45479', '1442', '35249', '38700', '46911', '19114', '36799', '41990', '42857', '39726', '29515', '28290', '37174']	0.803921568627
+V_remain: 1158
+grasp_sort start
+time of N_r sort 0.00252604484558
+grasp_sort end 0.207777023315
+V_remain_in_seq 3
+['11457', '10516', '17393', '34877', '30925', '45479', '1442', '35249', '38700', '46911', '19114', '36799', '41990', '42857', '39726', '29515', '28290', '37174', '44646']	0.801169590643
+V_remain: 1169
+grasp_sort start
+time of N_r sort 1.09672546387e-05
+grasp_sort end 0.233927965164
+V_remain_in_seq 0
+========= progress =========:  4 135323
+['21759']	1.0
+V_remain: 135322
+grasp_sort start
+time of N_r sort 24.3516490459
+grasp_sort end 24.4696810246
+V_remain_in_seq 221
+['21759', '38508']	1.0
+V_remain: 326
+grasp_sort start
+time of N_r sort 0.00634503364563
+grasp_sort end 0.00963997840881
+V_remain_in_seq 27
+['21759', '38508', '28293']	1.0
+V_remain: 354
+grasp_sort start
+time of N_r sort 0.00578212738037
+grasp_sort end 0.00962114334106
+V_remain_in_seq 28
+['21759', '38508', '28293', '19909']	1.0
+V_remain: 448
+grasp_sort start
+time of N_r sort 0.00886678695679
+grasp_sort end 0.0156259536743
+V_remain_in_seq 31
+['21759', '38508', '28293', '19909', '38911']	1.0
+V_remain: 511
+grasp_sort start
+time of N_r sort 0.0102691650391
+grasp_sort end 0.0198400020599
+V_remain_in_seq 35
+['21759', '38508', '28293', '19909', '38911', '70248']	1.0
+V_remain: 512
+grasp_sort start
+time of N_r sort 0.0137031078339
+grasp_sort end 0.0272779464722
+V_remain_in_seq 38
+['21759', '38508', '28293', '19909', '38911', '70248', '162903']	0.952380952381
+V_remain: 515
+grasp_sort start
+time of N_r sort 0.00236511230469
+grasp_sort end 0.0175969600677
+V_remain_in_seq 8
+['21759', '38508', '28293', '19909', '38911', '70248', '162903', '67483']	0.892857142857
+V_remain: 521
+grasp_sort start
+time of N_r sort 0.00151705741882
+grasp_sort end 0.0204191207886
+V_remain_in_seq 5
+['21759', '38508', '28293', '19909', '38911', '70248', '162903', '67483', '163636']	0.833333333333
+V_remain: 521
+grasp_sort start
+time of N_r sort 1.21593475342e-05
+grasp_sort end 0.0240008831024
+V_remain_in_seq 0
+========= progress =========:  5 135323
+['31470']	1.0
+V_remain: 135322
+grasp_sort start
+time of N_r sort 23.2225239277
+grasp_sort end 23.3402462006
+V_remain_in_seq 218
+['31470', '40108']	1.0
+V_remain: 246
+grasp_sort start
+time of N_r sort 0.021714925766
+grasp_sort end 0.0246679782867
+V_remain_in_seq 149
+['31470', '40108', '30815']	1.0
+V_remain: 264
+grasp_sort start
+time of N_r sort 0.0270898342133
+grasp_sort end 0.03351521492
+V_remain_in_seq 148
+['31470', '40108', '30815', '20503']	1.0
+V_remain: 297
+grasp_sort start
+time of N_r sort 0.0293250083923
+grasp_sort end 0.0379040241241
+V_remain_in_seq 162
+['31470', '40108', '30815', '20503', '4496']	1.0
+V_remain: 337
+grasp_sort start
+time of N_r sort 0.0355110168457
+grasp_sort end 0.0495829582214
+V_remain_in_seq 162
+['31470', '40108', '30815', '20503', '4496', '72210']	1.0
+V_remain: 345
+grasp_sort start
+time of N_r sort 0.0370571613312
+grasp_sort end 0.0560472011566
+V_remain_in_seq 165
+['31470', '40108', '30815', '20503', '4496', '72210', '13076']	0.952380952381
+V_remain: 420
+grasp_sort start
+time of N_r sort 0.0406119823456
+grasp_sort end 0.0663208961487
+V_remain_in_seq 142
+['31470', '40108', '30815', '20503', '4496', '72210', '13076', '116246']	0.928571428571
+V_remain: 423
+grasp_sort start
+time of N_r sort 0.0402019023895
+grasp_sort end 0.0778131484985
+V_remain_in_seq 142
+['31470', '40108', '30815', '20503', '4496', '72210', '13076', '116246', '35376']	0.888888888889
+V_remain: 431
+grasp_sort start
+time of N_r sort 0.0508987903595
+grasp_sort end 0.115255832672
+V_remain_in_seq 137
+['31470', '40108', '30815', '20503', '4496', '72210', '13076', '116246', '35376', '26497'0.866666666667
+V_remain: 448
+grasp_sort start
+time of N_r sort 0.0395720005035
+grasp_sort end 0.0935649871826
+V_remain_in_seq 135
+['31470', '40108', '30815', '20503', '4496', '72210', '13076', '116246', '35376', '26497', '7236']	0.854545454545
+V_remain: 449
+grasp_sort start
+time of N_r sort 0.0125291347504
+grasp_sort end 0.0791368484497
+V_remain_in_seq 47
+['31470', '40108', '30815', '20503', '4496', '72210', '13076', '116246', '35376', '26497', '7236', '39420']	0.848484848485
+V_remain: 497
+grasp_sort start
+time of N_r sort 0.0136740207672
+grasp_sort end 0.101906061172
+V_remain_in_seq 46
+['31470', '40108', '30815', '20503', '4496', '72210', '13076', '116246', '35376', '26497', '7236', '39420', '5209']	0.846153846154
+V_remain: 506
+grasp_sort start
+time of N_r sort 0.0148298740387
+grasp_sort end 0.115793943405
+V_remain_in_seq 45
+['31470', '40108', '30815', '20503', '4496', '72210', '13076', '116246', '35376', '26497', '7236', '39420', '5209', '174700']	0.846153846154
+V_remain: 507
+grasp_sort start
+time of N_r sort 0.0137748718262
+grasp_sort end 0.12924695015
+V_remain_in_seq 44
+['31470', '40108', '30815', '20503', '4496', '72210', '13076', '116246', '35376', '26497', '7236', '39420', '5209', '174700', '131740']	0.838095238095
+V_remain: 507
+grasp_sort start
+time of N_r sort 0.0118560791016
+grasp_sort end 0.13606095314
+V_remain_in_seq 39
+['31470', '40108', '30815', '20503', '4496', '72210', '13076', '116246', '35376', '26497', '7236', '39420', '5209', '174700', '131740', '67024']	0.825
+V_remain: 508
+grasp_sort start
+time of N_r sort 0.00601387023926
+grasp_sort end 0.144056081772
+V_remain_in_seq 20
+['31470', '40108', '30815', '20503', '4496', '72210', '13076', '116246', '35376', '26497', '7236', '39420', '5209', '174700', '131740', '67024', '257018']	0.808823529412
+V_remain: 509
+grasp_sort start
+time of N_r sort 1.31130218506e-05
+grasp_sort end 0.155702114105
+V_remain_in_seq 0
+========= progress =========:  6 135323
+['19267']	1.0
+V_remain: 135322
+grasp_sort start
+time of N_r sort 23.0430779457
+grasp_sort end 23.2118051052
+V_remain_in_seq 215
+['19267', '36999']	1.0
+V_remain: 252
+grasp_sort start
+time of N_r sort 0.00314593315125
+grasp_sort end 0.00508403778076
+V_remain_in_seq 22
+['19267', '36999', '38603']	1.0
+V_remain: 351
+grasp_sort start
+time of N_r sort 0.00539302825928
+grasp_sort end 0.00895881652832
+V_remain_in_seq 26
+['19267', '36999', '38603', '6303']	1.0
+V_remain: 368
+grasp_sort start
+time of N_r sort 0.00534009933472
+grasp_sort end 0.0103018283844
+V_remain_in_seq 25
+['19267', '36999', '38603', '6303', '68529']	1.0
+V_remain: 371
+grasp_sort start
+time of N_r sort 0.00580215454102
+grasp_sort end 0.0124959945679
+V_remain_in_seq 27
+['19267', '36999', '38603', '6303', '68529', '155722']	0.933333333333
+V_remain: 376
+grasp_sort start
+time of N_r sort 0.000239849090576
+grasp_sort end 0.00892305374146
+V_remain_in_seq 1
+['19267', '36999', '38603', '6303', '68529', '155722', '45592']	0.857142857143
+V_remain: 377
+grasp_sort start
+time of N_r sort 1.00135803223e-05
+grasp_sort end 0.0103240013123
+V_remain_in_seq 0
+========= progress =========:  7 135323
+['13451']	1.0
+V_remain: 135322
+grasp_sort start
+time of N_r sort 23.3571698666
+grasp_sort end 23.4764690399
+V_remain_in_seq 215
+['13451', '15365']	1.0
+V_remain: 317
+grasp_sort start
+time of N_r sort 0.0128240585327
+grasp_sort end 0.0155119895935
+V_remain_in_seq 68
+['13451', '15365', '41815']	1.0
+V_remain: 357
+grasp_sort start
+time of N_r sort 0.0232629776001
+grasp_sort end 0.0280828475952
+V_remain_in_seq 107
+['13451', '15365', '41815', '25347']	1.0
+V_remain: 461
+grasp_sort start
+time of N_r sort 0.0349659919739
+grasp_sort end 0.0434591770172
+V_remain_in_seq 127
+['13451', '15365', '41815', '25347', '27264']	1.0
+V_remain: 528
+grasp_sort start
+time of N_r sort 0.0551450252533
+grasp_sort end 0.07044506073
+V_remain_in_seq 150
+['13451', '15365', '41815', '25347', '27264', '6433']	1.0
+V_remain: 659
+grasp_sort start
+time of N_r sort 0.0676929950714
+grasp_sort end 0.0893440246582
+V_remain_in_seq 170
+['13451', '15365', '41815', '25347', '27264', '6433', '2571']	1.0
+V_remain: 766
+grasp_sort start
+time of N_r sort 0.0853941440582
+grasp_sort end 0.116546154022
+V_remain_in_seq 181
+['13451', '15365', '41815', '25347', '27264', '6433', '2571', '9812']	1.0
+V_remain: 823
+grasp_sort start
+time of N_r sort 0.441598892212
+grasp_sort end 0.496591091156
+V_remain_in_seq 823
+['13451', '15365', '41815', '25347', '27264', '6433', '2571', '9812', '23574']	1.0
+V_remain: 865
+grasp_sort start
+time of N_r sort 0.432111024857
+grasp_sort end 0.491425037384
+V_remain_in_seq 865
+['13451', '15365', '41815', '25347', '27264', '6433', '2571', '9812', '23574', '16996']	1.0
+V_remain: 889
+grasp_sort start
+time of N_r sort 0.451558113098
+grasp_sort end 0.521414041519
+V_remain_in_seq 889
+['13451', '15365', '41815', '25347', '27264', '6433', '2571', '9812', '23574', '16996', '41110']	1.0
+V_remain: 930
+grasp_sort start
+time of N_r sort 0.500859975815
+grasp_sort end 0.594325065613
+V_remain_in_seq 930
+['13451', '15365', '41815', '25347', '27264', '6433', '2571', '9812', '23574', '16996', '41110', '15760']	1.0
+V_remain: 1058
+grasp_sort start
+time of N_r sort 0.651498794556
+grasp_sort end 0.768177032471
+V_remain_in_seq 1058
+['13451', '15365', '41815', '25347', '27264', '6433', '2571', '9812', '23574', '16996', '41110', '15760', '41825']	1.0
+V_remain: 1087
+grasp_sort start
+time of N_r sort 0.695409059525
+grasp_sort end 0.850082159042
+V_remain_in_seq 1087
+['13451', '15365', '41815', '25347', '27264', '6433', '2571', '9812', '23574', '16996', '41110', '15760', '41825', '2962']	0.989010989011
+V_remain: 1139
+grasp_sort start
+time of N_r sort 0.767930030823
+grasp_sort end 0.941279888153
+V_remain_in_seq 1139
+['13451', '15365', '41815', '25347', '27264', '6433', '2571', '9812', '23574', '16996', '41110', '15760', '41825', '2962', '17501']	0.980952380952
+V_remain: 1245
+grasp_sort start
+time of N_r sort 0.911976099014
+grasp_sort end 1.11862802505
+V_remain_in_seq 1245
+['13451', '15365', '41815', '25347', '27264', '6433', '2571', '9812', '23574', '16996', '41110', '15760', '41825', '2962', '17501', '15737']	0.975
+V_remain: 1316
+grasp_sort start
+time of N_r sort 1.10803604126
+grasp_sort end 1.38880896568
+V_remain_in_seq 1316
+['13451', '15365', '41815', '25347', '27264', '6433', '2571', '9812', '23574', '16996', '41110', '15760', '41825', '2962', '17501', '15737', '67140']	0.970588235294
+V_remain: 1321
+grasp_sort start
+time of N_r sort 1.02938318253
+grasp_sort end 1.31598305702
+V_remain_in_seq 1321
+['13451', '15365', '41815', '25347', '27264', '6433', '2571', '9812', '23574', '16996', '41110', '15760', '41825', '2962', '17501', '15737', '67140', '35239']	0.967320261438
+V_remain: 1329
+grasp_sort start
+time of N_r sort 1.06224584579
+grasp_sort end 1.3637638092
+V_remain_in_seq 1329
+['13451', '15365', '41815', '25347', '27264', '6433', '2571', '9812', '23574', '16996', '41110', '15760', '41825', '2962', '17501', '15737', '67140', '35239', '3673']	0.964912280702
+V_remain: 1356
+grasp_sort start
+time of N_r sort 1.07553005219
+grasp_sort end 1.41827392578
+V_remain_in_seq 1356
+['13451', '15365', '41815', '25347', '27264', '6433', '2571', '9812', '23574', '16996', '41110', '15760', '41825', '2962', '17501', '15737', '67140', '35239', '3673', '26626']	0.957894736842
+V_remain: 1427
+grasp_sort start
+time of N_r sort 1.17869997025
+grasp_sort end 1.58023190498
+V_remain_in_seq 1427
+['13451', '15365', '41815', '25347', '27264', '6433', '2571', '9812', '23574', '16996', '41110', '15760', '41825', '2962', '17501', '15737', '67140', '35239', '3673', '26626', '20696']	0.952380952381
+V_remain: 1470
+grasp_sort start
+time of N_r sort 1.30031895638
+grasp_sort end 1.76468896866
+V_remain_in_seq 1470
+['13451', '15365', '41815', '25347', '27264', '6433', '2571', '9812', '23574', '16996', '41110', '15760', '41825', '2962', '17501', '15737', '67140', '35239', '3673', '26626', '20696', '26613']	0.948051948052
+V_remain: 1547
+grasp_sort start
+time of N_r sort 1.46538615227
+grasp_sort end 2.01440119743
+V_remain_in_seq 1547
+['13451', '15365', '41815', '25347', '27264', '6433', '2571', '9812', '23574', '16996', '41110', '15760', '41825', '2962', '17501', '15737', '67140', '35239', '3673', '26626', '20696', '26613', '27777']	0.944664031621
+V_remain: 1614
+grasp_sort start
+time of N_r sort 1.57176089287
+grasp_sort end 2.22766590118
+V_remain_in_seq 1614
+['13451', '15365', '41815', '25347', '27264', '6433', '2571', '9812', '23574', '16996', '41110', '15760', '41825', '2962', '17501', '15737', '67140', '35239', '3673', '26626', '20696', '26613', '27777', '11255']	0.942028985507
+V_remain: 1692
+grasp_sort start
+time of N_r sort 1.74377894402
+grasp_sort end 2.43248796463
+V_remain_in_seq 1692
+['13451', '15365', '41815', '25347', '27264', '6433', '2571', '9812', '23574', '16996', '41110', '15760', '41825', '2962', '17501', '15737', '67140', '35239', '3673', '26626', '20696', '26613', '27777', '11255', '32707']	0.94
+V_remain: 1746
+grasp_sort start
+time of N_r sort 1.7924349308
+grasp_sort end 2.54723381996
+V_remain_in_seq 1746
+['13451', '15365', '41815', '25347', '27264', '6433', '2571', '9812', '23574', '16996', '41110', '15760', '41825', '2962', '17501', '15737', '67140', '35239', '3673', '26626', '20696', '26613', '27777', '11255', '32707', '32708']	0.938461538462
+V_remain: 1789
+grasp_sort start
+time of N_r sort 1.89576101303
+grasp_sort end 2.77001309395
+V_remain_in_seq 1789
+['13451', '15365', '41815', '25347', '27264', '6433', '2571', '9812', '23574', '16996', '41110', '15760', '41825', '2962', '17501', '15737', '67140', '35239', '3673', '26626', '20696', '26613', '27777', '11255', '32707', '32708', '18741']	0.937321937322
+V_remain: 1848
+grasp_sort start
+time of N_r sort 2.00928497314
+grasp_sort end 2.95584607124
+V_remain_in_seq 1848
+['13451', '15365', '41815', '25347', '27264', '6433', '2571', '9812', '23574', '16996', '41110', '15760', '41825', '2962', '17501', '15737', '67140', '35239', '3673', '26626', '20696', '26613', '27777', '11255', '32707', '32708', '18741', '11123']	0.936507936508
+V_remain: 1968
+grasp_sort start
+time of N_r sort 2.29851698875
+grasp_sort end 3.32163000107
+V_remain_in_seq 1968
+['13451', '15365', '41815', '25347', '27264', '6433', '2571', '9812', '23574', '16996', '41110', '15760', '41825', '2962', '17501', '15737', '67140', '35239', '3673', '26626', '20696', '26613', '27777', '11255', '32707', '32708', '18741', '11123', '92634']	0.935960591133
+V_remain: 1974
+grasp_sort start
+time of N_r sort 2.2724339962
+grasp_sort end 3.37481498718
+V_remain_in_seq 1974
+['13451', '15365', '41815', '25347', '27264', '6433', '2571', '9812', '23574', '16996', '41110', '15760', '41825', '2962', '17501', '15737', '67140', '35239', '3673', '26626', '20696', '26613', '27777', '11255', '32707', '32708', '18741', '11123', '92634', '26970']	0.935632183908
+V_remain: 2036
+grasp_sort start
+time of N_r sort 2.48199081421
+grasp_sort end 3.65255594254
+V_remain_in_seq 2036
+['13451', '15365', '41815', '25347', '27264', '6433', '2571', '9812', '23574', '16996', '41110', '15760', '41825', '2962', '17501', '15737', '67140', '35239', '3673', '26626', '20696', '26613', '27777', '11255', '32707', '32708', '18741', '11123', '92634', '26970', '86463']	0.931182795699
+V_remain: 2040
+grasp_sort start
+time of N_r sort 2.58525514603
+grasp_sort end 3.899725914
+V_remain_in_seq 2040
+['13451', '15365', '41815', '25347', '27264', '6433', '2571', '9812', '23574', '16996', '41110', '15760', '41825', '2962', '17501', '15737', '67140', '35239', '3673', '26626', '20696', '26613', '27777', '11255', '32707', '32708', '18741', '11123', '92634', '26970', '86463', '16393']	0.907258064516
+V_remain: 2086
+grasp_sort start
+time of N_r sort 2.62582588196
+grasp_sort end 3.99617600441
+V_remain_in_seq 2086
+

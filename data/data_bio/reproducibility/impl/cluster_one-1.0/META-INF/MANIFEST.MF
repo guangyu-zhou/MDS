@@ -1,0 +1,1374 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1353853242420
+Bundle-Activator: uk.ac.rhul.cs.cl1.ui.cytoscape3.CytoscapeAppActivator
+Bundle-Copyright: Copyright (C) Tamas Nepusz (2010-2012). All Rights Res
+ erved.
+Bundle-Description: ClusterONE plugin for Cytoscape 3
+Bundle-Developers: ntamas@gmail.com
+Bundle-DocURL: http://paccanarolab.org/cluster-one
+Bundle-License: http://www.opensource.org/licenses/GPL-3.0; description=
+ "GNU General Public License 3.0"; link=http://www.gnu.org/licenses/gpl-
+ 3.0-standalone.html
+Bundle-ManifestVersion: 2
+Bundle-Name: ClusterONE
+Bundle-SCM: git@github.com:ntamas/cl1.git
+Bundle-SymbolicName: uk.ac.rhul.cs.cl1.ui.cytoscape3
+Bundle-Version: 1.0
+Created-By: 1.6.0_37 (Apple Inc.)
+Cytoscape-Plugin: uk.ac.rhul.cs.cl1.ui.cytoscape.CytoscapePlugin
+DSTAMP: 20121125
+Extension-Name: uk.ac.rhul.cs.cl1
+Implementation-Version: 1.0
+Import-Package: org.cytoscape.application;version="[3.0,4)",javax.help,j
+ avax.swing,javax.swing.border,javax.swing.event,javax.swing.plaf,javax.
+ swing.plaf.basic,javax.swing.table,javax.swing.text,javax.swing.text.ht
+ ml,org.cytoscape.application.events,org.cytoscape.application.swing,org
+ .cytoscape.model,org.cytoscape.model.events,org.cytoscape.service.util,
+ org.cytoscape.task,org.cytoscape.task.create,org.cytoscape.util.swing,o
+ rg.cytoscape.view.model,org.cytoscape.view.model.events,org.cytoscape.v
+ iew.presentation.property,org.cytoscape.view.presentation.property.valu
+ es,org.cytoscape.view.vizmap,org.cytoscape.view.vizmap.mappings,org.cyt
+ oscape.work,org.cytoscape.work.swing,org.osgi.framework
+Main-Class: uk.ac.rhul.cs.cl1.ui.cmdline.CommandLineApplication
+Private-Package: com.sosnoski.util,com.sosnoski.util.array,com.sosnoski.
+ util.hashmap,com.sosnoski.util.hashset,com.sosnoski.util.queue,com.sosn
+ oski.util.stack,info.clearthought.layout,org.apache.commons.cli,uk.ac.r
+ hul.cs.cl1,uk.ac.rhul.cs.cl1.filters,uk.ac.rhul.cs.cl1.io,uk.ac.rhul.cs
+ .cl1.resources,uk.ac.rhul.cs.cl1.seeding,uk.ac.rhul.cs.cl1.ui,uk.ac.rhu
+ l.cs.cl1.ui.cmdline,uk.ac.rhul.cs.cl1.ui.cytoscape,uk.ac.rhul.cs.cl1.ui
+ .cytoscape.help,uk.ac.rhul.cs.cl1.ui.cytoscape.help.images,uk.ac.rhul.c
+ s.cl1.ui.cytoscape3,uk.ac.rhul.cs.cl1.ui.cytoscape3.help,uk.ac.rhul.cs.
+ cl1.ui.cytoscape3.help.images,uk.ac.rhul.cs.cl1.ui.procope,uk.ac.rhul.c
+ s.graph,uk.ac.rhul.cs.stats,uk.ac.rhul.cs.stats.correlation,uk.ac.rhul.
+ cs.stats.curvefitting,uk.ac.rhul.cs.stats.datastructures,uk.ac.rhul.cs.
+ stats.descriptive,uk.ac.rhul.cs.stats.independentsamples,uk.ac.rhul.cs.
+ stats.tests,uk.ac.rhul.cs.utils
+TODAY: November 25, 2012
+Tool: Bnd-2.0.0.20121115-210913
+TSTAMP: 1520
+
+Name: com/sosnoski/util/ArrayRangeIterator.class
+MD5-Digest: SF107/XMIgXiwxLuriq5qA==
+SHA-Digest: /TEDRc7iIcvpRjBgShlFMEFDZ60=
+
+Name: com/sosnoski/util/CharBuffer.class
+MD5-Digest: aU0hpZkRMbz4AUENH+GC7w==
+SHA-Digest: hyZ/+/7YnUneNy2iWWZXg1DVo6g=
+
+Name: com/sosnoski/util/GrowableBase.class
+MD5-Digest: 6JZATWYk+3OP8jnSAYvPhg==
+SHA-Digest: YJnStZUSLz1lq6oGke1avKPJLHE=
+
+Name: com/sosnoski/util/ObjectHashBase.class
+MD5-Digest: 8tyhiHzPBR1fegzVypKIZw==
+SHA-Digest: wiOjTzSLUls3tKh+A/En/mKknfY=
+
+Name: com/sosnoski/util/PrimitiveHashBase.class
+MD5-Digest: 2xJmOKj0uVAiyyBpH8hw3Q==
+SHA-Digest: xtJnBVmMPcMZAzulwtohXcIWYDo=
+
+Name: com/sosnoski/util/SparseArrayIterator.class
+MD5-Digest: qBP8oLj44DUQkXlWB4cHbw==
+SHA-Digest: Ru9eDG/3FK+bkb27AT79bOy5Ap0=
+
+Name: com/sosnoski/util/WrappedArrayIterator.class
+MD5-Digest: 4Z2NlVcmOxjkFuyggkWeCg==
+SHA-Digest: v/7UKMTr7kkD/dT2fCdS/UBNS04=
+
+Name: com/sosnoski/util/array/ArrayBase.class
+MD5-Digest: 2uCSdjyH5QWig5WtlZcMRw==
+SHA-Digest: fkeZ/ry4ozFP1bDxOwXa+4yq5q4=
+
+Name: com/sosnoski/util/array/ByteArray.class
+MD5-Digest: NBZaBmFF/f+u29E6mCQMLQ==
+SHA-Digest: m30FJWYfAJUY9QAAa+aT8d0iTRg=
+
+Name: com/sosnoski/util/array/CharArray.class
+MD5-Digest: YQJpBr7dYwie1047jt2UAQ==
+SHA-Digest: oCThxYlOL9z7sZjRlNEApcMlXoY=
+
+Name: com/sosnoski/util/array/DoubleArray.class
+MD5-Digest: Ak4mogZTRaATUIot9Mk7Lw==
+SHA-Digest: C9AIu6nKrF4FT0YbJP6eDm1vgS4=
+
+Name: com/sosnoski/util/array/IntArray.class
+MD5-Digest: Z/RpmFvhq+WzzPR1sqm/DA==
+SHA-Digest: Tp7wJHS3l2gn7ZJfi7MmDJ72Ev8=
+
+Name: com/sosnoski/util/array/ObjectArray.class
+MD5-Digest: wirSFDXM2wjY8zQQzs5dgA==
+SHA-Digest: JJyokob90k4FBM+LQzVfSKp8lcE=
+
+Name: com/sosnoski/util/array/StringArray.class
+MD5-Digest: PuZPz0R7Rsq+Msl1Q5YXkw==
+SHA-Digest: znCuopfZIUbE52eEWnruE4GpDIs=
+
+Name: com/sosnoski/util/hashmap/IntStringHashMap.class
+MD5-Digest: BzcGmhK0Oi0qXC9PntdFnw==
+SHA-Digest: fcdi2xYS0rKLdTe0tpkgySgj9u0=
+
+Name: com/sosnoski/util/hashmap/ObjectIntHashMap.class
+MD5-Digest: ilELB+OnhZQb5ZQuEubb8g==
+SHA-Digest: TlU0lhEhkdKk9MGvnCmRE/XlBMs=
+
+Name: com/sosnoski/util/hashmap/ObjectKeyBase.class
+MD5-Digest: CPPhGF9hOeVBSGVSoiD4dg==
+SHA-Digest: l9SNI5ZB3Wv/oSLZhvBCPbt0a0o=
+
+Name: com/sosnoski/util/hashmap/ObjectObjectHashMap.class
+MD5-Digest: 409nZKc9cQpKRRdur/Gy+Q==
+SHA-Digest: AZYf1op+C0fDzrfn6bnVRVrAILE=
+
+Name: com/sosnoski/util/hashmap/PrimitiveKeyBase.class
+MD5-Digest: wsyDqfBIpcNdmJbrc6zs3w==
+SHA-Digest: oA5ChyBDFPU8JCpDKDUFq4lpyX0=
+
+Name: com/sosnoski/util/hashmap/StringIntHashMap.class
+MD5-Digest: R8D5oaIuOEQA9UzBuOAUlQ==
+SHA-Digest: rvB76AuP0XeI75OoaPP5tZ0ZXXM=
+
+Name: com/sosnoski/util/hashset/DoubleHashSet.class
+MD5-Digest: uugioZCS2DcA4wHod8s2dA==
+SHA-Digest: zIRnWfRwk0lK9Y7yX5QvzxVBgSw=
+
+Name: com/sosnoski/util/hashset/IntHashSet.class
+MD5-Digest: Ev9Gsc+76VB1E+oZpskBUg==
+SHA-Digest: PzTmc6i0wEd1KttDrMjWNG3vZi8=
+
+Name: com/sosnoski/util/hashset/ObjectHashSet.class
+MD5-Digest: OwChX7tNf16KqujDt0pJOw==
+SHA-Digest: 0LqhfQu63oRBPrzDgKVelAMBt7Q=
+
+Name: com/sosnoski/util/hashset/ObjectSetBase.class
+MD5-Digest: tptgqvC2kCmBvkyc04B0BA==
+SHA-Digest: 0Mc419ZboO7X1I4NZSztyYXn+nA=
+
+Name: com/sosnoski/util/hashset/PrimitiveSetBase.class
+MD5-Digest: a4YeA15+nkwffOHEjBSM3w==
+SHA-Digest: k+J68VhiSZEsBMGhuhaENqV8BV4=
+
+Name: com/sosnoski/util/hashset/StringHashSet.class
+MD5-Digest: 8kI1TLhxvzuF3oQLj5+4vA==
+SHA-Digest: VBqh7fud/3YVom3dN2fkr7IEd1I=
+
+Name: com/sosnoski/util/queue/IntQueue.class
+MD5-Digest: f0PdvVbgS9QCRbDRu0GhSg==
+SHA-Digest: 0AnD0e6sXAyOK4tmDQOE1XU568w=
+
+Name: com/sosnoski/util/queue/ObjectQueue.class
+MD5-Digest: A1s674osiE48kb5/hdOcZA==
+SHA-Digest: iI5DlyzZ7zOQ+VCTi7o+J3xFFws=
+
+Name: com/sosnoski/util/queue/QueueBase.class
+MD5-Digest: K3OGfB7OxnwKX7//8VQWkg==
+SHA-Digest: oEGHDygU+XTWseR+NolbCGLK/yc=
+
+Name: com/sosnoski/util/queue/StringQueue.class
+MD5-Digest: 01s4fieObLHiWahA2nE8wA==
+SHA-Digest: +WUyt6DAX6W7i8fJXHcR4yn9drU=
+
+Name: com/sosnoski/util/stack/IntStack.class
+MD5-Digest: P6IpWTmuyeesJdXZcFI5Lw==
+SHA-Digest: R3CYpDx1qnN0yLB9VanAn8q8+Xg=
+
+Name: com/sosnoski/util/stack/ObjectStack.class
+MD5-Digest: nXYg8fRb/aIXKqtU3BwvgA==
+SHA-Digest: wxDyGX9LHVlQrDrNJnbRB4wDdOY=
+
+Name: com/sosnoski/util/stack/StackBase.class
+MD5-Digest: m7pEZfdd+ezldBtJXQie1g==
+SHA-Digest: QSBWHK5juo4gT5dCbUcs9HykkX4=
+
+Name: com/sosnoski/util/stack/StringStack.class
+MD5-Digest: 4Ajo1V8WSOavHI+zDSCi3Q==
+SHA-Digest: 3iD0cjF0YYXpOYmhT77994VY/yM=
+
+Name: info/clearthought/layout/SingleFiledLayout.class
+MD5-Digest: z5mXWxK7k9cpNhg8+C5P+Q==
+SHA-Digest: XSW4ozophTscS5iR3TUIGbXc5ZM=
+
+Name: info/clearthought/layout/TableLayout$Entry.class
+MD5-Digest: oQnaVFow69mnMc4j0+C7dw==
+SHA-Digest: LRRUbAT9q5A5rFAgFdgXCrpbUXE=
+
+Name: info/clearthought/layout/TableLayout.class
+MD5-Digest: zZvuqGAEbS8ppCO8WMBO0Q==
+SHA-Digest: 1r3w2tA7U2D0xRTWxomwtYH+vbE=
+
+Name: info/clearthought/layout/TableLayoutConstants.class
+MD5-Digest: dnHjUpXlQEyCvr1Qaw1EHw==
+SHA-Digest: cseetzppRljLqffxUpQ7X/Sp1Z4=
+
+Name: info/clearthought/layout/TableLayoutConstraints.class
+MD5-Digest: NLbUNaUqKhakjUUNbbDNSA==
+SHA-Digest: wYLQcNw950UJ2Q9sprEXzzIxwbI=
+
+Name: org/apache/commons/cli/AlreadySelectedException.class
+MD5-Digest: fKG1C/AqpVeYE5F2ANx7rw==
+SHA-Digest: bYFnhp+NGylQME+HRq+Nj483elQ=
+
+Name: org/apache/commons/cli/BasicParser.class
+MD5-Digest: jevefe5rEBxPF6MFFY2CiQ==
+SHA-Digest: fCetcXrBOz785vH1wikeQxtX3K0=
+
+Name: org/apache/commons/cli/CommandLine.class
+MD5-Digest: MpaO/CBXM8M5AeFKa+pAtw==
+SHA-Digest: WaJCQFKCgShfDvYqxhOXDIkhX0I=
+
+Name: org/apache/commons/cli/CommandLineParser.class
+MD5-Digest: /wg5cg6uXH5DXVoBVloXeA==
+SHA-Digest: sJJDmA43JmDhDa096EfpYZmjVH0=
+
+Name: org/apache/commons/cli/GnuParser.class
+MD5-Digest: wW4IETZoLPAcgu617oF1ZQ==
+SHA-Digest: IZ6hXyrLec36iYsg24/DcwgYjYA=
+
+Name: org/apache/commons/cli/HelpFormatter$1.class
+MD5-Digest: 7rfcD8uz2C4LpQVNrhjCcg==
+SHA-Digest: dCRHeDPawBm/lOPkO4qHiNhxXN0=
+
+Name: org/apache/commons/cli/HelpFormatter$OptionComparator.class
+MD5-Digest: U1RsE4X1gwiqT8UB1/J04A==
+SHA-Digest: VK6K7rvHSuoR7FlbZxwVIBd+LMs=
+
+Name: org/apache/commons/cli/HelpFormatter.class
+MD5-Digest: eqb80Jkt9L+hALQ9TcRKNQ==
+SHA-Digest: o/vy6U0JYMZDR1/UgmmWFRvV2B8=
+
+Name: org/apache/commons/cli/MissingArgumentException.class
+MD5-Digest: Kavc8NYteD4LTw569DUSHQ==
+SHA-Digest: 0Qsz4VRhc0E3a0s2cSYMM1UESu0=
+
+Name: org/apache/commons/cli/MissingOptionException.class
+MD5-Digest: BVWLFeR1MG2t66CWtNtU3g==
+SHA-Digest: Vz7z/gLFY4ja+rVYK7QNqIJasf0=
+
+Name: org/apache/commons/cli/Option.class
+MD5-Digest: jX+41QasI943oyoyvrbiYw==
+SHA-Digest: zsmZHwa8iC/LDFkTKiM6jH1z+Fo=
+
+Name: org/apache/commons/cli/OptionBuilder.class
+MD5-Digest: ivmzt4Ljv+CxYMQJddGXWg==
+SHA-Digest: Z56DrRtAIfqjv67DHs4j1PBVk7Q=
+
+Name: org/apache/commons/cli/OptionGroup.class
+MD5-Digest: crHWSIItn55BJZ7ZY9h+IA==
+SHA-Digest: wDNdlVcad8BmyBHAyLOLlg6J9es=
+
+Name: org/apache/commons/cli/OptionValidator.class
+MD5-Digest: aBuZOQ0kA4LcePKTXtwXXw==
+SHA-Digest: oDDp8ml8PP8PpicLUldBA8CTIX4=
+
+Name: org/apache/commons/cli/Options.class
+MD5-Digest: fv/SahAq7C7yftQ1yXU/dg==
+SHA-Digest: KEyFj40lQ31Ec0z5ssiFD7lXVyY=
+
+Name: org/apache/commons/cli/ParseException.class
+MD5-Digest: e9bb0BkTIsWvb9IPkDWh4g==
+SHA-Digest: SKmvV23OOU3B4NscYUw7aRZ/1/4=
+
+Name: org/apache/commons/cli/Parser.class
+MD5-Digest: wYibeM5v5NhN0uaix3Erqg==
+SHA-Digest: NAscDZh6O7PVT8rrkr+Noeji7ts=
+
+Name: org/apache/commons/cli/PatternOptionBuilder.class
+MD5-Digest: skLuzd0ityxvTe55+N5mog==
+SHA-Digest: cJZDQIeq6RDzmmJud+ICuJpSON4=
+
+Name: org/apache/commons/cli/PosixParser.class
+MD5-Digest: jXr0qgDqOhixgSz1vJ3NQA==
+SHA-Digest: UirvtGTLFR+c/LGk1q35rArXtcU=
+
+Name: org/apache/commons/cli/TypeHandler.class
+MD5-Digest: leZ3iTfO3z/4Yv/k3Yg34Q==
+SHA-Digest: g2R3enXRyvy0YwxupXF/UhF1iMg=
+
+Name: org/apache/commons/cli/UnrecognizedOptionException.class
+MD5-Digest: yKcoZiz/NJxxDNwiO296Jg==
+SHA-Digest: HJvBZKruadDMQPZ8/A2PTQbfuII=
+
+Name: org/apache/commons/cli/Util.class
+MD5-Digest: E6tm1FKlvRqiYsm2Qhtr5w==
+SHA-Digest: IbEgRYJJSQjwZpxsl4eyfNbqq9s=
+
+Name: uk/ac/rhul/cs/cl1/AbstractNodeSetMerger.class
+MD5-Digest: PEMVyD/LhDDXEXij9TRE8w==
+SHA-Digest: bqyi3E+hUiUVorBKPMz5sNGvVtQ=
+
+Name: uk/ac/rhul/cs/cl1/ClusterGrowthAction$Type.class
+MD5-Digest: wwygmTe+I/elRukL++Aeaw==
+SHA-Digest: YHokaI0k1k/ali78owAkyQ03U3s=
+
+Name: uk/ac/rhul/cs/cl1/ClusterGrowthAction.class
+MD5-Digest: zfdES/s0s2IbFI55XIL8YQ==
+SHA-Digest: MWFWjY9+l/iOKJwgArK5RgfoSsA=
+
+Name: uk/ac/rhul/cs/cl1/ClusterGrowthProcess.class
+MD5-Digest: j+LInCOn5xO6rFdDMQoWYA==
+SHA-Digest: ygWoX9jSHRlfGn//uZUT0nlrstQ=
+
+Name: uk/ac/rhul/cs/cl1/ClusterONE.class
+MD5-Digest: 6j2igCuZ1fANMiFlCzglwQ==
+SHA-Digest: mrxG4lKLPE88tfSTte6g8JatYw8=
+
+Name: uk/ac/rhul/cs/cl1/ClusterONEAlgorithmParameters.class
+MD5-Digest: ADr6yxV4856tFXmPY1uFDg==
+SHA-Digest: oDE8clcNt8lwCo3EtSrG/MRuw08=
+
+Name: uk/ac/rhul/cs/cl1/ClusterONEException.class
+MD5-Digest: YmBjaJQpum7Jm7z0U0xFKA==
+SHA-Digest: vXRxsNqSwR29FiTL4GlZ/1i7FaU=
+
+Name: uk/ac/rhul/cs/cl1/CohesivenessFunction.class
+MD5-Digest: GurPJFABOVcnqEpj133Qrg==
+SHA-Digest: x/yu+8HZfOY5DN0sP3vT07/ki/s=
+
+Name: uk/ac/rhul/cs/cl1/DiceSimilarity.class
+MD5-Digest: ThFIPbCDOrUYARYuBJrBVA==
+SHA-Digest: Zf6Lvx9dhN7qvXWPjta6i3lZ/C8=
+
+Name: uk/ac/rhul/cs/cl1/DummyNodeSetMerger.class
+MD5-Digest: G3U/lpkaelLEuI0lr+iJ7Q==
+SHA-Digest: v8uveVq/mmwx4ZReyKIS9pisd8s=
+
+Name: uk/ac/rhul/cs/cl1/DummyQualityFunction.class
+MD5-Digest: 4U8X6aAZuOWsXv6fYSJ5+Q==
+SHA-Digest: s0zU0Fv2QRALaRsYGB1yWkl9YUw=
+
+Name: uk/ac/rhul/cs/cl1/GreedyClusterGrowthProcess.class
+MD5-Digest: 3OxhWsPxdN5YBZaUbkh5Sg==
+SHA-Digest: FPYyekaSAO7HQreQNCu+RFiJAj8=
+
+Name: uk/ac/rhul/cs/cl1/Intersectable.class
+MD5-Digest: ml7Ypip4as6ua4dUdjhjXg==
+SHA-Digest: OySgbX00Jo18JuAiFVHTj7PdzYs=
+
+Name: uk/ac/rhul/cs/cl1/JaccardSimilarity.class
+MD5-Digest: axbPP97v0s+BpB4NwXj1GA==
+SHA-Digest: wfk9qNprw7aA9wQt/bEGnfWu82E=
+
+Name: uk/ac/rhul/cs/cl1/LogLikelihoodFunction.class
+MD5-Digest: GUEgLCrXGhaKzx569mdUuw==
+SHA-Digest: d52l+BRFjp/OhCTOBug1+A6q2JY=
+
+Name: uk/ac/rhul/cs/cl1/MatchingScore.class
+MD5-Digest: c3KYIe+aOV/xGykGiVM/Dw==
+SHA-Digest: upEAEL4b/gc6T+SptgaDgIvwQKs=
+
+Name: uk/ac/rhul/cs/cl1/MultiPassNodeSetMerger$NodeSetPair.class
+MD5-Digest: sW900nSU6NByqW4EuGMFuQ==
+SHA-Digest: EcSfhtxry7m90vVJ6y8a+dIOf/g=
+
+Name: uk/ac/rhul/cs/cl1/MultiPassNodeSetMerger$VerificationMode.class
+MD5-Digest: JQwik2dAUrs95/5PIxM4Sg==
+SHA-Digest: LSSD/cbVsp4dfLzn3J4OO69vbPI=
+
+Name: uk/ac/rhul/cs/cl1/MultiPassNodeSetMerger.class
+MD5-Digest: 7vG6w65M0QmFT0U14RuCGg==
+SHA-Digest: Gw5RLH1fZjD1JfSG7cl+PoRfd8k=
+
+Name: uk/ac/rhul/cs/cl1/MutableNodeSet.class
+MD5-Digest: zeYheTuLmSQrBrWHYKKf5Q==
+SHA-Digest: Yg4h4BSgoR2VC3u1JbUlCtpa6Vc=
+
+Name: uk/ac/rhul/cs/cl1/NodeSet.class
+MD5-Digest: yTHChU9jnof/7hXtrQvmMg==
+SHA-Digest: RABu0dFKviVmDapT8t+qwopg80I=
+
+Name: uk/ac/rhul/cs/cl1/NodeSetMerger.class
+MD5-Digest: Uk2dHmhDP6U1KBMeHU4Tqw==
+SHA-Digest: qQKExjdsNHUd68qizmlDrmKZYPY=
+
+Name: uk/ac/rhul/cs/cl1/NullTaskMonitor.class
+MD5-Digest: EwonC7GRVCQJle4IixoGFA==
+SHA-Digest: fWoZGqqbs3HhMbrhHl2A9y2w20k=
+
+Name: uk/ac/rhul/cs/cl1/QualityFunction.class
+MD5-Digest: 3A/RHsjn87AN5Y26fMENKA==
+SHA-Digest: oG0AOJCMyfHMRZCgDTZO+WaUfdU=
+
+Name: uk/ac/rhul/cs/cl1/SimilarityFunction.class
+MD5-Digest: 0Zn05u1W6Vc9F1ssewWvpg==
+SHA-Digest: v1jZvsUSYnuQcOFshxmAmigAGIs=
+
+Name: uk/ac/rhul/cs/cl1/SimpsonCoefficient.class
+MD5-Digest: LRPEhH1FRsvLbmb44mV72Q==
+SHA-Digest: XpOSMy17arvHsZySUXoiW66EiOI=
+
+Name: uk/ac/rhul/cs/cl1/SinglePassNodeSetMerger.class
+MD5-Digest: Geh5frDjs0KqAaVyuLAPrg==
+SHA-Digest: m81EHEN2fmbX7jAjf2uyMe9plXg=
+
+Name: uk/ac/rhul/cs/cl1/Sized.class
+MD5-Digest: 4Is1IsDTLlu/hRwlsr2BTg==
+SHA-Digest: F85a0qmn/qRktJ8e+b1RdNWSiNg=
+
+Name: uk/ac/rhul/cs/cl1/TaskMonitor.class
+MD5-Digest: GC2ZiwFxfzDVVtvJ+sfX8A==
+SHA-Digest: RWRt7Ser0xbxnKZD/nHUebAZLig=
+
+Name: uk/ac/rhul/cs/cl1/ValuedNodeSet.class
+MD5-Digest: GwbMtcEveKOyLoADnhOtpw==
+SHA-Digest: XEIg/tutfx5b6TnJ28Vaz7wdjKU=
+
+Name: uk/ac/rhul/cs/cl1/ValuedNodeSetList.class
+MD5-Digest: kYpTXuSp4uUcBoQAePI4eQ==
+SHA-Digest: FGPGad3YcUIIsh2LJlud/eoyhZ0=
+
+Name: uk/ac/rhul/cs/cl1/filters/DensityFilter.class
+MD5-Digest: IRrbmMdkvVvwiccFyorkug==
+SHA-Digest: 2jUpI08DvNymzClEBOXk6tKgQaw=
+
+Name: uk/ac/rhul/cs/cl1/filters/DiameterFilter.class
+MD5-Digest: yr12PlwsHb/1B0Oq/OJF+Q==
+SHA-Digest: HZunVwo5Y/uLI8CQ/swowWMyW6U=
+
+Name: uk/ac/rhul/cs/cl1/filters/FilterChain.class
+MD5-Digest: NLbw8vYl4SCOk86wn/rEVw==
+SHA-Digest: NiajMqU+Tc9/LrWFuIZxIYNAsgQ=
+
+Name: uk/ac/rhul/cs/cl1/filters/FluffingFilter.class
+MD5-Digest: 6QptLLrkQZoWTXTN8RUENw==
+SHA-Digest: sNyfOJPpw0MfstWx+sjDIeEt2/8=
+
+Name: uk/ac/rhul/cs/cl1/filters/HaircutFilter.class
+MD5-Digest: iLQjltaCrUbKWWSWrduIQQ==
+SHA-Digest: y8blX++q8t0k7/uhq8Rm9EaxJH0=
+
+Name: uk/ac/rhul/cs/cl1/filters/KCoreFilter.class
+MD5-Digest: uvoU72kcsK6Pvz3v6StaDg==
+SHA-Digest: o5rbpI0fkG1x1SCcEUZ7J7DNsOU=
+
+Name: uk/ac/rhul/cs/cl1/filters/NodeSetFilter.class
+MD5-Digest: 6cYXs3Qswk3H7E7AopiK7A==
+SHA-Digest: YEM/YJGpd+lu0kgHcwhQrq/r56A=
+
+Name: uk/ac/rhul/cs/cl1/filters/SizeFilter.class
+MD5-Digest: fVqPhxqkQuIiLrC8NHyplQ==
+SHA-Digest: nTy+ZUrVcxx/UNdDexq1TrtDhbU=
+
+Name: uk/ac/rhul/cs/cl1/io/AbstractClusteringWriter.class
+MD5-Digest: iwFQNCJmAaIk98iGsuskuA==
+SHA-Digest: 02Q+pb1M11fKcGG8s3fxEpUez1Q=
+
+Name: uk/ac/rhul/cs/cl1/io/AbstractGraphWriter.class
+MD5-Digest: zH7/xQzbSveB2GjT/CS6aw==
+SHA-Digest: Yr7TQLdNKC+EkI/FMNxoLL4IKBA=
+
+Name: uk/ac/rhul/cs/cl1/io/CSVClusteringWriter.class
+MD5-Digest: EzSMkVVRobYAxyn5z/LvcA==
+SHA-Digest: cfGzQfGdyldkzvpY7koiE6+Sl3Y=
+
+Name: uk/ac/rhul/cs/cl1/io/ClusteringWriter.class
+MD5-Digest: K8HzSyTOrkkt3wjKgwwwbw==
+SHA-Digest: WWg6OXZ81xoB+yDHKsqFzhw3AWg=
+
+Name: uk/ac/rhul/cs/cl1/io/ClusteringWriterFactory$1.class
+MD5-Digest: riGtLsjjaqX5SM+okhNmKw==
+SHA-Digest: 1zqomucDFqxulqSFqsXoqLShc8I=
+
+Name: uk/ac/rhul/cs/cl1/io/ClusteringWriterFactory$Format.class
+MD5-Digest: zPowL9WQX5bBc00HI+E9ng==
+SHA-Digest: T3rsHVWSBwPXNd0vFPXJkfEq5Xk=
+
+Name: uk/ac/rhul/cs/cl1/io/ClusteringWriterFactory.class
+MD5-Digest: s4/uF+zyH3VFsxBiVbBPhw==
+SHA-Digest: JAuu5JwnQUqiOgt4BroqKUuiEgA=
+
+Name: uk/ac/rhul/cs/cl1/io/EdgeListReader.class
+MD5-Digest: eDUD2AeikTcm6QWwp1ndtg==
+SHA-Digest: uvaZPwUNpZ1qXbDbKfbSN858w3c=
+
+Name: uk/ac/rhul/cs/cl1/io/EdgeListWriter.class
+MD5-Digest: stEumtOqdNhoFs3hKXfRSA==
+SHA-Digest: kGZPxg+OT8Z+r9JCs9hf6cAjZTc=
+
+Name: uk/ac/rhul/cs/cl1/io/GeneProClusteringWriter.class
+MD5-Digest: JBFTXEJ2Hr5H1Fh3CLUosA==
+SHA-Digest: Db6Fk/xfBDX3/dv3B4814/UER7Y=
+
+Name: uk/ac/rhul/cs/cl1/io/GraphReader.class
+MD5-Digest: ZUvFi0hjbN0cVOa6qQoukg==
+SHA-Digest: Ay3UoyqFdZQO7qg//5pkaWlwCO8=
+
+Name: uk/ac/rhul/cs/cl1/io/GraphReaderFactory$1.class
+MD5-Digest: 0kYJxCiIYz1EiYZMKYCpfQ==
+SHA-Digest: bO83KWtvaUp2UFfN2QB0rHHfdb8=
+
+Name: uk/ac/rhul/cs/cl1/io/GraphReaderFactory$Format.class
+MD5-Digest: bMMTSD/bwaZBo+PnoBH/fA==
+SHA-Digest: 6lOPpdN3v6/T/zJPc/44j+65Bz0=
+
+Name: uk/ac/rhul/cs/cl1/io/GraphReaderFactory.class
+MD5-Digest: VTY6nWMpif3jn8/iFmkoEA==
+SHA-Digest: ckxgL0EFLDxOEXGCwi+v4o5rObg=
+
+Name: uk/ac/rhul/cs/cl1/io/GraphWriter.class
+MD5-Digest: iiLekwrxufp7u0vWVl7YvA==
+SHA-Digest: lFLVZAiyhAIngroVeh+lsn7/2o8=
+
+Name: uk/ac/rhul/cs/cl1/io/PlainTextClusteringWriter.class
+MD5-Digest: EOdfSlqN8uZxBaJP9TGH+w==
+SHA-Digest: iYIP6CNDOgttXq1VJ8fJ1Ude3iY=
+
+Name: uk/ac/rhul/cs/cl1/io/SIFReader.class
+MD5-Digest: dvaqZdb3oTFUjoqCz9LbGg==
+SHA-Digest: JBF4LCMvvVHFaIAEwtb8PcLdQmk=
+
+Name: uk/ac/rhul/cs/cl1/resources/about_dialog.txt
+MD5-Digest: Q4zlLaxDxtjxTXhxMXCE/g==
+SHA-Digest: gqz4H0Cyk6w7iR7a4wq+EMnDoZY=
+
+Name: uk/ac/rhul/cs/cl1/resources/close.png
+MD5-Digest: QkkmhOJDVqQIETSJTqvrng==
+SHA-Digest: pU5ESZ97QIxsWMIJ7Qj6FMB7K3w=
+
+Name: uk/ac/rhul/cs/cl1/resources/details.gif
+MD5-Digest: 13a9EBGTF8huXnKCuSvpSg==
+SHA-Digest: wcNcQremGTICcCh/9aqI4QvrWLg=
+
+Name: uk/ac/rhul/cs/cl1/resources/details.png
+MD5-Digest: Bw+9IprIspGLTosbT0HH+A==
+SHA-Digest: P+iELYk4n0c8B2L/WgllgqlUyFs=
+
+Name: uk/ac/rhul/cs/cl1/resources/find.png
+MD5-Digest: nxygy2mGHhmqy0HQl63AgQ==
+SHA-Digest: GFzHLrbyvIgjfMrkALmAkqYfWvc=
+
+Name: uk/ac/rhul/cs/cl1/resources/logo.png
+MD5-Digest: //p10Riu+NGQZET8Y9OgUQ==
+SHA-Digest: /y+6Q92f4xFNj7oVDrHorUXCCzE=
+
+Name: uk/ac/rhul/cs/cl1/resources/minus.gif
+MD5-Digest: tsRrmemGXBFc0bS1QhZGNA==
+SHA-Digest: 5xFWtPyR1kNp8I0OfTCeKjY7KAg=
+
+Name: uk/ac/rhul/cs/cl1/resources/plus.gif
+MD5-Digest: AD9X6+aqFv2VQzDn3pw41A==
+SHA-Digest: XzTHqLGt8k9XV/a7jdeZDz6byBY=
+
+Name: uk/ac/rhul/cs/cl1/resources/refresh.png
+MD5-Digest: a5V3hGD2YKp8CPR9JEeApw==
+SHA-Digest: 8u6hvrle3WAJpvUJjMzDlieU4bM=
+
+Name: uk/ac/rhul/cs/cl1/resources/save.png
+MD5-Digest: u208bdKxGCykh30F9+Z6kQ==
+SHA-Digest: 9ydU/Rvfg7h+5xf/b1sYGuc4TNI=
+
+Name: uk/ac/rhul/cs/cl1/resources/wait.jpg
+MD5-Digest: 8CW1LDyYJPtoUfqGYfKOAA==
+SHA-Digest: ceCJy4ojTDuPXEvr+zWYiwP0rHw=
+
+Name: uk/ac/rhul/cs/cl1/seeding/EveryEdgeSeedGenerator$IteratorImpl.clas
+ s
+MD5-Digest: oj6MN5OXcRpLF/ObOX5drg==
+SHA-Digest: /C0TFmMx3MIxDjB1BWObi7h0aJw=
+
+Name: uk/ac/rhul/cs/cl1/seeding/EveryEdgeSeedGenerator.class
+MD5-Digest: CRYGLgfwoq4X68bjWknO5Q==
+SHA-Digest: fQHL3S4xs7BkgpeCQ0NMUJqPkaY=
+
+Name: uk/ac/rhul/cs/cl1/seeding/EveryNodeSeedGenerator$IteratorImpl.clas
+ s
+MD5-Digest: PMunoYISuAlnd/6+AeFZFw==
+SHA-Digest: A7iR8CXVJpUB4DmEALP5dF+U9tk=
+
+Name: uk/ac/rhul/cs/cl1/seeding/EveryNodeSeedGenerator.class
+MD5-Digest: zpWNj+YEVvSrNX95zTvNGw==
+SHA-Digest: 8QHfdYKpd2bijbF+ag/E8yM9JMU=
+
+Name: uk/ac/rhul/cs/cl1/seeding/FileBasedSeedGenerator$IteratorImpl.clas
+ s
+MD5-Digest: kTLKR6ym/8FQ/vYAIBk90A==
+SHA-Digest: D0ezWx2sqItlhTIOxGwZ+SLRc/Q=
+
+Name: uk/ac/rhul/cs/cl1/seeding/FileBasedSeedGenerator.class
+MD5-Digest: XaOTxPcygS386zpwYFZ1RQ==
+SHA-Digest: hUf8igeDl/deyi7pBT+XnNbimoA=
+
+Name: uk/ac/rhul/cs/cl1/seeding/MaximalCliqueSeedGenerator$IteratorImpl$
+ 1.class
+MD5-Digest: 1iUv6qVsUMujTSWY1zJYyg==
+SHA-Digest: xLQv2M6skcftS7Z8EyWrg5mRMUs=
+
+Name: uk/ac/rhul/cs/cl1/seeding/MaximalCliqueSeedGenerator$IteratorImpl.
+ class
+MD5-Digest: mQOflLOGJ9cPkub+EJSDhw==
+SHA-Digest: CrYG4QV1qPeLeRkeCxirtpSuUw4=
+
+Name: uk/ac/rhul/cs/cl1/seeding/MaximalCliqueSeedGenerator.class
+MD5-Digest: VjH0wj67reE4p4imXIsQzw==
+SHA-Digest: xAUoxhdaB5uX0Y7CrVFAy32aPwI=
+
+Name: uk/ac/rhul/cs/cl1/seeding/NodeSetCollectionBasedSeedGenerator.clas
+ s
+MD5-Digest: 7UneGDHLfsqtAcZ2ki4ZmA==
+SHA-Digest: U11gzGz4Uj6X4VNzbYBoHSdbjZw=
+
+Name: uk/ac/rhul/cs/cl1/seeding/NodeSetCollectionBasedSeedIterator.class
+MD5-Digest: tR53uh/kOw24HvyVkMU9UQ==
+SHA-Digest: H65EhRezJGRirL1WSGuaQ/weOP8=
+
+Name: uk/ac/rhul/cs/cl1/seeding/SeedGenerator.class
+MD5-Digest: 0yUaxERYfW/VmJGU5YEulw==
+SHA-Digest: i05Tzu8P9rcLJQT+Md3br9/BhrE=
+
+Name: uk/ac/rhul/cs/cl1/seeding/SeedIterator.class
+MD5-Digest: i/3G6pZd/KH4QzWT8ARSTA==
+SHA-Digest: JGQoey9Xw7zM8qIGlXEFxbbam4Y=
+
+Name: uk/ac/rhul/cs/cl1/seeding/StreamBasedSeedGenerator$IteratorImpl.cl
+ ass
+MD5-Digest: w/xPjZ8I1Hukl/wbcXvTuQ==
+SHA-Digest: o6KE7gpGr5IyDrfENjej5fbQxfM=
+
+Name: uk/ac/rhul/cs/cl1/seeding/StreamBasedSeedGenerator.class
+MD5-Digest: hX9F3TLM4hpjHxGzQX0/WQ==
+SHA-Digest: bQivQvFf9Vg6wW+Py6cY2rNJ+64=
+
+Name: uk/ac/rhul/cs/cl1/seeding/UnusedNodesSeedGenerator$IteratorImpl$1.
+ class
+MD5-Digest: aCRUUdMo29EdIP9XY7+CiA==
+SHA-Digest: GNyAYeMheQxvxnshLWaMTzEnx+8=
+
+Name: uk/ac/rhul/cs/cl1/seeding/UnusedNodesSeedGenerator$IteratorImpl.cl
+ ass
+MD5-Digest: dTjiQGbrgWQ0LA19td0ohQ==
+SHA-Digest: pR32T55qHBb1/Fqe0YtcUyL+lUo=
+
+Name: uk/ac/rhul/cs/cl1/seeding/UnusedNodesSeedGenerator.class
+MD5-Digest: GWgurq0mSDFdI+P+EUgUnA==
+SHA-Digest: pZHiEQ4DXPBK/keywViDhI7mjNY=
+
+Name: uk/ac/rhul/cs/cl1/ui/AboutDialog.class
+MD5-Digest: Its2X4r2MHNhKGIZp+wdlQ==
+SHA-Digest: JfK6gLMDCAgNJwOCbaG+3ZmNaO8=
+
+Name: uk/ac/rhul/cs/cl1/ui/ClusterONEAlgorithmParametersDialog.class
+MD5-Digest: F+mYUorAqe2f8BxA9hFiiQ==
+SHA-Digest: +0iY8OpHccXniwdlIYwOd53LE4Q=
+
+Name: uk/ac/rhul/cs/cl1/ui/ClusterONEAlgorithmParametersPanel$1.class
+MD5-Digest: XI639WVXn76ISZyz93/qqg==
+SHA-Digest: 6NS3DrsWBVwldl7ulsqD6zM7FFk=
+
+Name: uk/ac/rhul/cs/cl1/ui/ClusterONEAlgorithmParametersPanel$LenientNum
+ berFormatter.class
+MD5-Digest: cLquNVl97juiG68ac4/Qcw==
+SHA-Digest: dV0TN7zQsvDVNt7ERsdU5zKQDn4=
+
+Name: uk/ac/rhul/cs/cl1/ui/ClusterONEAlgorithmParametersPanel$PropertyCh
+ angeManager.class
+MD5-Digest: plf+2hjktuQu+SvzmUGjhA==
+SHA-Digest: cxWX1Z3LxXGpChrfjQVCrt+bknI=
+
+Name: uk/ac/rhul/cs/cl1/ui/ClusterONEAlgorithmParametersPanel$Section.cl
+ ass
+MD5-Digest: 17lxs8V+UzfmkDcfbR3Asg==
+SHA-Digest: s2EZ4/pivSuivtONMA6tITbzims=
+
+Name: uk/ac/rhul/cs/cl1/ui/ClusterONEAlgorithmParametersPanel.class
+MD5-Digest: Hmitq7ky1xqtc335o5U2qg==
+SHA-Digest: xGIxvQraio98cpYWdJtPaSsRXvY=
+
+Name: uk/ac/rhul/cs/cl1/ui/CollapsiblePanel$1.class
+MD5-Digest: mD4c0i2NbrXjZjG9iWlryw==
+SHA-Digest: rYSfGvEg3RqAnAv9zfF+NnkOwjc=
+
+Name: uk/ac/rhul/cs/cl1/ui/CollapsiblePanel.class
+MD5-Digest: M7ao4x1pqqcUx2xq0C0YPg==
+SHA-Digest: Mpgu0fj1yy3oWhWIiCfDbfjd7oc=
+
+Name: uk/ac/rhul/cs/cl1/ui/ConsoleTaskMonitor.class
+MD5-Digest: OQp1pPMFFa/kmXop5Q1xew==
+SHA-Digest: DVA9wefOCuRAT9m0U9cmoDh2JB4=
+
+Name: uk/ac/rhul/cs/cl1/ui/EmptyIcon.class
+MD5-Digest: NZFR8Yi1WaIUemD4CDOKAg==
+SHA-Digest: v+7RhiY0+DK5wsalJ4SfFZHh+JM=
+
+Name: uk/ac/rhul/cs/cl1/ui/ExtendedSpinnerNumberModel$MyChangeListener.c
+ lass
+MD5-Digest: gqNL3gvJyO9QMc//ITatWw==
+SHA-Digest: at73eu8BGaw1jzkvk0WRAi0NavQ=
+
+Name: uk/ac/rhul/cs/cl1/ui/ExtendedSpinnerNumberModel.class
+MD5-Digest: Fxy5RWkscwu7vqEWuE3CtQ==
+SHA-Digest: 2UFt+RwbVB8IymuuGLOF3nz03oQ=
+
+Name: uk/ac/rhul/cs/cl1/ui/GraphRenderer.class
+MD5-Digest: ZObWYXGlwp+48SaeK64X2g==
+SHA-Digest: wG7waTJgh6SOwz9aaI3xhXPN5KU=
+
+Name: uk/ac/rhul/cs/cl1/ui/HeightLimitedJLabelRenderer.class
+MD5-Digest: 2mWxWjkASoV/eOlBpx+t+Q==
+SHA-Digest: /fLK9aVRh8os8JDsJjbUSAn5PSk=
+
+Name: uk/ac/rhul/cs/cl1/ui/JMultiLineToolTip.class
+MD5-Digest: L4FCRzHv/3zKcHXzm06ebQ==
+SHA-Digest: 49NmeMcIT9x2ez/1OIZ+N2D0NBo=
+
+Name: uk/ac/rhul/cs/cl1/ui/MultiLineToolTipUI.class
+MD5-Digest: XX5JvbCfpy1X2Kw0qyIMQQ==
+SHA-Digest: 4FxFUD5/KpAR4HKcx9gRrea1xDk=
+
+Name: uk/ac/rhul/cs/cl1/ui/NodeSetDetails.class
+MD5-Digest: n6+iT3f3IrUXemFcMkDC9Q==
+SHA-Digest: 7en3/iLPprYqbIv7JRZeCKYCUXk=
+
+Name: uk/ac/rhul/cs/cl1/ui/NodeSetPropertiesPanel$RightAlignedLabelRende
+ rer.class
+MD5-Digest: fIQuLOICFGWQb5hzSe/MDw==
+SHA-Digest: L4I7b8OFg1TlYbisirwUwLayV7A=
+
+Name: uk/ac/rhul/cs/cl1/ui/NodeSetPropertiesPanel.class
+MD5-Digest: Mz0XyzaoO0mu2EWT0f0owA==
+SHA-Digest: 8S+zLf6KTwfdyEvfkR6xrsLVlH8=
+
+Name: uk/ac/rhul/cs/cl1/ui/NodeSetTableModel$RendererTask.class
+MD5-Digest: YonjrnXxQxwOyYxJ+OQ07Q==
+SHA-Digest: qRDzItyXoGNF3M2I4axqjMv80iE=
+
+Name: uk/ac/rhul/cs/cl1/ui/NodeSetTableModel.class
+MD5-Digest: tNp8b9QXsRwy61oXcwadOA==
+SHA-Digest: A7NxSyqr65YjsBIjE8CdukOhon0=
+
+Name: uk/ac/rhul/cs/cl1/ui/PValueRenderer.class
+MD5-Digest: 9F9tEn+f6h3YnLHkzkFdsg==
+SHA-Digest: 7r0tf+ga2S3mF4vQ0kR4Is/H3S0=
+
+Name: uk/ac/rhul/cs/cl1/ui/PopupMenuTrigger.class
+MD5-Digest: hHGmzUyd4MYyvPUc4F4q4w==
+SHA-Digest: sV9WrrNcE1c9RDar4w9rcNeNnGI=
+
+Name: uk/ac/rhul/cs/cl1/ui/RemoveClusterFromResultAction.class
+MD5-Digest: HH4HpfZDJW9xZVb6/qW//w==
+SHA-Digest: ZWdNbf3QuFf2jcve68jLlxavLTM=
+
+Name: uk/ac/rhul/cs/cl1/ui/ResultViewerPanel$1.class
+MD5-Digest: mRNya2jXJNQxpnAZy3HUIA==
+SHA-Digest: rjA5AzIIp9WKva7McLGLnN98Smc=
+
+Name: uk/ac/rhul/cs/cl1/ui/ResultViewerPanel.class
+MD5-Digest: dgJGk8mXD7WdOMMcZdbyRg==
+SHA-Digest: 4GpCPeAPJjY2qsdSk1c7USb2eKc=
+
+Name: uk/ac/rhul/cs/cl1/ui/ShowDetailedResultsAction.class
+MD5-Digest: 8u0TDDNrOo6ApBLDrFZqvw==
+SHA-Digest: N8+013JZl6nRRA3aiAPyHw37eO0=
+
+Name: uk/ac/rhul/cs/cl1/ui/SwingTaskMonitor.class
+MD5-Digest: 2DNOUH7bsSYbEGMHFRY5Ug==
+SHA-Digest: cHRsIzFsuUKN9mBsd3CeKw2FZd8=
+
+Name: uk/ac/rhul/cs/cl1/ui/cmdline/CommandLineApplication.class
+MD5-Digest: CTNEEIbJ7VnxFjvYA492eQ==
+SHA-Digest: Yn8NDY+Cbct3rbElsDqPg2s4a+0=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/AboutAction.class
+MD5-Digest: SxWLbH+r/Pb8UlHuW9Z0zA==
+SHA-Digest: heCCnzoWOv3HG2YJE76NGsnfquM=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/AboutDialog.class
+MD5-Digest: upttuXBswD3ILBp/uQzFXQ==
+SHA-Digest: DCwi/IP/0INvMlEbSdGHelV7LV8=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/AffinityColouringAction.class
+MD5-Digest: RutDhVwTrRECzU91ip25ew==
+SHA-Digest: l/yvAyKxXNansvmQG3cl8ZRqjNk=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/CloseControlPanelAction.class
+MD5-Digest: weT3SZmPFQ1Ycn/zumPVfw==
+SHA-Digest: DBVPIFo3+BdBUEwGyZV3cz8e22w=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/ClusterONECytoscapeTask.class
+MD5-Digest: a8UwkkF9FMxsUEZNb5P0GA==
+SHA-Digest: ANf27jihOfajWdhn9VuAkzyLwAI=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/ControlPanel$1.class
+MD5-Digest: 9ShbVc12z6yeGQ+oIrXpxA==
+SHA-Digest: /71+v61sG0gKCKPEQ53+gdqNRyM=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/ControlPanel.class
+MD5-Digest: aPGP3uduNyRFEEIxBjkQgg==
+SHA-Digest: sARpnzZoI7q3G3BG/k1wxGDMT2E=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/CopyClusterToClipboardAction.class
+MD5-Digest: 0MlcbBHwurQ096aCcMNV6Q==
+SHA-Digest: vP0WSPfJ8rPf+qG/rjf2+A5XLG0=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/CyNetworkCache.class
+MD5-Digest: OrtJKhAyCvt47NDweyULQA==
+SHA-Digest: RiU7V8z3lJFUyYrcmyFjywm416s=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/CytoscapePlugin.class
+MD5-Digest: 0JqpE7SHimb4799NP5bDRw==
+SHA-Digest: yp3MuMmwwD8V9xv5Pvlf885qPHQ=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/CytoscapeResultViewerPanel$1.class
+MD5-Digest: zEDY9W/hlJu0lkto3vvazg==
+SHA-Digest: RDx78g/UmOhN6Rq8vgWQDRgZRh8=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/CytoscapeResultViewerPanel$CloseAct
+ ion.class
+MD5-Digest: P3Vsv7qIBRyNKy9pUuVWxg==
+SHA-Digest: BTUYIolhWKL+kYnW286syse7aEE=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/CytoscapeResultViewerPanel.class
+MD5-Digest: gaJBFgNi/kPIYmbIEAJuyw==
+SHA-Digest: QdC2Ojys4XbOvnkZcZbw4YMx6vA=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/CytoscapeTaskMonitorWrapper.class
+MD5-Digest: Xh08/nHvfPnnEzf6Rqny+A==
+SHA-Digest: iWpoLx1+w5Gdwj3BTJiz+88Vkho=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/ExtractClusterAction.class
+MD5-Digest: 6OJuJT1XbnlYSXq/woP7Vw==
+SHA-Digest: bKSQvfVwX/4mk6Jydf4y1URsdZU=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/FindAction.class
+MD5-Digest: qdLfQ0m+eCeLYH5YwpSYTg==
+SHA-Digest: K4UdeAESvKYpxmrH2djvrhOTPCY=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/Graph.class
+MD5-Digest: KyHZU6cCCU4eQpNRR02p+Q==
+SHA-Digest: hiQIoyJjBd3CLYRRKNkNTnVnMA0=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/GrowClusterAction.class
+MD5-Digest: Y+7FCFvI5T5NeIF5q81v5g==
+SHA-Digest: 8MYU1XZmRU3/q3ZQ6RNCKL9BFm0=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/HelpAction.class
+MD5-Digest: wUJgN96XhqF4hTOyIp94tg==
+SHA-Digest: m/VFiSxioRl6VSDP+Ndp/fugIws=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/NodeContextMenuAction.class
+MD5-Digest: VYZWCD3gPf8hnziHPjxYlA==
+SHA-Digest: 4AZPqtTGymKgOG0KesJQ7fk7/vw=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/NonNumericAttributeException.class
+MD5-Digest: e5q0e5A6Z8Qks9ZcHCmo9w==
+SHA-Digest: q4YiznU7UQLhGi6VKG9zgTwmh9Q=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/SaveClusterAction.class
+MD5-Digest: S0L99N88brXGGOt26D4MjA==
+SHA-Digest: Idcs0xVLo336xN47IbsIwJSVSeA=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/SaveClusterAsCyGroupAction.class
+MD5-Digest: aCKt0vWIYvAyYsQZGMpxcQ==
+SHA-Digest: OV2Wevv8kYXetBp4lMFyeA0Xchk=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/SaveClusteringAction.class
+MD5-Digest: h9lRqa8vpI4QVzhV53kPQg==
+SHA-Digest: fFaqF6eUxDHmff2EJF2YdY6bFRc=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/SelectionPropertiesPanel.class
+MD5-Digest: 6eeQoGae1CeqHFHYfDo96A==
+SHA-Digest: h0nn6RHocvGZl80BRTBX8A5ceUQ=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/ShowControlPanelAction.class
+MD5-Digest: /6cg3kxktnGTnmzTHq+6ZQ==
+SHA-Digest: 9wFlYad00Vy9B/96aH3uMWmIyKo=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/StartAction.class
+MD5-Digest: iBmzo3k69jR/vp3YIxW+Ow==
+SHA-Digest: OU1IMhJwGTiquMMUiC6yhEaqtkY=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/VisualStyleManager.class
+MD5-Digest: 75VgeAcPSdcm3+4hRjKyWQ==
+SHA-Digest: BSEje/qZyjkTGlQJqbimMq4Gun0=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/help/cl1.hs
+MD5-Digest: Wwxk8xcGqSvSIc9nDsL1fw==
+SHA-Digest: kUnJJ8sPCsPix8Ch/jxH9QM0zKU=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/help/cl1_map.jhm
+MD5-Digest: 74tl4dfD7XhqzZwQrMyaDw==
+SHA-Digest: 4bK+af6LK+NstLXc8vf5tl243bc=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/help/cl1_toc.xml
+MD5-Digest: mc5gEPokGiWLOBZE5ODd+g==
+SHA-Digest: wbygeclaLWDTtS9MSO0HtFfTo14=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/help/control-panel.html
+MD5-Digest: lfqaTTSfXOVvQnEaxDX6MA==
+SHA-Digest: 9QMv5zsugz66w2ohVfcyfkpoXzU=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/help/description-of-the-algorithm.h
+ tml
+MD5-Digest: uPdVC/bCQs643AI4PVA/FA==
+SHA-Digest: I9uLU7pAXRXFKL0IlZyRku4IBwQ=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/help/images/close.png
+MD5-Digest: QkkmhOJDVqQIETSJTqvrng==
+SHA-Digest: pU5ESZ97QIxsWMIJ7Qj6FMB7K3w=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/help/images/cohesive_subgroup.png
+MD5-Digest: RfCTdlUYrZw2N94MydwF8Q==
+SHA-Digest: zIzumezfn+W4rQVqYdu0nD9m2U8=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/help/images/details.png
+MD5-Digest: Bw+9IprIspGLTosbT0HH+A==
+SHA-Digest: P+iELYk4n0c8B2L/WgllgqlUyFs=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/help/images/find.png
+MD5-Digest: nxygy2mGHhmqy0HQl63AgQ==
+SHA-Digest: GFzHLrbyvIgjfMrkALmAkqYfWvc=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/help/images/logo.png
+MD5-Digest: //p10Riu+NGQZET8Y9OgUQ==
+SHA-Digest: /y+6Q92f4xFNj7oVDrHorUXCCzE=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/help/images/refresh.png
+MD5-Digest: a5V3hGD2YKp8CPR9JEeApw==
+SHA-Digest: 8u6hvrle3WAJpvUJjMzDlieU4bM=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/help/images/save.png
+MD5-Digest: u208bdKxGCykh30F9+Z6kQ==
+SHA-Digest: 9ydU/Rvfg7h+5xf/b1sYGuc4TNI=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/help/index.html
+MD5-Digest: 88fMIGVlxKXM6JovXIL5Zw==
+SHA-Digest: Rt+aeKX2p35V/VHwW/HqUu5MUb0=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/help/introduction.html
+MD5-Digest: a40Q0b1xbGDnDP3osqpRnA==
+SHA-Digest: tFflERP2NY5DAndCk0D6C40g2Es=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/help/references.html
+MD5-Digest: SXA4sY2Li/uJ5z7zwrFb4Q==
+SHA-Digest: BP0NqetJH0GLbOYajC8K3vN64Co=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/help/result-viewer.html
+MD5-Digest: cCX41p7m40MPx1XgmhGJqg==
+SHA-Digest: QT8acsO66CXIaRqv6wCGktQiDtM=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/help/the-clusterone-menu.html
+MD5-Digest: urEOYaz9LcJkFP3KcddJfQ==
+SHA-Digest: BwlWf56DKXcuB5XG/e9484KONbg=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/help/the-one-minute-guide-to-using-
+ clusterone.html
+MD5-Digest: hK2n57JWGmm/IP/8j4U15Q==
+SHA-Digest: ALdcEseyTcbcQXB//gypdKqwgJo=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape/plugin.props
+MD5-Digest: a/s9bfjxv0n10iuieqyMZQ==
+SHA-Digest: c+Y2ZH4vPlth5fExuy7yb+f8rsE=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/AboutAction.class
+MD5-Digest: t7ZvBiCizT0yuoUydA6zrg==
+SHA-Digest: Z/rimoMV9JlY/bUJi8oOlfQSai0=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/AboutDialog.class
+MD5-Digest: sYYEtQBIohDSxP3etSHhWA==
+SHA-Digest: Yx4ZGGWwY/2Cu4H4Z3uyFa5q694=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/AbstractClusterONEAction.class
+MD5-Digest: ziE/LaPKBVidlFcrWH7zlg==
+SHA-Digest: 9mIG5D40jZpTwyZhG5dJopMGc2c=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/AffinityColouringAction.class
+MD5-Digest: QUO6zniBU4rdFdBkSJbfOA==
+SHA-Digest: tyYkVuERnKMQFHQKcYgYgh4hPho=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/CloseControlPanelAction.class
+MD5-Digest: Q8OjF8JgtA3dN0871GsqTg==
+SHA-Digest: KsGfMOCv25bD38J3LZLA8OxXuxI=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/ClusterONECytoscapeApp.class
+MD5-Digest: JBAAMFRBz+0o7bX5B0W+bQ==
+SHA-Digest: WNAggK+sPoalgyH5h8bfsOC1zZ0=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/ClusterONECytoscapeTask$Result.cla
+ ss
+MD5-Digest: Ww/H2qu8QwjtmTcBiS9eVA==
+SHA-Digest: /uxhNNvTS5NtoLAq0+ihEIX+zIg=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/ClusterONECytoscapeTask$ResultList
+ ener.class
+MD5-Digest: gywpH7u+9knP0/SPYpzNXQ==
+SHA-Digest: NIfNdhL4Eiu3dj7yfey8nMOQIIg=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/ClusterONECytoscapeTask.class
+MD5-Digest: vyjYi8i4bsUP7wIaCqcOKA==
+SHA-Digest: WsaRDD1WbHCo+wZZ2ZsAEbnIb/E=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/ClusterONECytoscapeTaskFactory$For
+ Network.class
+MD5-Digest: U61XMwkxT5SKuDwdC81J5g==
+SHA-Digest: lOLAypDaxEclpmb7BAv7HnlIlf0=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/ClusterONECytoscapeTaskFactory$For
+ NetworkView.class
+MD5-Digest: 6W0A8YjSp0YMtVgt6WOuew==
+SHA-Digest: 8segwmp1gWPwoDPZvTepJFfzcps=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/ClusterONECytoscapeTaskFactory.cla
+ ss
+MD5-Digest: JJFIuzI+338FsFpGT692zg==
+SHA-Digest: bL3L4kSu2+nMNAhWdNK1pKB9hhA=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/ControlPanel$1.class
+MD5-Digest: fnBJn7BkxY/vVxOt+/Mbzg==
+SHA-Digest: 6xvj9BlC5hrIdVZqs+pAsY1veuY=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/ControlPanel.class
+MD5-Digest: xqyZRt9lIP7F9jpXD9kzdQ==
+SHA-Digest: dtPiGlyy4LIYK3tDNwOrcN80V5s=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/CopyClusterToClipboardAction.class
+MD5-Digest: A9z24hp+OtBigbR3tE8DGQ==
+SHA-Digest: EXF9oDCw/u9KtA+ryQMOCw3Oy98=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/CyNetworkCache.class
+MD5-Digest: kRFJtWbNOSO3CuYPxTKp5Q==
+SHA-Digest: 2GlrlxAvmiWbbD5NRip8VfqLpqA=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/CyNetworkUtil.class
+MD5-Digest: rVXCZYGsbrH/VEejA8Sc8g==
+SHA-Digest: mMKwD2jyk3E6RwU9nutOtDSzH3g=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/CyNodeUtil.class
+MD5-Digest: dtMqQUArCIpI+lxbNIB5xg==
+SHA-Digest: wMQjZv98ycQbY8/BsgyVZeOQUvo=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/CytoscapeAppActivator.class
+MD5-Digest: bKBA2epfdxNYHKPpZ1hYpA==
+SHA-Digest: HP9k6VUqx9DqTyulV+psgpFuHxU=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/CytoscapeResultViewerPanel$1.class
+MD5-Digest: d4N3HRqwowAAfSE11AAcRA==
+SHA-Digest: rTpj+B8h1nPxrUzVOd157ZLqXW0=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/CytoscapeResultViewerPanel$CloseAc
+ tion.class
+MD5-Digest: ZbIJoS4PleLrf482TNjC0w==
+SHA-Digest: hRFItRkKCmR4Kpc3/5rUxfHxrHg=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/CytoscapeResultViewerPanel.class
+MD5-Digest: o4Z5QfZH+zEUuy54nq6MtQ==
+SHA-Digest: JtQ1yCrABMt/xDXIKDUSKyjd6g8=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/CytoscapeTaskMonitorWrapper.class
+MD5-Digest: hNUTC85zHx09hPbjxM0aWQ==
+SHA-Digest: Y/FCgo5h+xefuZW2q/h1t12JYHs=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/ExtractClusterAction.class
+MD5-Digest: hJntlm5Q1SdPqyh7BjHV3A==
+SHA-Digest: HJuNuZ2mKbjz5KR/+zbUObk4Jgw=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/FindAction.class
+MD5-Digest: onpNvcRKKsoj/8NW7DAQpg==
+SHA-Digest: bGAcUtikxz7KasG5AXMpCCAJV4o=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/Graph.class
+MD5-Digest: ksmc6r+97NoOJ1f0MYQuFA==
+SHA-Digest: +Zl8qGw4VrT2zxT+wb74LjdxW0g=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/GrowClusterAction.class
+MD5-Digest: Hhl0jnTpUkb3YfgYDYRsAQ==
+SHA-Digest: /+c6vmtS6X2wrVICv23UyGMBCdo=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/HelpAction.class
+MD5-Digest: iFuxHSUUDH64LFC2abD6Pw==
+SHA-Digest: iLGN23MzM7Y5Jx+ZSfD9LGi/45M=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/NodeContextMenuFactory.class
+MD5-Digest: fYnFzPQqg3wnbBY07wgwWg==
+SHA-Digest: qLjaqvff0C3G3yjN/H27fv1yXmA=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/NonNumericAttributeException.class
+MD5-Digest: q7aCDLirqOkLxedGSldtOw==
+SHA-Digest: PkkBa0zWlCA9CzxQ8POS3mTsA7A=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/SaveClusterAction.class
+MD5-Digest: ejJaorsvnv+6PJlNozh8og==
+SHA-Digest: Xwltteuj0EaSZ1e+NTULtHFDsHM=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/SaveClusteringAction.class
+MD5-Digest: a6Qkln3wsLQYQiWvFCGqrg==
+SHA-Digest: mHhyW3CTPEkaJ2UVchzbO8mDyi4=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/SelectionPropertiesPanel.class
+MD5-Digest: Tz6s349q+OCrF8kCFvnzyg==
+SHA-Digest: UjYGrBHntjNWg5xl9xAn/cXANN0=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/ShowControlPanelAction.class
+MD5-Digest: d/xSMfMWzkQBMPd4fePvIw==
+SHA-Digest: ArpVT5h5jzKYqtbO60m3eXpLJ9g=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/StartAction.class
+MD5-Digest: qZZEHcqi4C+4bNgEsMF9/g==
+SHA-Digest: rrmmFRnXTM/G36VMGy7qDrxBMKQ=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/VisualStyleManager.class
+MD5-Digest: z28rERrP+Tu91uxzjWUwMw==
+SHA-Digest: LhScu6cFUY5230bz2WruVpiEnbg=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/help/cl1.hs
+MD5-Digest: Wwxk8xcGqSvSIc9nDsL1fw==
+SHA-Digest: kUnJJ8sPCsPix8Ch/jxH9QM0zKU=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/help/cl1_map.jhm
+MD5-Digest: 74tl4dfD7XhqzZwQrMyaDw==
+SHA-Digest: 4bK+af6LK+NstLXc8vf5tl243bc=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/help/cl1_toc.xml
+MD5-Digest: mc5gEPokGiWLOBZE5ODd+g==
+SHA-Digest: wbygeclaLWDTtS9MSO0HtFfTo14=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/help/control-panel.html
+MD5-Digest: lfqaTTSfXOVvQnEaxDX6MA==
+SHA-Digest: 9QMv5zsugz66w2ohVfcyfkpoXzU=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/help/description-of-the-algorithm.
+ html
+MD5-Digest: uPdVC/bCQs643AI4PVA/FA==
+SHA-Digest: I9uLU7pAXRXFKL0IlZyRku4IBwQ=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/help/images/close.png
+MD5-Digest: QkkmhOJDVqQIETSJTqvrng==
+SHA-Digest: pU5ESZ97QIxsWMIJ7Qj6FMB7K3w=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/help/images/cohesive_subgroup.png
+MD5-Digest: RfCTdlUYrZw2N94MydwF8Q==
+SHA-Digest: zIzumezfn+W4rQVqYdu0nD9m2U8=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/help/images/details.png
+MD5-Digest: Bw+9IprIspGLTosbT0HH+A==
+SHA-Digest: P+iELYk4n0c8B2L/WgllgqlUyFs=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/help/images/find.png
+MD5-Digest: nxygy2mGHhmqy0HQl63AgQ==
+SHA-Digest: GFzHLrbyvIgjfMrkALmAkqYfWvc=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/help/images/logo.png
+MD5-Digest: //p10Riu+NGQZET8Y9OgUQ==
+SHA-Digest: /y+6Q92f4xFNj7oVDrHorUXCCzE=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/help/images/refresh.png
+MD5-Digest: a5V3hGD2YKp8CPR9JEeApw==
+SHA-Digest: 8u6hvrle3WAJpvUJjMzDlieU4bM=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/help/images/save.png
+MD5-Digest: u208bdKxGCykh30F9+Z6kQ==
+SHA-Digest: 9ydU/Rvfg7h+5xf/b1sYGuc4TNI=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/help/index.html
+MD5-Digest: 88fMIGVlxKXM6JovXIL5Zw==
+SHA-Digest: Rt+aeKX2p35V/VHwW/HqUu5MUb0=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/help/introduction.html
+MD5-Digest: a40Q0b1xbGDnDP3osqpRnA==
+SHA-Digest: tFflERP2NY5DAndCk0D6C40g2Es=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/help/references.html
+MD5-Digest: SXA4sY2Li/uJ5z7zwrFb4Q==
+SHA-Digest: BP0NqetJH0GLbOYajC8K3vN64Co=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/help/result-viewer.html
+MD5-Digest: cCX41p7m40MPx1XgmhGJqg==
+SHA-Digest: QT8acsO66CXIaRqv6wCGktQiDtM=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/help/the-clusterone-menu.html
+MD5-Digest: urEOYaz9LcJkFP3KcddJfQ==
+SHA-Digest: BwlWf56DKXcuB5XG/e9484KONbg=
+
+Name: uk/ac/rhul/cs/cl1/ui/cytoscape3/help/the-one-minute-guide-to-using
+ -clusterone.html
+MD5-Digest: hK2n57JWGmm/IP/8j4U15Q==
+SHA-Digest: ALdcEseyTcbcQXB//gypdKqwgJo=
+
+Name: uk/ac/rhul/cs/cl1/ui/procope/ProcopePlugin.class
+MD5-Digest: s/FpbDS6QieYB0ifkaWmKQ==
+SHA-Digest: eprxZmoOAYips2IiY/e74/YUdwE=
+
+Name: uk/ac/rhul/cs/graph/BreadthFirstSearch.class
+MD5-Digest: z9nwV8OIKagSxAQbAA7qog==
+SHA-Digest: ywcca0aZc+QQdiuTq2ki8hbui1w=
+
+Name: uk/ac/rhul/cs/graph/BreadthFirstSearchIterator.class
+MD5-Digest: 5C7JHQYL9Hm02pkp7x1MZQ==
+SHA-Digest: t1+inljGCY6Lqxb2wAK9VRUuxpM=
+
+Name: uk/ac/rhul/cs/graph/BronKerboschMaximalCliqueFinder.class
+MD5-Digest: upcDq7Wvq+ueEESlr04MVA==
+SHA-Digest: pJFltreX3dhq25yvGzOgHi834Ls=
+
+Name: uk/ac/rhul/cs/graph/CircularLayoutAlgorithm.class
+MD5-Digest: /Lp4vEOSUohdjZn8sFyXeA==
+SHA-Digest: whbacNeOPMnJe+55lNeTdOt6R1Q=
+
+Name: uk/ac/rhul/cs/graph/Directedness.class
+MD5-Digest: Hx+CQCwuIA47wFVe/7kPRQ==
+SHA-Digest: ilzZkv4XuU6Q2zD3ONeYMRwBCmE=
+
+Name: uk/ac/rhul/cs/graph/Edge.class
+MD5-Digest: J7KBZI1kAsGw2yooNPGuyw==
+SHA-Digest: x7FuKEajGhXPW2eSKWLNUOYwjfI=
+
+Name: uk/ac/rhul/cs/graph/EdgeIterator.class
+MD5-Digest: xP9y4mp4FyPKc+ZxXFOZAA==
+SHA-Digest: tclRw+F6TBvLuLG275AlSLfmbj0=
+
+Name: uk/ac/rhul/cs/graph/FruchtermanReingoldLayoutAlgorithm$NodeData.cl
+ ass
+MD5-Digest: STn9g+nUs8bs+FXKktmDQA==
+SHA-Digest: z3GwM78RLX8/cRnQFm0U2X1kEx4=
+
+Name: uk/ac/rhul/cs/graph/FruchtermanReingoldLayoutAlgorithm.class
+MD5-Digest: H1piL0gHoOByR3QWa1JEEw==
+SHA-Digest: lBL2U8EirnPasicDWAVATfOhrXM=
+
+Name: uk/ac/rhul/cs/graph/Graph.class
+MD5-Digest: 8YDdr2avpnHfS4PMXJfxmA==
+SHA-Digest: 6eYnw5c4R+8qwzjdYtpu0JOlzu0=
+
+Name: uk/ac/rhul/cs/graph/GraphAlgorithm.class
+MD5-Digest: ieWvakMXHzxNEX45A2lrVQ==
+SHA-Digest: iR3seYT0go3sd00Yp9Yl+RUYlHk=
+
+Name: uk/ac/rhul/cs/graph/GraphFactory.class
+MD5-Digest: 7gMqObFEGQFSGBcLlv6yow==
+SHA-Digest: g5lfFU66zGYmthmHlWcB/Zwh22I=
+
+Name: uk/ac/rhul/cs/graph/GraphLayoutAlgorithm.class
+MD5-Digest: AaP3tC+k3YscXxTp4FmD+w==
+SHA-Digest: pU3j/wKxjIIPzhsVcSPmkfyTbw0=
+
+Name: uk/ac/rhul/cs/graph/Layout.class
+MD5-Digest: wvbsnBSwzwzM/xdxzI564w==
+SHA-Digest: wQzFkZDcMw0HHzd5Z7K8qm9rJj4=
+
+Name: uk/ac/rhul/cs/graph/RandomLayoutAlgorithm.class
+MD5-Digest: 8YzoYeSeQ43wOz3iVcZbWQ==
+SHA-Digest: nKAV5Vo0nl1Fz4vOKazr73Ne9Gg=
+
+Name: uk/ac/rhul/cs/graph/TransitivityCalculator.class
+MD5-Digest: o9+folmsn83cMItiGb9YBQ==
+SHA-Digest: beI8zcDEwMMbw9EtmE0g6YzFvVs=
+
+Name: uk/ac/rhul/cs/stats/StatsUtils.class
+MD5-Digest: aEx7EnfRIG/te7Ib0qxJHg==
+SHA-Digest: uT4WOxSmU6zNZl+FRMgDx2ZPdns=
+
+Name: uk/ac/rhul/cs/stats/correlation/KendallCorrelation.class
+MD5-Digest: T8SCLr/h5ZcPaqYQ0Ds0Og==
+SHA-Digest: +IpkdHqOvwTqIawZAz3ytWz/KnE=
+
+Name: uk/ac/rhul/cs/stats/correlation/LinearCorrelation.class
+MD5-Digest: pxEJn5zJ1eA6y3pSRs04eQ==
+SHA-Digest: aNIiAv82kWXAMghtC3gIPszVM8A=
+
+Name: uk/ac/rhul/cs/stats/curvefitting/LineFit.class
+MD5-Digest: flkcSyVrHN8dCpiBIq0lcQ==
+SHA-Digest: nyV0zQ3wiH4x7pXEf+5QaRtiStg=
+
+Name: uk/ac/rhul/cs/stats/curvefitting/StraightLineFit.class
+MD5-Digest: LHCL5NA3J4HlbBcHmNQ4nw==
+SHA-Digest: 9dgCtUFAlAp6ccFSffeLbLUGM8Y=
+
+Name: uk/ac/rhul/cs/stats/datastructures/PairedData.class
+MD5-Digest: 70HhwbU0UV/8RNN2GnlqoQ==
+SHA-Digest: eLTGqpVq5VJEIN2tqsdh8qxDX/8=
+
+Name: uk/ac/rhul/cs/stats/descriptive/MeanVar.class
+MD5-Digest: IVw/l4i7ljyvN/bd0eY3+g==
+SHA-Digest: RAGtqNQPtjAwqpsFAscm6taUE90=
+
+Name: uk/ac/rhul/cs/stats/independentsamples/MannWhitneyTest$1.class
+MD5-Digest: IjYrlzz3ou4IMXake2OuHg==
+SHA-Digest: e/uU+oVMnFQkfAPrlz5yjMuwbRs=
+
+Name: uk/ac/rhul/cs/stats/independentsamples/MannWhitneyTest.class
+MD5-Digest: lKnA5nGuibmjH0eRfKOd/A==
+SHA-Digest: TqZLWGIu3omQM3tlEtwUZ5019q4=
+
+Name: uk/ac/rhul/cs/stats/tests/H1.class
+MD5-Digest: JXGJviwQ+mrZETr7W7DUfA==
+SHA-Digest: e+0INmOOR5YQ/QKk5SA00U6aMbs=
+
+Name: uk/ac/rhul/cs/stats/tests/SignificanceTest.class
+MD5-Digest: XaQvUrgx7TTwJACgLnnu4A==
+SHA-Digest: Wy6Pdf7mhZsdAzrr1aVne5m1vqU=
+
+Name: uk/ac/rhul/cs/utils/ArrayUtils$1.class
+MD5-Digest: MhZpU3Hw8/fvuul9aqpC5Q==
+SHA-Digest: XofFnH4PgoGGET8KMLN9UOB7tPA=
+
+Name: uk/ac/rhul/cs/utils/ArrayUtils.class
+MD5-Digest: 1U/MC8lBxLvFvtfjyuGJ7A==
+SHA-Digest: PZXFcg9vBEusOs4EDVyDRGAAH8M=
+
+Name: uk/ac/rhul/cs/utils/BlockingQueueAdapter.class
+MD5-Digest: EGSi98N8Ir4RfvtPPhjJcw==
+SHA-Digest: y8yoS7LSyduCvcGAeGth4VxU4h0=
+
+Name: uk/ac/rhul/cs/utils/DebugHelper.class
+MD5-Digest: z5JowqUpx7/WsCTdHjYz5Q==
+SHA-Digest: OtHR6dPm6HpYept1jo9TKuYUSKU=
+
+Name: uk/ac/rhul/cs/utils/HashMultimap.class
+MD5-Digest: Wt4Tn2iwiJuEW7b9VsM5vw==
+SHA-Digest: xtt2CNHDa33UaCcp9cLxDZmd/nA=
+
+Name: uk/ac/rhul/cs/utils/IntegerRange$IteratorImpl.class
+MD5-Digest: cfFoi2foJSY0wFXHJETEFA==
+SHA-Digest: 7AhRBSPSczlN5xs1NVsykdcBwxs=
+
+Name: uk/ac/rhul/cs/utils/IntegerRange.class
+MD5-Digest: jDZaruCREa7ogRdAiiwuCw==
+SHA-Digest: iE9k8c4IBRhA5nMUrfdfRPM6pPs=
+
+Name: uk/ac/rhul/cs/utils/Multimap.class
+MD5-Digest: TBnCjEo/NYmoEo3AdMii6w==
+SHA-Digest: v76UPWE7HLdCXVFzzTXqwyzoZl4=
+
+Name: uk/ac/rhul/cs/utils/MultimapBase.class
+MD5-Digest: yXK3ip2St81dPsLdMiB9kg==
+SHA-Digest: VvBaqmomtL0T8+zChFOYjuiQn5c=
+
+Name: uk/ac/rhul/cs/utils/Multiset$Entry.class
+MD5-Digest: hOKdSGP/WO8rCHnRxxCJOA==
+SHA-Digest: jc9uE+9DMe+G4lLjUzhH8Xx1xLo=
+
+Name: uk/ac/rhul/cs/utils/Multiset.class
+MD5-Digest: tOmF0Q+jXz4YDqddv5lLbQ==
+SHA-Digest: wAnoC+9N9I/elVmlogBKpo9YcP0=
+
+Name: uk/ac/rhul/cs/utils/ObjectUtils.class
+MD5-Digest: P2o1mhJ78XEtBaCsMmn5kQ==
+SHA-Digest: Mk5TIozdoHQr1uZrlYn3+Ec89aE=
+
+Name: uk/ac/rhul/cs/utils/Pair.class
+MD5-Digest: 4lR4VgUH7Y/9BUUdgssSXw==
+SHA-Digest: hR0MoX0jgfxG6fXdkjrxgLfqbgA=
+
+Name: uk/ac/rhul/cs/utils/StringUtils.class
+MD5-Digest: +RaF6KUeEt4ws71orxzEvw==
+SHA-Digest: v8ipICzZBd3DJdtmLUFV9I6Fzvs=
+
+Name: uk/ac/rhul/cs/utils/TreeMultimap.class
+MD5-Digest: nvJ+WXfQK1/yQzkPxU5/7g==
+SHA-Digest: Jf19iFtxbrxgMfq0En2jyrKe4js=
+
+Name: uk/ac/rhul/cs/utils/TreeMultiset$1.class
+MD5-Digest: kxe0iJgq+QeGw1jMmQ6R5g==
+SHA-Digest: 9iGGNbeUzpOU64hHQCg89YhBcJE=
+
+Name: uk/ac/rhul/cs/utils/TreeMultiset$Entry.class
+MD5-Digest: fKtQmv3piM64slpArAs1yA==
+SHA-Digest: H1mtAeYbmnCQN/2K8haR7niMaD4=
+
+Name: uk/ac/rhul/cs/utils/TreeMultiset.class
+MD5-Digest: 2YIHVERTalfEGHmhSKAT6g==
+SHA-Digest: 128yEnU0Zyw9QvIZNTz+cD23soU=
+
+Name: uk/ac/rhul/cs/utils/UniqueIDGenerator.class
+MD5-Digest: IXWK/msLmmQy3KfXpya8aQ==
+SHA-Digest: liCxgUeQyZf3GU50UtJaV4/Nr1A=
+
+Name: uk/ac/rhul/cs/utils/UnorderedPair.class
+MD5-Digest: JmBlOiVg9HsuoQ5tRXQeJw==
+SHA-Digest: 2BOim/A8m8lstZOSEH1F0PIfSqU=

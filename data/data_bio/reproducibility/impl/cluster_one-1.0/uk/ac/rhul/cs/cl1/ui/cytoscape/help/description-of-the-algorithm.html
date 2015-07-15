@@ -1,0 +1,378 @@
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Docutils 0.9.1: http://docutils.sourceforge.net/" name="generator"/>
+<title>ClusterONE Cytoscape plugin</title>
+<meta content="Tamás Nepusz, Haiyuan Yu, Alberto Paccanaro" name="author"/>
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 7434 2012-05-11 21:06:27Z milde $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for &quot;table.docutils td&quot; with &quot;! important&quot;.
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with &quot;! important&quot;. */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+object[type=&quot;image/svg+xml&quot;], object[type=&quot;application/x-shockwave-flash&quot;] {
+  overflow: hidden;
+}
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: inherit }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block, pre.math, pre.code {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+pre.code .ln { /* line numbers */
+  color: grey;
+}
+
+.code {
+  background-color: #eeeeee
+}
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+</head>
+<body>
+<div class="document" id="clusterone-cytoscape-plugin"><div class="section" id="description-of-the-algorithm">
+<h1>Description of the algorithm</h1>
+<p>ClusterONE strives to discover densely connected and possibly overlapping
+regions within the Cytoscape network you are working with. The interpretation
+of these regions depends on the context (i.e. what the network represents) and
+it is left up to you. For instance, in protein-protein interaction networks
+derived from high-throughput AP-MS experiments, these dense regions usually
+correspond to protein complexes or fractions of them. ClusterONE works by
+&quot;growing&quot; dense regions out of small seeds (typically one or two vertices),
+driven by a quality function called <em>cohesiveness</em>.</p>
+<p>Before we move on to the formal definition of cohesiveness, let us introduce
+some terminology that classifies vertices and edges of a graph <em>G</em> according to
+their relationship to a selected group of vertices V<sub>0</sub>. Vertices of V<sub>0</sub> are
+called <em>internal vertices</em>, while vertices not in V<sub>0</sub> are called <em>external
+vertices</em>.  An edge that is situated between two internal vertices is an
+<em>internal edge</em>, an edge going between an internal and an external vertex is a
+<em>boundary edge</em>, and an edge between two external vertices is an <em>external
+edge</em>. An internal vertex incident on at least one boundary edge is an
+<em>internal boundary vertex</em>, while an external vertex incident on at least one
+boundary edge is an <em>external boundary vertex</em>. The following figure illustrates
+these concepts:</p>
+<img alt="images/cohesive_subgroup.png" src="images/cohesive_subgroup.png"/>
+<p>Here, V<sub>0</sub> itself is denoted by a shaded background, which delimits internal
+and external vertices. Thick black edges are internal, thin black edges are
+boundary edges, while thin gray dashed edges are completely external. Vertices
+marked by a letter are (internal or external) boundary vertices.</p>
+<p>The quality of the group can be assessed by the number of internal edges
+divided by the sum of the number of internal and boundary edges. This quality
+measure is driven by the fact that a well-defined group should have many
+internal edges and only a few boundary edges; in other words, the boundary
+of the group should be sharp. If the edges have weights (i.e. a numeric value
+assigned to each edge that quantifies how reliable that edge is or how confident
+we are in its existence), the same guidelines apply, but the number of edges
+should be replaced by the total confidence associated to those edges. Whenever
+you have such confidence values, store them in a numeric edge attribute in
+Cytoscape and use that attribute to drive the cluster growth process. From now
+on, such confidence values will simply be called <em>edge weights</em> and the above
+mentioned quality measure will be referred to as <em>cohesiveness</em>.</p>
+<p>ClusterONE essentially looks for groups of high cohesiveness. This is achieved
+by adopting a greedy strategy: starting from a single seed vertex (or a small
+set of vertices that are strongly bound together), one can extend the group
+step by step with new vertices so that the newly added vertex always increases
+the cohesiveness of a group as much as possible. Removals are also allowed if
+removing a vertex from the group increases its cohesiveness. The process stops
+when it is not possible to increase the cohesiveness of the group by adding
+another external boundary vertex or removing an internal boundary vertex.  See
+the ClusterONE paper <a href="references.html#id5" id="id1">[1]</a> for the description of the exact procedure.  The
+growth process is repeated either for every vertex or every connected vertex
+pair to obtain an initial set of cohesive subgroups. Subgroups smaller than a
+given size or having a density less than a given threshold are thrown away.
+Finally, redundant cohesive subgroups (i.e. those that overlap significantly
+with each other) are merged to form larger subgroups to make the results easier
+to interpret.</p>
+</div></div>
+</body>
+</html>

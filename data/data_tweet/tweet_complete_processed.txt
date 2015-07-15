@@ -1,0 +1,1644 @@
+bbc	bbc	1.0
+bbc	islam	0.015463685303096664
+bbc	a minutes	0.11503121139897292
+bbc	france	0.027247476642572994
+bbc	moslems	0.16383154903109493
+bbc	yeh	0.16383154903109493
+bbc	hugh schofield	0.23171497757246032
+bbc	muhammad	0.05506841296173524
+bbc	muslims	0.05506841296173524
+bbc	palestine	0.09325686609225159
+bbc	clinton	0.16383154903109493
+bbc	paris	0.04591811949784408
+bbc	paris	0.073673899739548
+bbc	russia	0.05930684377086355
+bbc	week	0.23171497757246032
+year	year	1.0
+year	2016	0.6799834927671964
+islamists cowards	islamists cowards	1.0
+the day	the day	1.0
+the day	iraqi	0.12475577194022307
+the day	karbala	0.15340089970324988
+nova	nova	1.0
+england	england	1.0
+ray	ray	1.0
+ray	spain	0.2669284930265248
+ray	spanish	1.0
+farc	farc	1.0
+france	france	1.0
+france	anjem choudary	0.43597596634325114
+france	uk	0.18166922173331396
+france	paris	0.11247490236600796
+france	anti-islam expressionsn	0.37774735601303866
+france	israeli	0.37774735601303866
+western	western	1.0
+western	one	0.06670041275707143
+score	score	1.0
+year	year	1.0
+graham jackson heidi	graham jackson heidi	1.0
+charlie	charlie	1.0
+this morning	this morning	1.0
+this morning	2	0.07660260656729635
+this morning	paris	0.37774735601303866
+this morning	paris	0.06079050008921876
+ottawa	ottawa	1.0
+ottawa	-32	1.0
+summers in	summers in	1.0
+summers in	uk	0.24216392271057002
+summers in	2014	0.2883710477035616
+india india	india india	1.0
+right now tomorrow	right now tomorrow	1.0
+right now tomorrow	6	1.0
+god of islam	god of islam	1.0
+daniel	daniel	1.0
+50 years	50 years	1.0
+taliban	taliban	1.0
+taliban	afghanistan pakistan	1.0
+1	1	1.0
+1	2	0.06695631116051454
+1	indian politician	0.3330780032818227
+1	this morning	0.3330780032818227
+1	pakistan	0.11641653919269039
+1	paris	0.0227245294738539
+1	crores	0.3330780032818227
+1	51	0.2351378380706935
+2	2	1.0
+2	4	0.04147001251160104
+2	lakhvi &	0.20807488907765415
+2	indian politician	0.20807488907765415
+2	french	0.01025287141178271
+2	cameron	0.1464946647842509
+2	years	0.10268696782452529
+2	dawood	0.20807488907765415
+2	a day	0.1190925942048873
+2	pakistan	0.07133656504843068
+2	$ 3,000	0.20807488907765415
+2	south-asian	0.20807488907765415
+2	dennis jayesuria	0.20807488907765415
+2	2011	0.1190925942048873
+2	india	0.057204985042850265
+2	paris	0.026141450778690612
+2	crores	0.20807488907765415
+2	51	0.1464946647842509
+2	now	0.05046685473611762
+2	bbc world news america	0.20807488907765415
+3	3	1.0
+3	france	0.24729358454816022
+3	now	0.03499889684339627
+3	sally	0.2770313658508975
+3	charles henry boudet reims	0.7840885329864129
+$ geoloc	$ geoloc	1.0
+islam	islam	1.0
+islam	1000	0.14219931675480377
+islam	eu	0.0805598152541535
+islam	the future	0.14219931675480377
+islam	4rm	0.14219931675480377
+islam	obama	0.06910025014035034
+islam	now	0.01113459294073116
+islam	saudi arabia	0.14219931675480377
+islam	europe	0.04959969047240686
+islam	10	0.0805598152541535
+islam	one	0.023204840278515007
+4	4	1.0
+4	the next few years	0.21779976781653115
+4	jewish	0.21779976781653115
+4	tom	0.15340089970324988
+4	1918	0.3080448705597964
+4	fasiha farrukh	0.21779976781653115
+4	mars	0.21779976781653115
+4	now	0.056587894950729946
+4	south asian	0.21779976781653115
+4	south-asian	0.21779976781653115
+4	2000	0.15340089970324988
+4	paris	0.009049934859378756
+4	hebdo	0.21779976781653115
+4	christine roderick	0.21779976781653115
+4	earth-like	0.05122766677967284
+4	lgbt	0.21779976781653115
+barbara zoon	barbara zoon	1.0
+6	6	1.0
+lakhvi &	lakhvi &	1.0
+lakhvi &	dawood	1.0
+7	7	1.0
+7	jan	0.9999999999999998
+8	8	1.0
+8	now today	0.7070390992738597
+8	france	0.07827496732588662
+8	islamic	0.13766415867707849
+bill	bill	1.0
+9	9	1.0
+9	vancouver	1.0
+53 days	53 days	1.0
+53 days	bbc news	0.22319979169744433
+melinda gates	melinda gates	1.0
+melinda gates	india	0.4078572854029194
+past present	past present	1.0
+indian politician	indian politician	1.0
+indian politician	paris	0.08594058158426884
+indian politician	crores	1.0
+indian politician	51	0.7070390992738597
+countrywide	countrywide	1.0
+countrywide	today	0.14219931675480377
+dusse	dusse	1.0
+dusse	germany cardiff cardiff	1.0
+dusse	german	0.7070390992738597
+alessandro vecchio	alessandro vecchio	1.0
+elvis presley	elvis presley	1.0
+elvis presley	one-one	1.0
+fernando torres	fernando torres	1.0
+fernando torres	2-0	1.0
+fernando torres	atletico madrid	0.7070390992738597
+uranus	uranus	1.0
+1000	1000	1.0
+1000	10	0.5772397397985125
+days	days	1.0
+i	i	1.0
+10pm	10pm	1.0
+the next few years	the next few years	1.0
+the next few years	tom	0.7070390992738597
+the next few years	mars	1.0
+malaysian girls think of when fantasising about a korean	malaysian girls think of when fantasising about a korean	1.0
+malaysian girls think of when fantasising about a korean	20	0.5772397397985125
+french	french	1.0
+french	cherif	0.09391117801037907
+french	three days	0.09391117801037907
+french	two	0.023916676647703482
+french	uk	0.014889651488053069
+french	three	0.05187588705415919
+french	26/11	0.5961759985041798
+french	,12	0.09391117801037907
+french	third	0.05187588705415919
+french	11/9	0.09391117801037907
+french	cia	0.04391066863090081
+french	kouachi	0.09391117801037907
+french	francois hollande	0.24860843237017266
+french	12 2	0.13282317499389684
+french	12 7	0.09391117801037907
+french	paris	0.32306218852822544
+french	12	0.004584168665196586
+french	muhammad ashraf	0.09391117801037907
+french	charlie hebdo	0.0037741307868703173
+french	bbc news	0.012361673262208113
+this weekend	this weekend	1.0
+heidi	heidi	1.0
+algerian islamist german	algerian islamist german	1.0
+algerian islamist german	paris	0.08594058158426884
+jordan	jordan	1.0
+jordan	syrian	0.9307707025863253
+rio putra	rio putra	1.0
+supreme court	supreme court	1.0
+supreme court	republicans	1.0
+phalistn	phalistn	1.0
+phalistn	europe israel	1.0
+india paris	india paris	1.0
+india paris	indian	0.3326626377051785
+india paris	charlie hebdo	0.19117556686004578
+paula	paula	1.0
+cuban missile crisis	cuban missile crisis	1.0
+cuban missile crisis	1962	1.0
+lowenbrau	lowenbrau	1.0
+the	the	1.0
+the	last 12 hours charliehebdo	1.0
+cuba	cuba	1.0
+cuba	michael lewis	0.9999999999999999
+day the last 3.5 yrs	day the last 3.5 yrs	1.0
+day the last 3.5 yrs	been10s	1.0
+days	days	1.0
+days	day	0.1992337164750958
+days	268 abductionn38	0.44704234770677526
+bali nine	bali nine	1.0
+bali nine	one nine	1.0
+bali nine	australians	0.5772397397985125
+bali nine	myuran sukumaran	1.0
+seven-year-old	seven-year-old	1.0
+does islam	does islam	1.0
+russian	russian	1.0
+russian	christmas	0.5772397397985125
+russian	liturgyn	1.0
+russian	putin	0.5772397397985125
+united nations	united nations	1.0
+agence france press	agence france press	1.0
+agence france press	paris	0.31021967971137027
+clifton collins jr.	clifton collins jr.	1.0
+cameron	cameron	1.0
+cameron	islamists	0.26677492410642023
+cameron	muslem brotherhood	0.7070390992738597
+jewish	jewish	1.0
+antnio sala	antnio sala	1.0
+antnio sala	mendes toni	1.0
+antnio sala	peter tanya guterres	1.0
+winter	winter	1.0
+winter	middle east	0.12789863220454772
+winter	paris france kiev	0.8164184136228771
+last 4 years	last 4 years	1.0
+thousand	thousand	1.0
+brazil	brazil	1.0
+al jazeer	al jazeer	1.0
+al jazeer	us	0.13292530590650936
+al jazeer	iraq	0.4998564112352528
+kill islamist	kill islamist	1.0
+east indians	east indians	1.0
+westernnintervention iraq	westernnintervention iraq	1.0
+westernnintervention iraq	pegida	0.408052872190992
+westernnintervention iraq	kurdish	0.5772397397985125
+david allinson	david allinson	1.0
+european	european	1.0
+european	future	0.2175490391073237
+european	regensburg	0.5772397397985125
+european	middle east	0.40797469367079625
+european	benedict xvi	0.5772397397985125
+indn	indn	1.0
+eu	eu	1.0
+cherif	cherif	1.0
+cherif	kouachi	1.0
+right now	right now	1.0
+right now	britain	0.2230070366214626
+pope francis	pope francis	1.0
+pope francis	paris	0.05919982359371211
+pope francis	french muslim	0.7070390992738597
+islamists	islamists	1.0
+islamists	muslem brotherhood	0.37774735601303866
+islamists	paris	0.09413401919127293
+islamists	12	0.1922635131853544
+islamists	australia	0.03184360176940066
+toyota	toyota	1.0
+toyota	jeremy holmes	0.7070390992738597
+been10s	been10s	1.0
+one two	one two	1.0
+one two	reims	0.9999999999999999
+7 this weekend	7 this weekend	1.0
+7 this weekend	pakistani	0.28820520607914246
+african american	african american	1.0
+african american	the future	0.3777473560130387
+porte de montreuil	porte de montreuil	1.0
+porte de montreuil	charlie hebdo	0.16610740778345104
+neguemos	neguemos	1.0
+fl	fl	1.0
+fl	122 yr	0.7070390992738597
+fl	141 yr	1.0
+fl	9,000	0.7070390992738597
+fl	idaho	1.0
+fl	hawaii	0.7070390992738597
+fl	1880	1.0
+fed left &	fed left &	1.0
+fed left &	india	0.2883710477035616
+el pais spain el mundo	el pais spain el mundo	1.0
+egypt egypt	egypt egypt	1.0
+syed shahnoor haider	syed shahnoor haider	1.0
+syed shahnoor haider	isis	0.33307800328182274
+1,000 8	1,000 8	1.0
+british muslim	british muslim	1.0
+british muslim	now	0.20111945280090554
+british muslim	emily aspinall	0.7070390992738597
+jacob levy	jacob levy	1.0
+jacob levy	mcgill	0.3330780032818227
+jacob levy	bbc world	1.0000000000000002
+jacob levy	paris	0.22860752811299345
+jacob levy	charlie hebdo	0.49870422587739865
+johansson	johansson	1.0
+ryan	ryan	1.0
+asia	asia	1.0
+kunle shiriki	kunle shiriki	1.0
+asia us asia	asia us asia	1.0
+vicky willkan	vicky willkan	1.0
+indian	indian	1.0
+indian	two	0.08937871459819913
+indian	paris france	0.28837104770356164
+indian	sachin tendulkar	0.20345921171883596
+indian	24-year	0.28837104770356164
+indian	india	0.0812232239913038
+indian	shashi tharoo	0.28837104770356164
+indian	present	0.28837104770356164
+indian	charlie hebdo	0.0926730499228555
+turkish army	turkish army	1.0
+panzi	panzi	1.0
+panzi	mukwege j. kabila	1.0
+60 years 60 seconds	60 years 60 seconds	1.0
+espaa	espaa	1.0
+allahu	allahu	1.0
+kim pearce	kim pearce	1.0
+kim pearce	south australia	0.07759474787875033
+asad zeeshan	asad zeeshan	1.0
+asad zeeshan	mossad	0.49980853915374307
+asad zeeshan	paris	0.05919982359371211
+3000	3000	1.0
+3000	nigerian	1.0
+3000	chad	1.0
+one one	one one	1.0
+china paris china paris	china paris china paris	1.0
+paris	paris	1.0
+years	years	1.0
+years	50/100/1000	0.49985641123525276
+years	475	0.49985641123525276
+years	$ 3,000	0.49985641123525276
+ukrainian	ukrainian	1.0
+ukrainian	donbass & luhansk	1.0
+ettienne kok	ettienne kok	1.0
+rafiqul haque	rafiqul haque	1.0
+rafiqul haque	bangladesh	0.8164184136228771
+this morning	this morning	1.0
+122 yr	122 yr	1.0
+122 yr	141 yr	0.7070390992738597
+122 yr	9,000	1.0
+122 yr	idaho	0.7070390992738597
+122 yr	hawaii	1.0
+122 yr	1880	0.7070390992738597
+phil	phil	1.0
+atocha	atocha	1.0
+atocha	2004	0.5772397397985125
+atocha	madrid	1.0
+january 8th 2015	january 8th 2015	1.0
+january 8th 2015	12,900,000	1.0
+january 8th 2015	google	1.0
+michael lewis	michael lewis	1.0
+jesus charlie	jesus charlie	1.0
+northern ireland	northern ireland	1.0
+northern ireland	future	0.5342665722461335
+assange snowden kerry	assange snowden kerry	1.0
+sadam hussein	sadam hussein	1.0
+howard dean	howard dean	1.0
+13 years	13 years	1.0
+13 years	afganistan	1.0
+13 years	3.6 million	1.0
+asia us	asia us	1.0
+tom	tom	1.0
+tom	mars	0.7070390992738597
+million	million	1.0
+million	sufis	1.0
+now today	now today	1.0
+now today	france	0.11239013649272632
+now today	islamic	0.19564630519025325
+torres paula	torres paula	1.0
+50/100/1000	50/100/1000	1.0
+american	american	1.0
+american	100	0.33295033831226856
+90 %	90 %	1.0
+90 %	arabic	1.0000000000000002
+90 %	france	0.2754303281563997
+jews christians	jews christians	1.0
+arabs	arabs	1.0
+arabs	today	0.14219931675480377
+arabs	1961	0.7070390992738597
+arabs	paris	0.08594058158426884
+arabs	open	1.0
+harper supporter sun fatah	harper supporter sun fatah	1.0
+no islamic leader speaks out	no islamic leader speaks out	1.0
+the future	the future	1.0
+jamaat	jamaat	1.0
+jamaat	bogra	1.0
+islamic terrorist islamic terrorist	islamic terrorist islamic terrorist	1.0
+islamic terrorist islamic terrorist	u.s.	0.7070390992738597
+margaret thatcher peter morrison	margaret thatcher peter morrison	1.0
+dawood	dawood	1.0
+alizee	alizee	1.0
+yemen iraq syria gaza	yemen iraq syria gaza	1.0
+2-0	2-0	1.0
+2-0	atletico madrid	0.7070390992738597
+2-3	2-3	1.0
+afganistan	afganistan	1.0
+afganistan	3.6 million	1.0
+american iraq	american iraq	1.0
+margot kinnock	margot kinnock	1.0
+eu farc	eu farc	1.0
+eu farc	colombia	0.7070390992738597
+usa	usa	1.0
+usa	uk	0.08371766187284126
+usa	world war iii	0.35331643583123035
+usa	one	0.03801306440081916
+usa	9/11	0.4997127262043809
+western non-muslim	western non-muslim	1.0
+2nd	2nd	1.0
+4rm	4rm	1.0
+4rm	saudi arabia	1.0
+37 %	37 %	1.0
+37 %	samsung electronics	1.0
+37 %	samsung	1.0
+37 %	37.4 %	1.0
+37 %	fall	0.7070390992738597
+37 %	south korea	0.5772397397985125
+$ 250k	$ 250k	1.0
+$ 250k	999	1.0
+$ 250k	ngo	1.0
+us florida	us florida	1.0
+us florida	five	1.0
+sri lankan	sri lankan	1.0
+sri lankan	mahinda rajapaksa	0.5772397397985125
+sri lankan	sri lanka	0.21779976781653113
+anjem choudary	anjem choudary	1.0
+anjem choudary	uk	0.27922388708943274
+future	future	1.0
+madonna	madonna	1.0
+germans & europeans	germans & europeans	1.0
+germans & europeans	pegida	0.408052872190992
+germans & europeans	germany	0.5772397397985125
+germans & europeans	first	0.24964082161423995
+tonight	tonight	1.0
+12 one	12 one	1.0
+assad	assad	1.0
+french	french	1.0
+saliha	saliha	1.0
+saliha	israel	0.3777473560130387
+regensburg	regensburg	1.0
+regensburg	benedict xvi	1.0
+aneesa	aneesa	1.0
+arabic	arabic	1.0
+arabic	france	0.2754303281563997
+jon donnison coober pedy	jon donnison coober pedy	1.0
+jon donnison coober pedy	australian	0.44704234770677526
+2/2	2/2	1.0
+third	third	1.0
+third	world war	0.8164184136228771
+chad hogan	chad hogan	1.0
+longpont police	longpont police	1.0
+now yesterday	now yesterday	1.0
+now yesterday	a week	1.0
+ezo kaya	ezo kaya	1.0
+cezary kowalski	cezary kowalski	1.0
+palestine israel	palestine israel	1.0
+palestine israel	1 minute	1.0
+12 days	12 days	1.0
+8501	8501	1.0
+8501	indonesia banda aceh	0.7070390992738597
+8501	now	0.09960775062888742
+8501	java sea	1.0
+0:18	0:18	1.0
+voltaire	voltaire	1.0
+20.00 hrs	20.00 hrs	1.0
+20.00 hrs	saj	1.0
+lmao	lmao	1.0
+a minutes	a minutes	1.0
+a minutes	france	0.07827496732588662
+a minutes	11am gmt today	0.7070390992738597
+three	three	1.0
+three	bill cosby	1.0
+malala	malala	1.0
+malala	one one one one	1.0
+china urban nanking massacre	china urban nanking massacre	1.0
+twelve four	twelve four	1.0
+dickensian	dickensian	1.0
+amina	amina	1.0
+islamism	islamism	1.0
+islamism	this day medieval	0.24545131144251517
+islamism	paris europe	0.17354367415790353
+islamism	charlie	0.19979238701831772
+islamism	europe	0.5705663149476049
+islamism	bbc news	0.03418149906844856
+non-europeans	non-europeans	1.0
+non-europeans	europe	0.13667520663809832
+two minute	two minute	1.0
+islamist	islamist	1.0
+islamist	estelle	0.2770313658508975
+dentro de kobani	dentro de kobani	1.0
+dentro de kobani	manteniendo al estado islmico	1.0
+masai	masai	1.0
+masai	every day	0.7070390992738597
+germany	germany	1.0
+berka	berka	1.0
+today	today	1.0
+today	france	0.06989461629778312
+today	islamists islamofobics	0.14219931675480377
+today	two	0.041171591311376134
+today	1961	0.09960775062888742
+today	yesterday	0.14219931675480377
+today	tomorrow	0.14219931675480377
+today	europe	0.009966966398645452
+today	paris	0.022297140251259673
+today	open	0.14219931675480377
+today	philippines tacloban	0.14219931675480377
+today	france europe	0.14219931675480377
+ni	ni	1.0
+france	france	1.0
+france	three days	0.11239013649272633
+france	minute	0.2809832742596629
+france	us	0.002513964593764912
+france	yesterday	0.19700507494015734
+france	islamic terrorist	0.11239013649272633
+france	day	0.04723368612109959
+france	day	0.020680874600117343
+france	yesterday	0.11239013649272633
+france	terrorism destruction	0.11239013649272633
+france	fardeen habibi	0.11239013649272633
+france	muslim	0.02174172686228255
+france	tomorrow	0.11239013649272633
+france	islamic	0.01372371429224056
+france	charles henry boudet reims	0.3181005045188785
+france	francois hollande	0.03863915340520793
+france	time	0.11239013649272633
+france	russia	0.08178717147364381
+france	christians islamic	0.11239013649272633
+france	bbc news	0.01792768565914799
+france	philippines tacloban	0.11239013649272633
+three days	three days	1.0
+three days	francois hollande	0.3777473560130387
+egypt	egypt	1.0
+france russia ukraine	france russia ukraine	1.0
+kieran	kieran	1.0
+kieran	now	0.14219931675480377
+kieran	america	0.4998564112352528
+minute	minute	1.0
+minute	bbc news	0.047746279308262994
+english	english	1.0
+french islamic	french islamic	1.0
+jan	jan	1.0
+ramadan foundation	ramadan foundation	1.0
+one one one one	one one one one	1.0
+zaman france	zaman france	1.0
+$ ssl	$ ssl	1.0
+charlie muhammad	charlie muhammad	1.0
+u.n.	u.n.	1.0
+u.n.	1948	1.0
+u.n.	israel	1.0
+u.n.	rockefeller	1.0
+wales	wales	1.0
+martin rowson	martin rowson	1.0
+anne hidalgo frederique kalandra	anne hidalgo frederique kalandra	1.0
+anne hidalgo frederique kalandra	paris	0.08594058158426884
+475	475	1.0
+indians	indians	1.0
+indians	day day	1.0
+gore vidal	gore vidal	1.0
+hala uyank	hala uyank	1.0
+malaysian	malaysian	1.0
+malaysian	one	0.11873089202506483
+cia islam	cia islam	1.0
+10 to 20 years	10 to 20 years	1.0
+11am gmt today	11am gmt today	1.0
+islam free world , nomore tolerance finish islam	islam free world , nomore tolerance finish islam	1.0
+africa	africa	1.0
+africa	one	0.0569634256443588
+night	night	1.0
+two	two	1.0
+two	world war	0.2576549014092264
+islamists islamofobics	islamists islamofobics	1.0
+islamists islamofobics	two	0.3159552471847611
+kerry	kerry	1.0
+kerry	one	0.06670041275707143
+000	000	1.0
+zionist	zionist	1.0
+middle east	middle east	1.0
+anders breivik kild	anders breivik kild	1.0
+anders breivik kild	democrasy	1.0
+anders breivik kild	norwegian	1.0
+anders breivik kild	77	0.7070390992738597
+joseph	joseph	1.0
+a day	a day	1.0
+a day	feb. 1st	0.8164184136228771
+a day	muslims & non-muslims	0.8164184136228771
+a day	bbc world news america	0.5772397397985125
+silvio burlesconi	silvio burlesconi	1.0
+silvio burlesconi	pakistani	0.4998564112352528
+french french	french french	1.0
+dharini patel	dharini patel	1.0
+1 minute	1 minute	1.0
+tomahawk	tomahawk	1.0
+tomahawk	iraqi	0.5772397397985125
+tomahawk	bush	0.7070390992738597
+bank	bank	1.0
+bank	uk uk	1.0
+bank	another month	1.0
+the day the day	the day the day	1.0
+commandments european	commandments european	1.0
+commandments european	america	0.4998564112352528
+commandments european	ten	1.0
+one	one	1.0
+11.00	11.00	1.0
+europe islamophobia	europe islamophobia	1.0
+two	two	1.0
+two	third	0.18175205686253654
+two	algerian	0.31595524718476103
+two	french french	0.31595524718476103
+sc	sc	1.0
+nejc kodri	nejc kodri	1.0
+u.s.	u.s.	1.0
+1918	1918	1.0
+republicans move to gut social security benefits on their	republicans move to gut social security benefits on their	1.0
+republicans move to gut social security benefits on their	first day	1.0
+waqas amin	waqas amin	1.0
+moslems	moslems	1.0
+palestinians	palestinians	1.0
+palestinians	netanyahu	0.5772397397985125
+palestinians	day of the year	0.5772397397985125
+palestinians	shijaia	0.5772397397985125
+obama	obama	1.0
+obama	us	0.06432099184131196
+details of church of scotland	details of church of scotland	1.0
+rspca	rspca	1.0
+mia khalifa juliana vega	mia khalifa juliana vega	1.0
+shackleton	shackleton	1.0
+indian media	indian media	1.0
+12 30	12 30	1.0
+mohammed shafiq	mohammed shafiq	1.0
+killallmuslims	killallmuslims	1.0
+the 21st century	the 21st century	1.0
+once	once	1.0
+few yrs ago	few yrs ago	1.0
+few yrs ago	algerians	0.7070390992738597
+few yrs ago	paris	0.08594058158426884
+few yrs ago	sweden france	1.0
+pluto	pluto	1.0
+us south carolina	us south carolina	1.0
+us south carolina	2011	0.5772397397985125
+uk	uk	1.0
+uk	10-year	0.17069314082094222
+uk	new uk	0.24216392271057008
+uk	one five	0.41952053196319816
+uk	2014	0.137676531929589
+uk	36,000	0.24216392271057008
+uk	world war iii	0.24216392271057008
+uk	chancelor merkel	0.24216392271057008
+uk	uae	0.24216392271057008
+uk	first	0.05765954479889107
+un	un	1.0
+algeria	algeria	1.0
+algeria	oct. 20 , 1963	1.0
+algeria	raul castros memo cubas	1.0
+algeria	first	0.24964082161423995
+us	us	1.0
+us	jace	0.13292530590650936
+us	garin angoghinian	0.13292530590650936
+us	christian	0.09298298892137923
+us	jabari nkumah	0.13292530590650936
+us	time	0.13292530590650936
+us	iraq	0.06432099184131196
+us	bbc news	0.08384739328031926
+us	sam malone	0.13292530590650936
+colombia	colombia	1.0
+fasiha farrukh	fasiha farrukh	1.0
+british ebola	british ebola	1.0
+andrew	andrew	1.0
+michael johns wev	michael johns wev	1.0
+michael johns wev	islamic	0.19564630519025325
+uk eu	uk eu	1.0
+brazilians	brazilians	1.0
+brazilians	cowardice islamic	1.0
+brazilians	charlie hebdo	0.16610740778345104
+some islamic	some islamic	1.0
+some islamic	114	0.8164184136228771
+indonesia banda aceh	indonesia banda aceh	1.0
+indonesia banda aceh	now	0.14219931675480377
+indonesia banda aceh	java sea	0.7070390992738597
+allah	allah	1.0
+atletico madrid	atletico madrid	1.0
+douglas kennedy	douglas kennedy	1.0
+douglas kennedy	muslim	0.17599735532026492
+irish	irish	1.0
+irish	heroes	1.0
+irish	hogan	1.0
+woodie guthrie	woodie guthrie	1.0
+now	now	1.0
+now	mahinda rajapaksa	0.1533125098008556
+now	new dehli	0.2669284930265248
+now	$ 5 billions	0.2669284930265248
+now	bbc samsung	0.18825787476578018
+now	34 %	0.2669284930265248
+now	10 2	0.2669284930265248
+now	sri lanka	0.05522454632627596
+now	money on mass weapons islamist	0.2669284930265248
+brian wilson	brian wilson	1.0
+1948	1948	1.0
+1948	israel	1.0
+1948	rockefeller	1.0
+yeh	yeh	1.0
+jacky jon stewart	jacky jon stewart	1.0
+christmas	christmas	1.0
+christmas	liturgyn	0.5772397397985125
+christmas	putin	0.33295033831226856
+christmas	tesco	0.40797469367079625
+mark	mark	1.0
+mark	one	0.11873089202506483
+david cameron	david cameron	1.0
+yesterday	yesterday	1.0
+yesterday	paris	0.024888726744715112
+yesterday	russia	0.1323884394622714
+mars	mars	1.0
+islamic terrorism	islamic terrorism	1.0
+now	now	1.0
+now	melbourne australia	0.14219931675480377
+now	pakistan	0.046974937336843145
+now	america	0.06910025014035034
+now	java sea	0.09960775062888742
+now	muslim	0.030545583752121984
+now	lionne	0.14219931675480377
+now	tacloban	0.14219931675480377
+now	charlie hebdo	0.015900593674688705
+now	emily aspinall	0.14219931675480377
+now	earth-like	0.46180162997100255
+now	bbc news	0.026125051544555623
+now	japan	0.10500888194528861
+now	:12	0.14219931675480377
+islamic terrorist	islamic terrorist	1.0
+cowardice islamic	cowardice islamic	1.0
+cowardice islamic	charlie hebdo	0.16610740778345104
+hours	hours	1.0
+hours	stephane charbonnier	0.09385210352770974
+hours	david cameron angela merkel	0.49980853915374307
+alisa hail	alisa hail	1.0
+heroes	heroes	1.0
+heroes	hogan	1.0
+122 minutes	122 minutes	1.0
+122 minutes	republic of korea seoul	1.0
+indian	indian	1.0
+jeremy	jeremy	1.0
+mossad	mossad	1.0
+mossad	paris	0.12154997039418496
+1962	1962	1.0
+mick jagger	mick jagger	1.0
+1961	1961	1.0
+1961	algerians	0.49980853915374307
+1961	river seine paris	0.7070390992738597
+1961	paris	0.05919982359371211
+1961	open	0.7070390992738597
+24 hours	24 hours	1.0
+24 hours	mirza	0.7070390992738597
+24 hours	mirzan	0.7070390992738597
+danish	danish	1.0
+aqui	aqui	1.0
+germany cardiff cardiff	germany cardiff cardiff	1.0
+germany cardiff cardiff	german	0.7070390992738597
+phillip mark graham ram dass alan watts terrence mckenna pink floyd	phillip mark graham ram dass alan watts terrence mckenna pink floyd	1.0
+greggs	greggs	1.0
+greggs	starbucks	1.0
+peshmerga	peshmerga	1.0
+joe turner	joe turner	1.0
+` bogeyman	` bogeyman	1.0
+100 1	100 1	1.0
+100 1	non-muslim is killed by islamic terrorist	1.0
+three	three	1.0
+three	paris	0.04705484428800902
+mt pentagon	mt pentagon	1.0
+mt pentagon	europe	0.19330643351756066
+26/11	26/11	1.0
+26/11	paris	0.5455762894633142
+88 96	88 96	1.0
+1730	1730	1.0
+chechnians	chechnians	1.0
+jeremy kyle	jeremy kyle	1.0
+venus tom	venus tom	1.0
+venus tom	1st	0.7070390992738597
+mahinda	mahinda	1.0
+mahinda	tamils	0.44704234770677526
+ukraine	ukraine	1.0
+mia bloom	mia bloom	1.0
+james fletcher	james fletcher	1.0
+parisian	parisian	1.0
+parisian	radek oferczak	0.5772397397985125
+liberal french immigration & lack of crackdown paris	liberal french immigration & lack of crackdown paris	1.0
+h&s	h&s	1.0
+day day	day day	1.0
+mahinda rajapaksa	mahinda rajapaksa	1.0
+mahinda rajapaksa	sri lanka	0.377312497390694
+grexit	grexit	1.0
+grexit	ukraine	1.0
+stephane charbonnier	stephane charbonnier	1.0
+stephane charbonnier	may	0.30383892487829894
+chechen	chechen	1.0
+chechen	russia	0.3777473560130387
+cherif kouachi	cherif kouachi	1.0
+cherif kouachi	one	0.44704234770677526
+cherif kouachi	32	1.0
+cherif kouachi	iraq	0.4998564112352528
+new dehli	new dehli	1.0
+matt bowes	matt bowes	1.0
+starbucks	starbucks	1.0
+99 %	99 %	1.0
+99 %	muslims	0.35331643583123035
+4 minutes two hours	4 minutes two hours	1.0
+right now	right now	1.0
+vancouver	vancouver	1.0
+faq nakba	faq nakba	1.0
+faq nakba	day	0.6322738702370134
+18 minutes	18 minutes	1.0
+100,000	100,000	1.0
+100,000	recently	1.0
+wev	wev	1.0
+wev	islamic	0.19564630519025325
+nato	nato	1.0
+nato	india	0.2883710477035616
+nato	afghanistan usa	1.0
+charleville	charleville	1.0
+,12	,12	1.0
+middle east	middle east	1.0
+middle east	muslim	0.05265946916983419
+middle east	christians	0.15723469595852568
+middle east	one	0.019735253982721083
+middle east	jesus	0.15723469595852568
+middle east	winter	0.15723469595852568
+1997	1997	1.0
+1994	1994	1.0
+1994	4000	1.0
+amsterdam	amsterdam	1.0
+libya syria	libya syria	1.0
+libya syria	syrian	0.2578526790314892
+paris france	paris france	1.0
+world war	world war	1.0
+port la nouvelle	port la nouvelle	1.0
+port la nouvelle	third	0.5772397397985125
+bill cosby	bill cosby	1.0
+this weekend	this weekend	1.0
+this weekend	oldham	0.7069036382239107
+pls give & rt	pls give & rt	1.0
+iraq lebia bosnia gujrat syria afghanistan burma us	iraq lebia bosnia gujrat syria afghanistan burma us	1.0
+12,900,000	12,900,000	1.0
+12,900,000	google	1.0
+day 24 hr	day 24 hr	1.0
+day 24 hr	2000	0.7070390992738597
+day	day	1.0
+day	day	0.10692590059999289
+day	terrorism destruction	0.44704234770677526
+day	268 abductionn38	0.44704234770677526
+ramadhan foundation	ramadhan foundation	1.0
+ramadhan foundation	alan henning	1.0
+3 3	3 3	1.0
+3 3	ayatollah	0.4079746936707962
+david bracey	david bracey	1.0
+10-year	10-year	1.0
+10-year	new uk	0.7070390992738597
+10-year	2014	0.20345921171883596
+mehdi shahbazian charlie hebdo massacre	mehdi shahbazian charlie hebdo massacre	1.0
+pakistan	pakistan	1.0
+france india	france india	1.0
+melbourne australia	melbourne australia	1.0
+israel israel	israel israel	1.0
+john wesen	john wesen	1.0
+aaron doering	aaron doering	1.0
+day	day	1.0
+day	terrorism destruction	0.24216392271057008
+day	morning	0.24216392271057008
+day	7th jan.	0.24216392271057008
+day	one	0.08103920954152978
+day	evan ardley	0.24216392271057008
+3am	3am	1.0
+joe	joe	1.0
+this day medieval	this day medieval	1.0
+declan taylor	declan taylor	1.0
+nana kofi acquah	nana kofi acquah	1.0
+nana kofi acquah	african	0.9999999999999999
+08/01/2015	08/01/2015	1.0
+08/01/2015	paris	0.08594058158426884
+yesterday	yesterday	1.0
+south asian	south asian	1.0
+western europe	western europe	1.0
+netanyahu	netanyahu	1.0
+terrorism destruction	terrorism destruction	1.0
+julian assange	julian assange	1.0
+mirza	mirza	1.0
+daily	daily	1.0
+daily	sabah	0.29737094451612467
+daily	one	0.055975761129737234
+daily	turkey	0.29737094451612467
+democratic world	democratic world	1.0
+ebola	ebola	1.0
+ebola	liberia	0.8164184136228771
+1868-1938	1868-1938	1.0
+1868-1938	evelyn beatrice hall	1.0
+saj	saj	1.0
+swansea	swansea	1.0
+europe europe	europe europe	1.0
+philippe honore charlie hebdo	philippe honore charlie hebdo	1.0
+sierra leone	sierra leone	1.0
+anders breivik	anders breivik	1.0
+anders breivik	77	0.7070390992738597
+nigel jenvey	nigel jenvey	1.0
+saudi arabia	saudi arabia	1.0
+pakistan	pakistan	1.0
+pakistan	$ hithole	0.20340067077892332
+pakistan	arianna	0.1758960425524948
+a week	a week	1.0
+america	america	1.0
+america	ten	0.49985641123525276
+islamismo	islamismo	1.0
+jace	jace	1.0
+$ hithole	$ hithole	1.0
+$ hithole	arianna	0.5770738425194877
+tibetans	tibetans	1.0
+french men.real islam	french men.real islam	1.0
+maithripala sirisena	maithripala sirisena	1.0
+maithripala sirisena	sri lanka	0.6893373974864497
+$ 3,000	$ 3,000	1.0
+sachin tendulkar	sachin tendulkar	1.0
+new uk	new uk	1.0
+new uk	2014	0.2883710477035616
+europe london	europe london	1.0
+europe london	2005	1.0
+south-asian	south-asian	1.0
+day of the year	day of the year	1.0
+day of the year	shijaia	1.0
+bangladesh	bangladesh	1.0
+bangladesh	salam	0.5772397397985125
+third	third	1.0
+1 %	1 %	1.0
+denmark	denmark	1.0
+denmark	muslims	0.35331643583123035
+900	900	1.0
+one five	one five	1.0
+07/01/2015 5:50 pm	07/01/2015 5:50 pm	1.0
+07/01/2015 5:50 pm	 2	1.0
+more than a couple days	more than a couple days	1.0
+last 12 hours charliehebdo	last 12 hours charliehebdo	1.0
+$ 50	$ 50	1.0
+garin angoghinian	garin angoghinian	1.0
+balkans	balkans	1.0
+balkans	decades	1.0
+balkans	islamic	0.19564630519025325
+syria	syria	1.0
+syria	hourly	0.6322738702370135
+syria	jordanian	0.6322738702370135
+turkish	turkish	1.0
+turkish	hakan akkaya	0.7070390992738597
+cumbria	cumbria	1.0
+beethoven	beethoven	1.0
+beethoven	60	0.7070390992738597
+gmc	gmc	1.0
+11/9	11/9	1.0
+1am	1am	1.0
+1am	2 mins	1.0
+new year	new year	1.0
+vatican	vatican	1.0
+vatican	3.5	0.49985641123525276
+vatican	$ 8,000,000,000.00	0.49985641123525276
+pegida	pegida	1.0
+pegida	kurdish	0.47099819594761677
+pegida	germany wersten iraq	0.40805287219099196
+pegida	germany	0.23509275367132287
+pegida	germans europeans	0.40805287219099196
+pegida	kurdish sunni	0.40805287219099196
+pegida	first	0.10039827601483145
+past	past	1.0
+past	brenda	1.0
+oct. 20 , 1963	oct. 20 , 1963	1.0
+oct. 20 , 1963	raul castros memo cubas	1.0
+oct. 20 , 1963	first	0.24964082161423995
+3.6 million	3.6 million	1.0
+nazism ex-muslim	nazism ex-muslim	1.0
+arab	arab	1.0
+reims	reims	1.0
+gmt	gmt	1.0
+gmt	0500	1.0
+olly ollson	olly ollson	1.0
+falls	falls	1.0
+sec	sec	1.0
+liturgyn	liturgyn	1.0
+liturgyn	putin	0.5772397397985125
+mideast	mideast	1.0
+ira	ira	1.0
+islamic republic of france	islamic republic of france	1.0
+non-muslim is killed by islamic terrorist	non-muslim is killed by islamic terrorist	1.0
+muslim islam	muslim islam	1.0
+muslim islam	one	0.11873089202506483
+russian rublen	russian rublen	1.0
+russian rublen	americas attack	1.0
+mcgill	mcgill	1.0
+mcgill	bbc world	0.33307800328182274
+mcgill	charlie hebdo	0.16610740778345104
+louis chen	louis chen	1.0
+brenda	brenda	1.0
+java sea	java sea	1.0
+usa israel	usa israel	1.0
+kurdish	kurdish	1.0
+kurdish	turkey	0.33295033831226856
+mumbai	mumbai	1.0
+dennis jayesuria	dennis jayesuria	1.0
+paris europe	paris europe	1.0
+paris europe	bbc news	0.22319979169744433
+algerians	algerians	1.0
+algerians	river seine paris	0.7070390992738597
+algerians	paris	0.05919982359371211
+algerians	sweden france	0.7070390992738597
+islam muslim	islam muslim	1.0
+shugden	shugden	1.0
+algerian	algerian	1.0
+isi	isi	1.0
+ram dass alan watts terrence mckenna pink floyd	ram dass alan watts terrence mckenna pink floyd	1.0
+hogan	hogan	1.0
+medieval	medieval	1.0
+medieval	one	0.11873089202506483
+islamism muslim	islamism muslim	1.0
+islamism muslim	europe	0.13667520663809832
+copa del rey	copa del rey	1.0
+iraqi	iraqi	1.0
+iraqi	bush	0.40797469367079625
+iraqi	karbala	0.8164184136228771
+kenya	kenya	1.0
+imran	imran	1.0
+pope	pope	1.0
+muslem brotherhood	muslem brotherhood	1.0
+muhammed	muhammed	1.0
+brito bloise	brito bloise	1.0
+60 15million	60 15million	1.0
+israel	israel	1.0
+france england	france england	1.0
+france england	muslim	0.24964082161423995
+radek oferczak	radek oferczak	1.0
+shinzo	shinzo	1.0
+india uk	india uk	1.0
+mendes toni	mendes toni	1.0
+mendes toni	peter tanya guterres	1.0
+democrasy	democrasy	1.0
+democrasy	norwegian	1.0
+democrasy	77	0.7070390992738597
+pirates	pirates	1.0
+hector curriel	hector curriel	1.0
+24-year	24-year	1.0
+france	france	1.0
+hamid mourad	hamid mourad	1.0
+a day	a day	1.0
+a day	bbc news	0.06477342490722997
+bbc world	bbc world	1.0
+bbc world	paris	0.22860752811299345
+bbc world	charlie hebdo	0.49870422587739865
+141 yr	141 yr	1.0
+141 yr	9,000	0.7070390992738597
+141 yr	idaho	1.0
+141 yr	hawaii	0.7070390992738597
+141 yr	1880	1.0
+cia	cia	1.0
+cia	n1st 2	0.49985641123525276
+cia	paris	0.0396405721499177
+cia	mosad	0.49985641123525276
+the mo today	the mo today	1.0
+the mo today	christians	0.7070390992738597
+norwegian	norwegian	1.0
+norwegian	77	0.7070390992738597
+$ 5 billions	$ 5 billions	1.0
+$ 5 billions	bbc samsung	0.7070390992738597
+$ 5 billions	34 %	1.0
+ayatollah	ayatollah	1.0
+sakirt	sakirt	1.0
+fardeen habibi	fardeen habibi	1.0
+2000	2000	1.0
+azur	azur	1.0
+azur	toni paula	1.0
+syrian	syrian	1.0
+syrian	lebanon	0.2578526790314892
+syrian	winter	0.1818218406456901
+n1st 2	n1st 2	1.0
+samsung electronics	samsung electronics	1.0
+samsung electronics	samsung	1.0
+samsung electronics	37.4 %	1.0
+samsung electronics	fall	0.7070390992738597
+samsung electronics	south korea	0.5772397397985125
+uk uk	uk uk	1.0
+uk uk	another month	1.0
+wakayama	wakayama	1.0
+rt stephane charbonnier	rt stephane charbonnier	1.0
+70s	70s	1.0
+7 days old	7 days old	1.0
+hugh schofield	hugh schofield	1.0
+jon stewart	jon stewart	1.0
+2 mins	2 mins	1.0
+2012	2012	1.0
+2011	2011	1.0
+2011	muhammad	0.20340067077892332
+scotland	scotland	1.0
+putin	putin	1.0
+2010	2010	1.0
+granada	granada	1.0
+tamils	tamils	1.0
+tamils	sri lanka	0.38936811057033294
+2008	2008	1.0
+2008	to 3 years	1.0
+germany wersten iraq	germany wersten iraq	1.0
+germany wersten iraq	kurdish sunni	1.0
+2005	2005	1.0
+2004	2004	1.0
+2004	madrid	0.5772397397985125
+salam	salam	1.0
+jess	jess	1.0
+muslims islamist	muslims islamist	1.0
+european jihadists	european jihadists	1.0
+rt animal australian	rt animal australian	1.0
+kouachi	kouachi	1.0
+muhammad	muhammad	1.0
+muhammad	islamic	0.06679471581933338
+muhammad	isis	0.4705460272278974
+2017	2017	1.0
+2016	2016	1.0
+2015	2015	1.0
+2014	2014	1.0
+2014	pisa	0.28837104770356164
+decades	decades	1.0
+decades	islamic	0.19564630519025325
+u.s	u.s	1.0
+u.s	one	0.11873089202506483
+republic of korea seoul	republic of korea seoul	1.0
+fran keller	fran keller	1.0
+watt uni basketball club	watt uni basketball club	1.0
+watt uni basketball club	current	0.5772397397985125
+charbonnier	charbonnier	1.0
+france poland	france poland	1.0
+dann grace	dann grace	1.0
+the past 50 years	the past 50 years	1.0
+western islam	western islam	1.0
+9,000	9,000	1.0
+9,000	idaho	0.7070390992738597
+9,000	hawaii	1.0
+9,000	1880	0.7070390992738597
+muslim	muslim	1.0
+muslim	one	0.05379985669921519
+cartoonists rights network international	cartoonists rights network international	1.0
+pakistan egypt saudi arabia	pakistan egypt saudi arabia	1.0
+charlie charlie charlie hebdo	charlie charlie charlie hebdo	1.0
+fait accompli	fait accompli	1.0
+airasia	airasia	1.0
+08.02	08.02	1.0
+999	999	1.0
+999	ngo	1.0
+759	759	1.0
+pakistani forces to killing baloch people	pakistani forces to killing baloch people	1.0
+mohamed	mohamed	1.0
+google	google	1.0
+americas attack	americas attack	1.0
+jesus moses muhammad pbuh	jesus moses muhammad pbuh	1.0
+tomorrow	tomorrow	1.0
+tomorrow	tomorrow	1.0
+tomorrow	europe	0.30573212434842206
+tomorrow	one	0.26559204655694724
+india	india	1.0
+india	century	0.28837104770356164
+india	shashi tharoo	0.28837104770356164
+india	51	0.20345921171883596
+india	qureshi	0.28837104770356164
+india	afghanistan usa	0.28837104770356164
+india	bbc news	0.061773941489737756
+india	virat kohli	0.28837104770356164
+india	kohli	0.28837104770356164
+jeremy holmes	jeremy holmes	1.0
+emily williams	emily williams	1.0
+kewl kat	kewl kat	1.0
+shijaia	shijaia	1.0
+madrid	madrid	1.0
+next wk	next wk	1.0
+next wk	patrick pelloux	1.0
+taiwan	taiwan	1.0
+taiwan	confucius	1.0
+taiwan	chinese	1.0
+francois steyn	francois steyn	1.0
+3.5	3.5	1.0
+germany	germany	1.0
+germany	first	0.14327220136371122
+islam islam	islam islam	1.0
+islam islam	europe	0.09566276422818959
+mukwege j. kabila	mukwege j. kabila	1.0
+cnn	cnn	1.0
+may	may	1.0
+lenovo motorola	lenovo motorola	1.0
+lenovo motorola	chinann	1.0
+the minute 1900	the minute 1900	1.0
+germans europeans	germans europeans	1.0
+weekend	weekend	1.0
+jajaja	jajaja	1.0
+summer	summer	1.0
+summer	australia	0.09614751144348069
+$ local	$ local	1.0
+mehdi shahbazian charlie hebdo massacre targ	mehdi shahbazian charlie hebdo massacre targ	1.0
+israeli	israeli	1.0
+israeli	alan dershowitz	0.7070390992738597
+mirzan	mirzan	1.0
+syria libya	syria libya	1.0
+jews	jews	1.0
+bbc samsung	bbc samsung	1.0
+bbc samsung	34 %	0.7070390992738597
+3/3	3/3	1.0
+syria iraq	syria iraq	1.0
+mar	mar	1.0
+lionne	lionne	1.0
+muslims	muslims	1.0
+muslims	week	0.24947322127646349
+britain europe	britain europe	1.0
+eduardo gonzlez	eduardo gonzlez	1.0
+4000	4000	1.0
+james	james	1.0
+about the second	about the second	1.0
+$ $ hole	$ $ hole	1.0
+$ $ hole	islamabad	0.7070390992738597
+islamofascists	islamofascists	1.0
+spain	spain	1.0
+spain	spanish	0.2669284930265248
+palestine	palestine	1.0
+century	century	1.0
+century	virat kohli	1.0
+century	kohli	1.0
+36,000	36,000	1.0
+36,000	first	0.24964082161423995
+sally	sally	1.0
+muslim terrorist attack	muslim terrorist attack	1.0
+muslim terrorist attack	paris	0.08594058158426884
+muslim terrorist attack	11	0.35331643583123035
+islamist extremist	islamist extremist	1.0
+islamist extremist	islamic	0.19564630519025325
+islamist extremist	paris	0.08594058158426884
+islamist extremist	charlie hebdo	0.16610740778345104
+cpi	cpi	1.0
+world war iii	world war iii	1.0
+$ 100,000	$ 100,000	1.0
+,2	,2	1.0
+stop all food & military	stop all food & military	1.0
+french muslims	french muslims	1.0
+charlie	charlie	1.0
+charlie	europe	0.15704037519484068
+black nazarene	black nazarene	1.0
+second	second	1.0
+second	100	0.5772397397985125
+25 $	25 $	1.0
+leftist media	leftist media	1.0
+republicans	republicans	1.0
+libian reham khan	libian reham khan	1.0
+chris	chris	1.0
+sabrina jiwan	sabrina jiwan	1.0
+15 yrs old	15 yrs old	1.0
+one nine	one nine	1.0
+one nine	australians	0.5772397397985125
+one nine	myuran sukumaran	1.0
+europe iraq	europe iraq	1.0
+river seine paris	river seine paris	1.0
+3rd	3rd	1.0
+democratic	democratic	1.0
+europe	europe	1.0
+europe	one	0.08788352962829205
+europe	now	0.10166494900079932
+europe	islamic islamic	0.13667520663809832
+shashi tharoo	shashi tharoo	1.0
+nicholas	nicholas	1.0
+islamic	islamic	1.0
+islamic	paris	0.005947848572100587
+islamic	114	0.1118480777101358
+islamic	charlie hebdo	0.026990838574907052
+pakistani	pakistani	1.0
+pakistani	islamabad	0.3532148740990031
+evelyn beatrice hall	evelyn beatrice hall	1.0
+clinton	clinton	1.0
+christians	christians	1.0
+gaza	gaza	1.0
+toni	toni	1.0
+naacp	naacp	1.0
+australians	australians	1.0
+australians	myuran sukumaran	0.5772397397985125
+maithripala sirisena rajapaksa	maithripala sirisena rajapaksa	1.0
+maithripala sirisena rajapaksa	sri lanka	0.21779976781653113
+ngo	ngo	1.0
+david	david	1.0
+david	one	0.08282331167352205
+one 3/3	one 3/3	1.0
+hourly	hourly	1.0
+french french	french french	1.0
+caroline ignacio	caroline ignacio	1.0
+caroline ignacio	south australia	0.07759474787875033
+samsung	samsung	1.0
+samsung	37.4 %	1.0
+samsung	fall	0.7070390992738597
+samsung	south korea	0.5772397397985125
+present	present	1.0
+tacloban	tacloban	1.0
+charles henry boudet reims	charles henry boudet reims	1.0
+13thc	13thc	1.0
+$ 8,000,000,000.00	$ 8,000,000,000.00	1.0
+francois hollande	francois hollande	1.0
+1/2	1/2	1.0
+1/2	paris	0.35321487409900304
+palestinian-israeli	palestinian-israeli	1.0
+new year	new year	1.0
+israel france syria	israel france syria	1.0
+israel france syria	charlie hebdo	0.3323102476028343
+usa france paris	usa france paris	1.0
+maithripala sirisena mahinda rajapaksa	maithripala sirisena mahinda rajapaksa	1.0
+12 2	12 2	1.0
+patrick pelloux	patrick pelloux	1.0
+feb. 1st	feb. 1st	1.0
+feb. 1st	muslims & non-muslims	1.0
+christianity	christianity	1.0
+paris	paris	1.0
+paris	israeli	0.3012226235074493
+alan henning	alan henning	1.0
+12 7	12 7	1.0
+100	100	1.0
+peter tanya guterres	peter tanya guterres	1.0
+103	103	1.0
+every day	every day	1.0
+every day	mid east indonesia somalia	0.7070390992738597
+christian	christian	1.0
+268 abductionn38	268 abductionn38	1.0
+60-second	60-second	1.0
+$ 100,0	$ 100,0	1.0
+paris	paris	1.0
+paris	11	0.024888726744715112
+paris	12	0.09315160402359755
+paris	crores	0.08594058158426884
+paris	charlie hebdo	0.13403198013597575
+paris	open	0.08594058158426884
+paris	51	0.05919982359371211
+paris	mon	0.08594058158426884
+paris	french muslim	0.08594058158426884
+paris	sweden france	0.08594058158426884
+pisa	pisa	1.0
+aps	aps	1.0
+katy perry justin bieber	katy perry justin bieber	1.0
+israel	israel	1.0
+israel	rockefeller	1.0
+cnn bbc	cnn bbc	1.0
+cnn bbc	the few seconds	1.0
+marxist	marxist	1.0
+114	114	1.0
+earlier today	earlier today	1.0
+115	115	1.0
+115	charlie hebdo	0.16610740778345104
+hebdo	hebdo	1.0
+bush	bush	1.0
+4 19gmt	4 19gmt	1.0
+4 19gmt	paris london	1.0
+estelle	estelle	1.0
+syrians	syrians	1.0
+10	10	1.0
+11	11	1.0
+12	12	1.0
+12	charlie hebdo	0.05081072498057637
+13	13	1.0
+15	15	1.0
+mia	mia	1.0
+david duke	david duke	1.0
+britain	britain	1.0
+arianna	arianna	1.0
+billion	billion	1.0
+two	two	1.0
+the few seconds	the few seconds	1.0
+crores	crores	1.0
+crores	51	0.7070390992738597
+morning	morning	1.0
+last night	last night	1.0
+christine roderick	christine roderick	1.0
+alan dershowitz	alan dershowitz	1.0
+34 %	34 %	1.0
+jordanian	jordanian	1.0
+saudi	saudi	1.0
+saudi	london	0.4998564112352528
+bradwell	bradwell	1.0
+afghanistan pakistan	afghanistan pakistan	1.0
+london	london	1.0
+the future	the future	1.0
+muhammad ashraf	muhammad ashraf	1.0
+israelis	israelis	1.0
+a minute	a minute	1.0
+7th jan.	7th jan.	1.0
+imran khan	imran khan	1.0
+imran khan	one	0.11873089202506483
+idaho	idaho	1.0
+idaho	hawaii	0.7070390992738597
+idaho	1880	1.0
+20	20	1.0
+yemen	yemen	1.0
+charlie hebdo	charlie hebdo	1.0
+charlie hebdo	bbc news	0.032305490904080865
+charlie hebdo	a day day	0.16610740778345104
+every weekend	every weekend	1.0
+one	one	1.0
+one	32	0.44704234770677526
+one	iraq	0.22294289581971077
+another month	another month	1.0
+march	march	1.0
+south australia	south australia	1.0
+emily aspinall	emily aspinall	1.0
+current	current	1.0
+1st	1st	1.0
+giancarlo soglia	giancarlo soglia	1.0
+brian cooke	brian cooke	1.0
+32	32	1.0
+32	iraq	0.4998564112352528
+sabah	sabah	1.0
+sabah	one	0.13619386373527648
+sabah	turkey	0.6664751691561343
+sabah	first	0.14327220136371122
+one	one	1.0
+one	turkey	0.13619386373527648
+one	first	0.02367078368170186
+one	a minute	0.11873089202506482
+10 2	10 2	1.0
+salman rushdie	salman rushdie	1.0
+hawaii	hawaii	1.0
+hawaii	1880	0.7070390992738597
+syria	syria	1.0
+charlie hebdo massacre	charlie hebdo massacre	1.0
+tweetnthank	tweetnthank	1.0
+cameron diaz type	cameron diaz type	1.0
+cameron diaz type	fbi	1.0
+jabari nkumah	jabari nkumah	1.0
+villefranche	villefranche	1.0
+open	open	1.0
+lebanon	lebanon	1.0
+lebanon	winter	0.7070390992738597
+medicinen	medicinen	1.0
+tooth	tooth	1.0
+australia	australia	1.0
+dutch	dutch	1.0
+mid east indonesia somalia	mid east indonesia somalia	1.0
+hakan akkaya	hakan akkaya	1.0
+zero	zero	1.0
+this week	this week	1.0
+this week	bbc news	0.22319979169744433
+chinann	chinann	1.0
+49	49	1.0
+sufis	sufis	1.0
+37.4 %	37.4 %	1.0
+37.4 %	fall	0.7070390992738597
+37.4 %	south korea	0.5772397397985125
+usantibiotic	usantibiotic	1.0
+nigerian	nigerian	1.0
+nigerian	chad	1.0
+name	name	1.0
+confucius	confucius	1.0
+confucius	chinese	1.0
+paris uk uk	paris uk uk	1.0
+first	first	1.0
+51	51	1.0
+51	qureshi	0.7070390992738597
+five	five	1.0
+bogra	bogra	1.0
+benedict xvi	benedict xvi	1.0
+6.00	6.00	1.0
+mosad	mosad	1.0
+2,000,000,000	2,000,000,000	1.0
+first day	first day	1.0
+donbass & luhansk	donbass & luhansk	1.0
+161	161	1.0
+1/4/15	1/4/15	1.0
+sarah lichtor	sarah lichtor	1.0
+santos	santos	1.0
+once	once	1.0
+oriana fallaci	oriana fallaci	1.0
+now	now	1.0
+now	japan	0.09583064525998593
+thomas palermo	thomas palermo	1.0
+60	60	1.0
+internet	internet	1.0
+ramy khodeir daily	ramy khodeir daily	1.0
+0,1 %	0,1 %	1.0
+maniacs	maniacs	1.0
+time	time	1.0
+manteniendo al estado islmico	manteniendo al estado islmico	1.0
+muslims & non-muslims	muslims & non-muslims	1.0
+sidharth jyothi	sidharth jyothi	1.0
+russia	russia	1.0
+rockefeller	rockefeller	1.0
+0500	0500	1.0
+china	china	1.0
+anti-islam expressionsn	anti-islam expressionsn	1.0
+islamic islamic	islamic islamic	1.0
+anne	anne	1.0
+christians islamic	christians islamic	1.0
+karbala	karbala	1.0
+michael phillips	michael phillips	1.0
+77	77	1.0
+79	79	1.0
+79	navy	1.0
+israeli	israeli	1.0
+british	british	1.0
+british	first	0.14327220136371122
+recently	recently	1.0
+philippines	philippines	1.0
+villefranche paris	villefranche paris	1.0
+9 years ago	9 years ago	1.0
+chancelor merkel	chancelor merkel	1.0
+caveman	caveman	1.0
+evan ardley	evan ardley	1.0
+60 seconds	60 seconds	1.0
+john snyder pope francis	john snyder pope francis	1.0
+pawan kumar	pawan kumar	1.0
+jitendra	jitendra	1.0
+fbi	fbi	1.0
+mon	mon	1.0
+guterres	guterres	1.0
+raul castros memo cubas	raul castros memo cubas	1.0
+raul castros memo cubas	first	0.24964082161423995
+kathmandu	kathmandu	1.0
+iraq	iraq	1.0
+iraq	isis	0.16572452478189814
+bbc world news america	bbc world news america	1.0
+nsa	nsa	1.0
+two one	two one	1.0
+tesco	tesco	1.0
+underwood	underwood	1.0
+peter reynolds	peter reynolds	1.0
+qureshi	qureshi	1.0
+afghanistan usa	afghanistan usa	1.0
+earth-like	earth-like	1.0
+earth-like	bbc news	0.05265946916983418
+lgbt	lgbt	1.0
+israel usa	israel usa	1.0
+israel usa	john kerry	1.0
+buddhists	buddhists	1.0
+buddhists	buddha	0.7070390992738597
+turkey	turkey	1.0
+kurdish sunni	kurdish sunni	1.0
+uae	uae	1.0
+syria syria	syria syria	1.0
+libert	libert	1.0
+libert	first	0.2489455147183386
+us pakistan	us pakistan	1.0
+4 2	4 2	1.0
+1880	1880	1.0
+4 4	4 4	1.0
+chad	chad	1.0
+german	german	1.0
+kevin owen	kevin owen	1.0
+-32	-32	1.0
+a couple of months	a couple of months	1.0
+paris london	paris london	1.0
+buddha	buddha	1.0
+jesus	jesus	1.0
+fall	fall	1.0
+fall	south korea	0.4079746936707962
+18-year old	18-year old	1.0
+ukraine	ukraine	1.0
+bbc news	bbc news	1.0
+bbc news	woods sondheim	0.22319979169744433
+dana john thompson.r	dana john thompson.r	1.0
+french muslim	french muslim	1.0
+austrailians	austrailians	1.0
+bob marley	bob marley	1.0
+this year	this year	1.0
+viva charlie	viva charlie	1.0
+sri lanka	sri lanka	1.0
+-40	-40	1.0
+islamabad	islamabad	1.0
+to 3 years	to 3 years	1.0
+john kerry	john kerry	1.0
+liberia	liberia	1.0
+one-one	one-one	1.0
+paris france kiev	paris france kiev	1.0
+ 2	 2	1.0
+10,000	10,000	1.0
+australian	australian	1.0
+barbara costantini	barbara costantini	1.0
+chinese	chinese	1.0
+gerrard	gerrard	1.0
+gerrard	la galaxy	0.7070390992738597
+stevenson high school	stevenson high school	1.0
+abraham borg	abraham borg	1.0
+first	first	1.0
+ucl	ucl	1.0
+martinez	martinez	1.0
+u.s. & france	u.s. & france	1.0
+pakistan balochistan	pakistan balochistan	1.0
+a day day	a day day	1.0
+2 000	2 000	1.0
+2-3 10s 100s 2-3	2-3 10s 100s 2-3	1.0
+thre	thre	1.0
+south korea	south korea	1.0
+kostas mantzaris	kostas mantzaris	1.0
+spanish	spanish	1.0
+ernest dunlap	ernest dunlap	1.0
+europe israel	europe israel	1.0
+japan	japan	1.0
+a minute	a minute	1.0
+sweden france	sweden france	1.0
+philippines tacloban	philippines tacloban	1.0
+danielle hirsch	danielle hirsch	1.0
+nwo	nwo	1.0
+western media mossad	western media mossad	1.0
+9/11	9/11	1.0
+more than 40 yrs	more than 40 yrs	1.0
+virat kohli	virat kohli	1.0
+virat kohli	kohli	1.0
+us us	us us	1.0
+laurence carr	laurence carr	1.0
+rahman	rahman	1.0
+kohli	kohli	1.0
+tom marcinko	tom marcinko	1.0
+colombian	colombian	1.0
+muslim western & european	muslim western & european	1.0
+26 days	26 days	1.0
+50 billion	50 billion	1.0
+howard dean breitbart	howard dean breitbart	1.0
+oldham	oldham	1.0
+2 1	2 1	1.0
+week	week	1.0
+2 2	2 2	1.0
+winter	winter	1.0
+kamlesh kumar	kamlesh kumar	1.0
+toni paula	toni paula	1.0
+la galaxy	la galaxy	1.0
+reham	reham	1.0
+paris	paris	1.0
+india pakistan france usa	india pakistan france usa	1.0
+david cameron angela merkel	david cameron angela merkel	1.0
+money on mass weapons islamist	money on mass weapons islamist	1.0
+france europe	france europe	1.0
+mcdonnell	mcdonnell	1.0
+:12	:12	1.0
+next wednesday	next wednesday	1.0
+marlina grantika	marlina grantika	1.0
+myuran sukumaran	myuran sukumaran	1.0
+happythursday	happythursday	1.0
+ian dennis woodie guthrie	ian dennis woodie guthrie	1.0
+charon	charon	1.0
+anne durgueil	anne durgueil	1.0
+jo ann blackwell	jo ann blackwell	1.0
+african	african	1.0
+atif hafeez	atif hafeez	1.0
+jews muslims christians atheists	jews muslims christians atheists	1.0
+navy	navy	1.0
+isis	isis	1.0
+five year	five year	1.0
+sam malone	sam malone	1.0
+2011 2015	2011 2015	1.0
+ten	ten	1.0
+woods sondheim	woods sondheim	1.0
+6 $ douwn	6 $ douwn	1.0
