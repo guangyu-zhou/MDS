@@ -15,10 +15,10 @@ def construct_Dict():
 s = time.time()
 authorIdDict = construct_Dict()
 # print authorIdDict
-G = LoadEdgeList(PUNGraph, "aa7.txt", 0, 1)
+G = LoadEdgeList(PUNGraph, "aaNew10.txt", 0, 1)
 # for EI in G.Edges():
 # 	print "edge (%d, %d)" % (EI.GetSrcNId(), EI.GetDstNId())
-DrawGViz(G, gvlSfdp, "graph7.png", "Co-author related to Jiawei Han", authorIdDict)
+DrawGViz(G, gvlSfdp, "graphNew10.png", "Co-author related to Jiawei Han", authorIdDict)
 print "Time used:", time.time() - s
 # import snap
 # UGraph = snap.GenRndGnm(snap.PUNGraph, 10, 40)
