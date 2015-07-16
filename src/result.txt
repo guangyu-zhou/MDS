@@ -1,0 +1,626 @@
+'Jiawei Han'	'Xiaoxin Yin'	9
+'H. V. Jagadish'	'Rakesh Agrawal'	9
+'Yirong Xu'	'Rakesh Agrawal'	10
+'Jerry Kiernan'	'Rakesh Agrawal'	12
+'Ramakrishnan Srikant'	'Rakesh Agrawal'	28
+'Roberto J. Bayardo Jr.'	'Rakesh Agrawal'	8
+'Ugur ?etintemel'	'Jeong-Hyon Hwang'	6
+'Stanley B. Zdonik'	'Jeong-Hyon Hwang'	7
+'Dan Suciu'	'Nilesh N. Dalvi'	7
+'Laks V. S. Lakshmanan'	'Raymond T. Ng'	9
+'Eamonn J. Keogh'	'Michael J. Pazzani'	9
+'Christos Faloutsos'	'Jure Leskovec'	10
+'Christos Faloutsos'	'Jimeng Sun'	10
+'Spiros Papadimitriou'	'Jimeng Sun'	8
+'Lei Chen 0003'	'Raghu Ramakrishnan'	6
+'Jeffrey F. Naughton'	'Raghu Ramakrishnan'	8
+'Venkatesh Ganti'	'Raghu Ramakrishnan'	7
+'Jonathan Goldstein'	'Raghu Ramakrishnan'	6
+'S. Sudarshan'	'Raghu Ramakrishnan'	9
+'AnHai Doan'	'Raghu Ramakrishnan'	7
+'Praveen Seshadri'	'Raghu Ramakrishnan'	8
+'Divesh Srivastava'	'Raghu Ramakrishnan'	9
+'Miron Livny'	'Raghu Ramakrishnan'	8
+'Johannes Gehrke'	'Raghu Ramakrishnan'	6
+'Raghu Ramakrishnan'	'Lei Chen 0003'	6
+'Philip Bohannon'	'Henry F. Korth'	6
+'Rajeev Rastogi'	'Henry F. Korth'	6
+'Abraham Silberschatz'	'Henry F. Korth'	12
+'Wei Wang'	'Jinze Liu'	10
+'Philip S. Yu'	'Joel L. Wolf'	7
+'H. V. Jagadish'	'Shaul Dar'	6
+'Johannes Gehrke'	'Mirek Riedewald'	10
+'Philip S. Yu'	'Douglas W. Cornell'	6
+'Aoying Zhou'	'Shuigeng Zhou'	6
+'Jure Leskovec'	'Christos Faloutsos'	10
+'Jimeng Sun'	'Christos Faloutsos'	10
+'H. V. Jagadish'	'Christos Faloutsos'	6
+'Caetano Traina Jr.'	'Christos Faloutsos'	7
+'Agma J. M. Traina'	'Christos Faloutsos'	9
+'Hanghang Tong'	'Christos Faloutsos'	8
+'Spiros Papadimitriou'	'Christos Faloutsos'	15
+'Jia-Yu Pan'	'Christos Faloutsos'	8
+'Philip S. Yu'	'Xifeng Yan'	12
+'Jiawei Han'	'Xifeng Yan'	28
+'Hong Cheng'	'Xifeng Yan'	10
+'Philip S. Yu'	'Ming-Syan Chen'	17
+'Kun-Ta Chuang'	'Ming-Syan Chen'	10
+'Cheng-Ru Lin'	'Ming-Syan Chen'	6
+'Chang-Hung Lee'	'Ming-Syan Chen'	6
+'Henry F. Korth'	'Philip Bohannon'	6
+'P. P. S. Narayan'	'Philip Bohannon'	6
+'Rajeev Rastogi'	'Philip Bohannon'	6
+'Wenfei Fan'	'Philip Bohannon'	6
+'Rakesh Agrawal'	'H. V. Jagadish'	9
+'Shaul Dar'	'H. V. Jagadish'	6
+'Christos Faloutsos'	'H. V. Jagadish'	6
+'Yunyao Li'	'H. V. Jagadish'	7
+'Narain H. Gehani'	'H. V. Jagadish'	6
+'Kian-Lee Tan'	'H. V. Jagadish'	7
+'Beng Chin Ooi'	'H. V. Jagadish'	7
+'Nick Koudas'	'H. V. Jagadish'	7
+'Jignesh M. Patel'	'H. V. Jagadish'	6
+'Cong Yu'	'H. V. Jagadish'	8
+'Laks V. S. Lakshmanan'	'H. V. Jagadish'	11
+'Divesh Srivastava'	'H. V. Jagadish'	18
+'Michael J. Carey'	'Eugene J. Shekita'	7
+'Marcus Fontoura'	'Eugene J. Shekita'	6
+'Vivek R. Narasayya'	'Sanjay Agrawal'	6
+'Surajit Chaudhuri'	'Sanjay Agrawal'	6
+'Alfons Kemper'	'Donald Kossmann'	10
+'Daniela Florescu'	'Donald Kossmann'	10
+'Laks V. S. Lakshmanan'	'Sihem Amer-Yahia'	7
+'Divesh Srivastava'	'Sihem Amer-Yahia'	13
+'Rakesh Agrawal'	'Yirong Xu'	10
+'Ramakrishnan Srikant'	'Yirong Xu'	7
+'Jian Pei'	'Ada Wai-Chee Fu'	9
+'Raymond Chi-Wing Wong'	'Ada Wai-Chee Fu'	8
+'Ke Wang'	'Ada Wai-Chee Fu'	11
+'Michael J. Pazzani'	'Eamonn J. Keogh'	9
+'Jessica Lin'	'Eamonn J. Keogh'	8
+'Michail Vlachos'	'Eamonn J. Keogh'	7
+'Li Wei'	'Eamonn J. Keogh'	8
+'Dragomir Yankov'	'Eamonn J. Keogh'	7
+'Xiaopeng Xi'	'Eamonn J. Keogh'	7
+'Chotirat (Ann) Ratanamahatana'	'Eamonn J. Keogh'	8
+'Stefano Lonardi'	'Eamonn J. Keogh'	9
+'Andrei Z. Broder'	'Vanja Josifovski'	6
+'Marcus Fontoura'	'Vanja Josifovski'	7
+'AnHai Doan'	'Warren Shen'	8
+'Jianhua Feng'	'Lizhu Zhou'	7
+'Jianyong Wang'	'Lizhu Zhou'	11
+'Guozhu Dong'	'Jinyan Li'	9
+'Kotagiri Ramamohanarao'	'Jinyan Li'	6
+'Limsoon Wong'	'Jinyan Li'	10
+'Chang-Shing Perng'	'Sheng Ma'	8
+'Tao Li'	'Sheng Ma'	7
+'Joseph L. Hellerstein'	'Sheng Ma'	7
+'Lizhu Zhou'	'Jianhua Feng'	7
+'Guoliang Li'	'Jianhua Feng'	7
+'Jianyong Wang'	'Jianhua Feng'	8
+'Ada Wai-Chee Fu'	'Jian Pei'	9
+'Guozhu Dong'	'Jian Pei'	6
+'Philip S. Yu'	'Jian Pei'	6
+'Aidong Zhang'	'Jian Pei'	6
+'Xuemin Lin'	'Jian Pei'	7
+'Ming Hua'	'Jian Pei'	7
+'Wei Wang'	'Jian Pei'	7
+'Daxin Jiang'	'Jian Pei'	6
+'Jiawei Han'	'Jian Pei'	19
+'Haixun Wang'	'Jian Pei'	7
+'Ke Wang'	'Jian Pei'	10
+'Sanjay Agrawal'	'Vivek R. Narasayya'	6
+'Surajit Chaudhuri'	'Vivek R. Narasayya'	24
+'Sanjay Agrawal'	'Surajit Chaudhuri'	6
+'Vivek R. Narasayya'	'Surajit Chaudhuri'	24
+'Raghav Kaushik'	'Surajit Chaudhuri'	9
+'Gautam Das'	'Surajit Chaudhuri'	7
+'Rajeev Motwani'	'Surajit Chaudhuri'	6
+'Gerhard Weikum'	'Surajit Chaudhuri'	7
+'Venkatesh Ganti'	'Surajit Chaudhuri'	9
+'Kyuseok Shim'	'Surajit Chaudhuri'	8
+'Nicolas Bruno'	'Surajit Chaudhuri'	10
+'Jinyan Li'	'Guozhu Dong'	9
+'Jian Pei'	'Guozhu Dong'	6
+'Kotagiri Ramamohanarao'	'Guozhu Dong'	8
+'Jiawei Han'	'Guozhu Dong'	7
+'Eamonn J. Keogh'	'Jessica Lin'	8
+'Jeffrey F. Naughton'	'David J. DeWitt'	12
+'Michael J. Carey'	'David J. DeWitt'	7
+'Hongyuan Zha'	'Horst D. Simon'	7
+'Chris H. Q. Ding'	'Horst D. Simon'	9
+'Xiaofeng He'	'Horst D. Simon'	8
+'Kotagiri Ramamohanarao'	'Laurence A. F. Park'	7
+'C. Lee Giles'	'Prasenjit Mitra'	12
+'Aoying Zhou'	'Weining Qian'	10
+'Xuemin Lin'	'Yidong Yuan'	6
+'Donald Kossmann'	'Alfons Kemper'	10
+'Guido Moerkotte'	'Alfons Kemper'	8
+'Philip Bohannon'	'P. P. S. Narayan'	6
+'Kian-Lee Tan'	'Anthony K. H. Tung'	8
+'Beng Chin Ooi'	'Anthony K. H. Tung'	11
+'Nick Koudas'	'Anthony K. H. Tung'	6
+'Gao Cong'	'Anthony K. H. Tung'	7
+'Xiaolei Li'	'Hector Gonzalez'	6
+'Jiawei Han'	'Hector Gonzalez'	7
+'Chavdar Botev'	'Jayavel Shanmugasundaram'	6
+'Fan Yang 0002'	'Jayavel Shanmugasundaram'	6
+'Johannes Gehrke'	'Jayavel Shanmugasundaram'	7
+'Walker M. White'	'Alan J. Demers'	6
+'Johannes Gehrke'	'Alan J. Demers'	10
+'Sheng Ma'	'Chang-Shing Perng'	8
+'Haixun Wang'	'Chang-Shing Perng'	8
+'Gerhard Weikum'	'Peter Muth'	7
+'Raghu Ramakrishnan'	'Jeffrey F. Naughton'	8
+'David J. DeWitt'	'Jeffrey F. Naughton'	12
+'Gang Luo'	'Jeffrey F. Naughton'	7
+'Raghav Kaushik'	'Jeffrey F. Naughton'	10
+'Rajasekar Krishnamurthy'	'Jeffrey F. Naughton'	7
+'Prasad Deshpande'	'Jeffrey F. Naughton'	8
+'Curt Ellmann'	'Jeffrey F. Naughton'	7
+'Jeffrey D. Ullman'	'Anand Rajaraman'	7
+'Carlotta Domeniconi'	'Dimitrios Gunopulos'	8
+'Michail Vlachos'	'Dimitrios Gunopulos'	9
+'Gautam Das'	'Dimitrios Gunopulos'	8
+'Vassilis J. Tsotras'	'Dimitrios Gunopulos'	6
+'Nick Koudas'	'Dimitrios Gunopulos'	8
+'George Kollios'	'Dimitrios Gunopulos'	8
+'Jeffrey F. Naughton'	'Gang Luo'	7
+'Curt Ellmann'	'Gang Luo'	6
+'Heikki Mannila'	'Taneli Mielik?inen'	6
+'Ke Wang'	'Yabo Xu'	7
+'Tao Li'	'Mitsunori Ogihara'	9
+'Jinyan Li'	'Kotagiri Ramamohanarao'	6
+'Guozhu Dong'	'Kotagiri Ramamohanarao'	8
+'Laurence A. F. Park'	'Kotagiri Ramamohanarao'	7
+'Gerhard Weikum'	'Ralf Schenkel'	11
+'Martin Theobald'	'Ralf Schenkel'	7
+'Yehoshua Sagiv'	'Yaron Kanza'	7
+'Eui-Hong Han'	'George Karypis'	6
+'Jianyong Wang'	'George Karypis'	6
+'Haixun Wang'	'Carlo Zaniolo'	11
+'Bing Liu'	'Kaidi Zhao'	7
+'Christos Faloutsos'	'Caetano Traina Jr.'	7
+'Agma J. M. Traina'	'Caetano Traina Jr.'	9
+'Jiawei Han'	'Hwanjo Yu'	6
+'Xuemin Lin'	'Xiaofang Zhou'	6
+'Heng Tao Shen'	'Xiaofang Zhou'	8
+'Georgia Koutrika'	'Yannis E. Ioannidis'	7
+'Minos N. Garofalakis'	'Yannis E. Ioannidis'	6
+'Jeffrey Xu Yu'	'Haifeng Jiang'	6
+'Hongjun Lu'	'Haifeng Jiang'	9
+'Wei Wang'	'Haifeng Jiang'	8
+'Theodore Johnson'	'Oliver Spatscheck'	6
+'Tao Li'	'Chris Ding'	7
+'Ling Liu'	'Calton Pu'	11
+'Surajit Chaudhuri'	'Raghav Kaushik'	9
+'Jeffrey F. Naughton'	'Raghav Kaushik'	10
+'Christos Faloutsos'	'Agma J. M. Traina'	9
+'Caetano Traina Jr.'	'Agma J. M. Traina'	9
+'Kian-Lee Tan'	'HweeHwa Pang'	6
+'Hans-J?rg Schek'	'Klemens B?hm'	8
+'Stanley B. Zdonik'	'Nesime Tatbul'	6
+'Henry F. Korth'	'Rajeev Rastogi'	6
+'Philip Bohannon'	'Rajeev Rastogi'	6
+'Abraham Silberschatz'	'Rajeev Rastogi'	16
+'S. Seshadri'	'Rajeev Rastogi'	6
+'Kyuseok Shim'	'Rajeev Rastogi'	13
+'S. Sudarshan'	'Rajeev Rastogi'	6
+'Minos N. Garofalakis'	'Rajeev Rastogi'	19
+'Salvatore J. Stolfo'	'Philip K. Chan'	8
+'Dimitrios Gunopulos'	'Carlotta Domeniconi'	8
+'Eamonn J. Keogh'	'Michail Vlachos'	7
+'Dimitrios Gunopulos'	'Michail Vlachos'	9
+'Philip S. Yu'	'Michail Vlachos'	13
+'Jeffrey F. Naughton'	'Rajasekar Krishnamurthy'	7
+'Surajit Chaudhuri'	'Gautam Das'	7
+'Dimitrios Gunopulos'	'Gautam Das'	8
+'Heikki Mannila'	'Gautam Das'	8
+'Heikki Mannila'	'Hannu Toivonen'	8
+'Bing Liu'	'Minqing Hu'	6
+'Donghui Zhang'	'Tian Xia'	8
+'Guido Moerkotte'	'Thomas Neumann'	7
+'Guido Moerkotte'	'Sven Helmer'	7
+'Wei Wang'	'Xiang Zhang'	6
+'Surajit Chaudhuri'	'Rajeev Motwani'	6
+'Jeffrey D. Ullman'	'Rajeev Motwani'	6
+'Mayur Datar'	'Rajeev Motwani'	6
+'Surajit Chaudhuri'	'Gerhard Weikum'	7
+'Peter Muth'	'Gerhard Weikum'	7
+'Ralf Schenkel'	'Gerhard Weikum'	11
+'Martin Theobald'	'Gerhard Weikum'	8
+'Peter Triantafillou'	'Gerhard Weikum'	6
+'Sebastian Michel'	'Gerhard Weikum'	9
+'Matthias Bender'	'Gerhard Weikum'	6
+'Hans-J?rg Schek'	'Gerhard Weikum'	6
+'Philip S. Yu'	'Zhongfei (Mark) Zhang'	11
+'Bo Long'	'Zhongfei (Mark) Zhang'	10
+'Ugur ?etintemel'	'Michael Stonebraker'	6
+'Mitch Cherniack'	'Michael Stonebraker'	6
+'Stanley B. Zdonik'	'Michael Stonebraker'	6
+'Guido Moerkotte'	'Carl-Christian Kanne'	6
+'Ralf Schenkel'	'Martin Theobald'	7
+'Gerhard Weikum'	'Martin Theobald'	8
+'Jeong-Hyon Hwang'	'Ugur ?etintemel'	6
+'Michael Stonebraker'	'Ugur ?etintemel'	6
+'Stanley B. Zdonik'	'Ugur ?etintemel'	11
+'H. V. Jagadish'	'Yunyao Li'	7
+'Wei Wang'	'Qi Zhang'	6
+'Hector Gonzalez'	'Xiaolei Li'	6
+'Jiawei Han'	'Xiaolei Li'	14
+'Jeffrey F. Naughton'	'Prasad Deshpande'	8
+'Stanley B. Zdonik'	'Michael J. Franklin'	9
+'Michael J. Carey'	'Michael J. Franklin'	6
+'Henry F. Korth'	'Abraham Silberschatz'	12
+'Rajeev Rastogi'	'Abraham Silberschatz'	16
+'Banu ?zden'	'Abraham Silberschatz'	8
+'S. Sudarshan'	'Abraham Silberschatz'	7
+'Yuri Breitbart'	'Abraham Silberschatz'	6
+'Philip Bohannon'	'Wenfei Fan'	6
+'Xibei Jia'	'Wenfei Fan'	6
+'Floris Geerts'	'Wenfei Fan'	9
+'Peter Buneman'	'Wenfei Fan'	6
+'Gao Cong'	'Wenfei Fan'	6
+'Rajeev Rastogi'	'S. Seshadri'	6
+'S. Sudarshan'	'S. Seshadri'	8
+'Gerhard Weikum'	'Peter Triantafillou'	6
+'H. V. Jagadish'	'Narain H. Gehani'	6
+'Rakesh Agrawal'	'Jerry Kiernan'	12
+'Ramakrishnan Srikant'	'Jerry Kiernan'	6
+'Jingren Zhou'	'Per-?ke Larson'	10
+'Jonathan Goldstein'	'Per-?ke Larson'	6
+'C. Lee Giles'	'Seyda Ertekin'	6
+'Tian Xia'	'Donghui Zhang'	8
+'Vassilis J. Tsotras'	'Donghui Zhang'	6
+'C. Lee Giles'	'Ding Zhou'	10
+'Hongyuan Zha'	'Ding Zhou'	12
+'Wei Wang'	'Jan Prins'	6
+'H. V. Jagadish'	'Kian-Lee Tan'	7
+'Anthony K. H. Tung'	'Kian-Lee Tan'	8
+'HweeHwa Pang'	'Kian-Lee Tan'	6
+'Hongjun Lu'	'Kian-Lee Tan'	6
+'Beng Chin Ooi'	'Kian-Lee Tan'	34
+'Wenfei Fan'	'Xibei Jia'	6
+'Prasenjit Mitra'	'C. Lee Giles'	12
+'Seyda Ertekin'	'C. Lee Giles'	6
+'Ding Zhou'	'C. Lee Giles'	10
+'Hongyuan Zha'	'C. Lee Giles'	12
+'Steve Lawrence'	'C. Lee Giles'	10
+'Jian Huang'	'C. Lee Giles'	8
+'Philip S. Yu'	'Daniel M. Dias'	8
+'Graham Cormode'	'Flip Korn'	8
+'S. Muthukrishnan'	'Flip Korn'	14
+'Divesh Srivastava'	'Flip Korn'	10
+'Jayavel Shanmugasundaram'	'Chavdar Botev'	6
+'Christos Faloutsos'	'Hanghang Tong'	8
+'Philip S. Yu'	'Wei Fan'	18
+'Haixun Wang'	'Wei Fan'	11
+'Salvatore J. Stolfo'	'Wei Fan'	7
+'George Kollios'	'Feifei Li'	8
+'Per-?ke Larson'	'Jingren Zhou'	10
+'Raghu Ramakrishnan'	'Venkatesh Ganti'	7
+'Surajit Chaudhuri'	'Venkatesh Ganti'	9
+'Johannes Gehrke'	'Venkatesh Ganti'	6
+'Surajit Chaudhuri'	'Kyuseok Shim'	8
+'Rajeev Rastogi'	'Kyuseok Shim'	13
+'Calton Pu'	'Ling Liu'	11
+'Keke Chen'	'Ling Liu'	6
+'Bugra Gedik'	'Ling Liu'	7
+'Horst D. Simon'	'Hongyuan Zha'	7
+'Ding Zhou'	'Hongyuan Zha'	12
+'C. Lee Giles'	'Hongyuan Zha'	12
+'Chris H. Q. Ding'	'Hongyuan Zha'	9
+'Xiaofeng He'	'Hongyuan Zha'	9
+'Bing Liu'	'Xiaoli Li'	10
+'Jimeng Sun'	'Spiros Papadimitriou'	8
+'Christos Faloutsos'	'Spiros Papadimitriou'	15
+'Philip S. Yu'	'Spiros Papadimitriou'	9
+'Kaidi Zhao'	'Bing Liu'	7
+'Minqing Hu'	'Bing Liu'	6
+'Xiaoli Li'	'Bing Liu'	10
+'Yiming Ma'	'Bing Liu'	10
+'Philip S. Yu'	'Bing Liu'	8
+'Wynne Hsu'	'Bing Liu'	10
+'Jinyan Li'	'Limsoon Wong'	10
+'Alan J. Demers'	'Walker M. White'	6
+'Johannes Gehrke'	'Walker M. White'	8
+'Bing Liu'	'Yiming Ma'	10
+'Wynne Hsu'	'Yiming Ma'	6
+'Joel L. Wolf'	'Philip S. Yu'	7
+'Douglas W. Cornell'	'Philip S. Yu'	6
+'Xifeng Yan'	'Philip S. Yu'	12
+'Ming-Syan Chen'	'Philip S. Yu'	17
+'Jian Pei'	'Philip S. Yu'	6
+'Michail Vlachos'	'Philip S. Yu'	13
+'Zhongfei (Mark) Zhang'	'Philip S. Yu'	11
+'Daniel M. Dias'	'Philip S. Yu'	8
+'Wei Fan'	'Philip S. Yu'	18
+'Spiros Papadimitriou'	'Philip S. Yu'	9
+'Bing Liu'	'Philip S. Yu'	8
+'Jeffrey Xu Yu'	'Philip S. Yu'	9
+'Bo Long'	'Philip S. Yu'	10
+'Wei Wang'	'Philip S. Yu'	11
+'Jiawei Han'	'Philip S. Yu'	25
+'Kun-Lung Wu'	'Philip S. Yu'	22
+'Jiong Yang'	'Philip S. Yu'	11
+'Haixun Wang'	'Philip S. Yu'	34
+'Bugra Gedik'	'Philip S. Yu'	10
+'Ke Wang'	'Philip S. Yu'	8
+'Charu C. Aggarwal'	'Philip S. Yu'	33
+'Hong Cheng'	'Philip S. Yu'	6
+'Johannes Gehrke'	'Ashwin Machanavajjhala'	6
+'Jian Pei'	'Aidong Zhang'	6
+'Taneli Mielik?inen'	'Heikki Mannila'	6
+'Gautam Das'	'Heikki Mannila'	8
+'Hannu Toivonen'	'Heikki Mannila'	8
+'Jouni K. Sepp?nen'	'Heikki Mannila'	7
+'Aristides Gionis'	'Heikki Mannila'	12
+'Flip Korn'	'Graham Cormode'	8
+'S. Muthukrishnan'	'Graham Cormode'	15
+'Minos N. Garofalakis'	'Graham Cormode'	7
+'Wei Wang'	'Feng Pan'	6
+'Ming-Syan Chen'	'Kun-Ta Chuang'	10
+'Haifeng Jiang'	'Jeffrey Xu Yu'	6
+'Philip S. Yu'	'Jeffrey Xu Yu'	9
+'Xuemin Lin'	'Jeffrey Xu Yu'	8
+'Hongjun Lu'	'Jeffrey Xu Yu'	20
+'Wei Wang'	'Jeffrey Xu Yu'	9
+'Haixun Wang'	'Jeffrey Xu Yu'	6
+'Gabriel Pui Cheong Fung'	'Jeffrey Xu Yu'	7
+'Jian Pei'	'Xuemin Lin'	7
+'Yidong Yuan'	'Xuemin Lin'	6
+'Xiaofang Zhou'	'Xuemin Lin'	6
+'Jeffrey Xu Yu'	'Xuemin Lin'	8
+'Wei Wang'	'Xuemin Lin'	8
+'Zhongfei (Mark) Zhang'	'Bo Long'	10
+'Philip S. Yu'	'Bo Long'	10
+'Eamonn J. Keogh'	'Li Wei'	8
+'Xiaopeng Xi'	'Li Wei'	6
+'Dimitrios Gunopulos'	'Vassilis J. Tsotras'	6
+'Donghui Zhang'	'Vassilis J. Tsotras'	6
+'Abraham Silberschatz'	'Banu ?zden'	8
+'Haifeng Jiang'	'Hongjun Lu'	9
+'Kian-Lee Tan'	'Hongjun Lu'	6
+'Jeffrey Xu Yu'	'Hongjun Lu'	20
+'Beng Chin Ooi'	'Hongjun Lu'	7
+'Wei Wang'	'Hongjun Lu'	11
+'Alfons Kemper'	'Guido Moerkotte'	8
+'Thomas Neumann'	'Guido Moerkotte'	7
+'Sven Helmer'	'Guido Moerkotte'	7
+'Carl-Christian Kanne'	'Guido Moerkotte'	6
+'Jian Pei'	'Ming Hua'	7
+'H. V. Jagadish'	'Beng Chin Ooi'	7
+'Anthony K. H. Tung'	'Beng Chin Ooi'	11
+'Kian-Lee Tan'	'Beng Chin Ooi'	34
+'Hongjun Lu'	'Beng Chin Ooi'	7
+'Aoying Zhou'	'Beng Chin Ooi'	6
+'Horst D. Simon'	'Chris H. Q. Ding'	9
+'Hongyuan Zha'	'Chris H. Q. Ding'	9
+'Tao Li'	'Chris H. Q. Ding'	7
+'Xiaofeng He'	'Chris H. Q. Ding'	17
+'Xiaofang Zhou'	'Heng Tao Shen'	8
+'C. Lee Giles'	'Steve Lawrence'	10
+'David M. Pennock'	'Steve Lawrence'	7
+'Sheng Ma'	'Tao Li'	7
+'Mitsunori Ogihara'	'Tao Li'	9
+'Chris Ding'	'Tao Li'	7
+'Chris H. Q. Ding'	'Tao Li'	7
+'Wei Peng'	'Tao Li'	8
+'Shenghuo Zhu'	'Tao Li'	6
+'Fei Wang'	'Tao Li'	6
+'H. V. Jagadish'	'Nick Koudas'	7
+'Anthony K. H. Tung'	'Nick Koudas'	6
+'Dimitrios Gunopulos'	'Nick Koudas'	8
+'Sudipto Guha'	'Nick Koudas'	10
+'S. Muthukrishnan'	'Nick Koudas'	9
+'Divesh Srivastava'	'Nick Koudas'	41
+'Yaron Kanza'	'Yehoshua Sagiv'	7
+'Jeffrey D. Ullman'	'Yehoshua Sagiv'	8
+'Sara Cohen'	'Yehoshua Sagiv'	6
+'Benny Kimelfeld'	'Yehoshua Sagiv'	9
+'Alon Y. Levy'	'Yehoshua Sagiv'	7
+'Gerhard Weikum'	'Sebastian Michel'	9
+'Gerhard Weikum'	'Matthias Bender'	6
+'Wenfei Fan'	'Floris Geerts'	9
+'Eamonn J. Keogh'	'Dragomir Yankov'	7
+'C. Lee Giles'	'Jian Huang'	8
+'Nilesh N. Dalvi'	'Dan Suciu'	7
+'Alon Y. Levy'	'Dan Suciu'	8
+'Daniela Florescu'	'Dan Suciu'	7
+'Jinze Liu'	'Wei Wang'	10
+'Jian Pei'	'Wei Wang'	7
+'Haifeng Jiang'	'Wei Wang'	8
+'Xiang Zhang'	'Wei Wang'	6
+'Qi Zhang'	'Wei Wang'	6
+'Jan Prins'	'Wei Wang'	6
+'Philip S. Yu'	'Wei Wang'	11
+'Feng Pan'	'Wei Wang'	6
+'Jeffrey Xu Yu'	'Wei Wang'	9
+'Xuemin Lin'	'Wei Wang'	8
+'Hongjun Lu'	'Wei Wang'	11
+'Jiawei Han'	'Wei Wang'	6
+'Jiong Yang'	'Wei Wang'	19
+'Baile Shi'	'Wei Wang'	13
+'Horst D. Simon'	'Xiaofeng He'	8
+'Hongyuan Zha'	'Xiaofeng He'	9
+'Chris H. Q. Ding'	'Xiaofeng He'	17
+'Jian Pei'	'Daxin Jiang'	6
+'Jeffrey F. Naughton'	'Curt Ellmann'	7
+'Gang Luo'	'Curt Ellmann'	6
+'George Karypis'	'Eui-Hong Han'	6
+'Johannes Gehrke'	'Daniel Kifer'	7
+'Rakesh Agrawal'	'Ramakrishnan Srikant'	28
+'Yirong Xu'	'Ramakrishnan Srikant'	7
+'Jerry Kiernan'	'Ramakrishnan Srikant'	6
+'Xiaoxin Yin'	'Jiawei Han'	9
+'Xifeng Yan'	'Jiawei Han'	28
+'Jian Pei'	'Jiawei Han'	19
+'Guozhu Dong'	'Jiawei Han'	7
+'Hector Gonzalez'	'Jiawei Han'	7
+'Hwanjo Yu'	'Jiawei Han'	6
+'Xiaolei Li'	'Jiawei Han'	14
+'Philip S. Yu'	'Jiawei Han'	25
+'Wei Wang'	'Jiawei Han'	6
+'Xiaofei He'	'Jiawei Han'	10
+'Deng Cai'	'Jiawei Han'	10
+'Jianyong Wang'	'Jiawei Han'	8
+'Ke Wang'	'Jiawei Han'	9
+'Dong Xin'	'Jiawei Han'	17
+'Hong Cheng'	'Jiawei Han'	15
+'Philip S. Yu'	'Kun-Lung Wu'	22
+'Bugra Gedik'	'Kun-Lung Wu'	8
+'H. V. Jagadish'	'Jignesh M. Patel'	6
+'Nick Koudas'	'Sudipto Guha'	10
+'Divesh Srivastava'	'Sudipto Guha'	6
+'H. V. Jagadish'	'Cong Yu'	8
+'Ling Liu'	'Keke Chen'	6
+'Raghu Ramakrishnan'	'Jonathan Goldstein'	6
+'Per-?ke Larson'	'Jonathan Goldstein'	6
+'Raghu Ramakrishnan'	'S. Sudarshan'	9
+'Rajeev Rastogi'	'S. Sudarshan'	6
+'Abraham Silberschatz'	'S. Sudarshan'	7
+'S. Seshadri'	'S. Sudarshan'	8
+'Divesh Srivastava'	'S. Sudarshan'	9
+'Rakesh Agrawal'	'Roberto J. Bayardo Jr.'	8
+'Jayavel Shanmugasundaram'	'Fan Yang 0002'	6
+'Theodore Johnson'	'Vladislav Shkapenyuk'	6
+'Philip S. Yu'	'Jiong Yang'	11
+'Wei Wang'	'Jiong Yang'	19
+'Raghu Ramakrishnan'	'AnHai Doan'	7
+'Warren Shen'	'AnHai Doan'	8
+'Jiawei Han'	'Xiaofei He'	10
+'Deng Cai'	'Xiaofei He'	15
+'Michael Stonebraker'	'Mitch Cherniack'	6
+'Stanley B. Zdonik'	'Mitch Cherniack'	11
+'Flip Korn'	'S. Muthukrishnan'	14
+'Graham Cormode'	'S. Muthukrishnan'	15
+'Nick Koudas'	'S. Muthukrishnan'	9
+'Divesh Srivastava'	'S. Muthukrishnan'	10
+'Theodore Johnson'	'S. Muthukrishnan'	6
+'Eamonn J. Keogh'	'Xiaopeng Xi'	7
+'Li Wei'	'Xiaopeng Xi'	6
+'Raghu Ramakrishnan'	'Praveen Seshadri'	8
+'Wynne Hsu'	'Mong-Li Lee'	23
+'Anand Rajaraman'	'Jeffrey D. Ullman'	7
+'Rajeev Motwani'	'Jeffrey D. Ullman'	6
+'Yehoshua Sagiv'	'Jeffrey D. Ullman'	8
+'Jiawei Han'	'Deng Cai'	10
+'Xiaofei He'	'Deng Cai'	15
+'Jian Pei'	'Haixun Wang'	7
+'Chang-Shing Perng'	'Haixun Wang'	8
+'Carlo Zaniolo'	'Haixun Wang'	11
+'Wei Fan'	'Haixun Wang'	11
+'Philip S. Yu'	'Haixun Wang'	34
+'Jeffrey Xu Yu'	'Haixun Wang'	6
+'Ling Liu'	'Bugra Gedik'	7
+'Philip S. Yu'	'Bugra Gedik'	10
+'Kun-Lung Wu'	'Bugra Gedik'	8
+'Raymond T. Ng'	'Laks V. S. Lakshmanan'	9
+'H. V. Jagadish'	'Laks V. S. Lakshmanan'	11
+'Sihem Amer-Yahia'	'Laks V. S. Lakshmanan'	7
+'Divesh Srivastava'	'Laks V. S. Lakshmanan'	14
+'Dimitrios Gunopulos'	'George Kollios'	8
+'Feifei Li'	'George Kollios'	8
+'Marios Hadjieleftheriou'	'George Kollios'	8
+'Jeffrey Xu Yu'	'Gabriel Pui Cheong Fung'	7
+'Vanja Josifovski'	'Andrei Z. Broder'	6
+'Yehoshua Sagiv'	'Sara Cohen'	6
+'Klemens B?hm'	'Hans-J?rg Schek'	8
+'Gerhard Weikum'	'Hans-J?rg Schek'	6
+'Tao Li'	'Wei Peng'	8
+'Ming-Syan Chen'	'Cheng-Ru Lin'	6
+'Surajit Chaudhuri'	'Nicolas Bruno'	10
+'Raghu Ramakrishnan'	'Divesh Srivastava'	9
+'H. V. Jagadish'	'Divesh Srivastava'	18
+'Sihem Amer-Yahia'	'Divesh Srivastava'	13
+'Flip Korn'	'Divesh Srivastava'	10
+'Nick Koudas'	'Divesh Srivastava'	41
+'Sudipto Guha'	'Divesh Srivastava'	6
+'S. Sudarshan'	'Divesh Srivastava'	9
+'S. Muthukrishnan'	'Divesh Srivastava'	10
+'Laks V. S. Lakshmanan'	'Divesh Srivastava'	14
+'SungRan Cho'	'Divesh Srivastava'	6
+'Aoying Zhou'	'Ying Yan'	6
+'Steve Lawrence'	'David M. Pennock'	7
+'Yehoshua Sagiv'	'Benny Kimelfeld'	9
+'Fei Wang'	'Changshui Zhang'	16
+'Ada Wai-Chee Fu'	'Raymond Chi-Wing Wong'	8
+'Rajeev Motwani'	'Mayur Datar'	6
+'Christos Faloutsos'	'Jia-Yu Pan'	8
+'Jianhua Feng'	'Guoliang Li'	7
+'Jianyong Wang'	'Guoliang Li'	6
+'George Kollios'	'Marios Hadjieleftheriou'	8
+'Jeong-Hyon Hwang'	'Stanley B. Zdonik'	7
+'Nesime Tatbul'	'Stanley B. Zdonik'	6
+'Michael Stonebraker'	'Stanley B. Zdonik'	6
+'Ugur ?etintemel'	'Stanley B. Zdonik'	11
+'Michael J. Franklin'	'Stanley B. Zdonik'	9
+'Mitch Cherniack'	'Stanley B. Zdonik'	11
+'Yannis E. Ioannidis'	'Georgia Koutrika'	7
+'Wenfei Fan'	'Peter Buneman'	6
+'Heikki Mannila'	'Jouni K. Sepp?nen'	7
+'Eamonn J. Keogh'	'Chotirat (Ann) Ratanamahatana'	8
+'Tao Li'	'Shenghuo Zhu'	6
+'Heikki Mannila'	'Aristides Gionis'	12
+'Sheng Ma'	'Joseph L. Hellerstein'	7
+'Philip K. Chan'	'Salvatore J. Stolfo'	8
+'Wei Fan'	'Salvatore J. Stolfo'	7
+'Oliver Spatscheck'	'Theodore Johnson'	6
+'Vladislav Shkapenyuk'	'Theodore Johnson'	6
+'S. Muthukrishnan'	'Theodore Johnson'	6
+'Ming-Syan Chen'	'Chang-Hung Lee'	6
+'Yehoshua Sagiv'	'Alon Y. Levy'	7
+'Dan Suciu'	'Alon Y. Levy'	8
+'Daniela Florescu'	'Alon Y. Levy'	9
+'Abraham Silberschatz'	'Yuri Breitbart'	6
+'Eugene J. Shekita'	'Michael J. Carey'	7
+'David J. DeWitt'	'Michael J. Carey'	7
+'Michael J. Franklin'	'Michael J. Carey'	6
+'Miron Livny'	'Michael J. Carey'	17
+'Shuigeng Zhou'	'Aoying Zhou'	6
+'Weining Qian'	'Aoying Zhou'	10
+'Beng Chin Ooi'	'Aoying Zhou'	6
+'Ying Yan'	'Aoying Zhou'	6
+'Anthony K. H. Tung'	'Gao Cong'	7
+'Wenfei Fan'	'Gao Cong'	6
+'Donald Kossmann'	'Daniela Florescu'	10
+'Dan Suciu'	'Daniela Florescu'	7
+'Alon Y. Levy'	'Daniela Florescu'	9
+'Eugene J. Shekita'	'Marcus Fontoura'	6
+'Vanja Josifovski'	'Marcus Fontoura'	7
+'Raghu Ramakrishnan'	'Miron Livny'	8
+'Michael J. Carey'	'Miron Livny'	17
+'Lizhu Zhou'	'Jianyong Wang'	11
+'Jianhua Feng'	'Jianyong Wang'	8
+'George Karypis'	'Jianyong Wang'	6
+'Jiawei Han'	'Jianyong Wang'	8
+'Guoliang Li'	'Jianyong Wang'	6
+'Eamonn J. Keogh'	'Stefano Lonardi'	9
+'Bing Liu'	'Wynne Hsu'	10
+'Yiming Ma'	'Wynne Hsu'	6
+'Mong-Li Lee'	'Wynne Hsu'	23
+'Ada Wai-Chee Fu'	'Ke Wang'	11
+'Jian Pei'	'Ke Wang'	10
+'Yabo Xu'	'Ke Wang'	7
+'Philip S. Yu'	'Ke Wang'	8
+'Jiawei Han'	'Ke Wang'	9
+'Tao Li'	'Fei Wang'	6
+'Changshui Zhang'	'Fei Wang'	16
+'Jiawei Han'	'Dong Xin'	17
+'Wei Wang'	'Baile Shi'	13
+'Philip S. Yu'	'Charu C. Aggarwal'	33
+'Divesh Srivastava'	'SungRan Cho'	6
+'Yannis E. Ioannidis'	'Minos N. Garofalakis'	6
+'Rajeev Rastogi'	'Minos N. Garofalakis'	19
+'Graham Cormode'	'Minos N. Garofalakis'	7
+'Xifeng Yan'	'Hong Cheng'	10
+'Philip S. Yu'	'Hong Cheng'	6
+'Jiawei Han'	'Hong Cheng'	15
+'Raghu Ramakrishnan'	'Johannes Gehrke'	6
+'Mirek Riedewald'	'Johannes Gehrke'	10
+'Jayavel Shanmugasundaram'	'Johannes Gehrke'	7
+'Alan J. Demers'	'Johannes Gehrke'	10
+'Venkatesh Ganti'	'Johannes Gehrke'	6
+'Walker M. White'	'Johannes Gehrke'	8
+'Ashwin Machanavajjhala'	'Johannes Gehrke'	6
+'Daniel Kifer'	'Johannes Gehrke'	7
